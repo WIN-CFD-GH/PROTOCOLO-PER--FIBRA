@@ -1,0 +1,4 @@
+=== LOG DE DEDUPLICACIÓN ===
+
+Total de elementos duplicados encontrados y eliminados: 0
+

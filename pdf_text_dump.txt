@@ -1,0 +1,3555 @@
+PROTOCOLO DE 
+ATENCIÓN AL CLIENTE
+Última actualización: 28 de AGOSTO de 2026
+
+---PAGE_BREAK---
+ÍNDICE
+1.
+NUESTROS LINEAMIENTOS
+2.
+ABC PERÚ FIBRA
+3.
+ABC GAMER
+4.
+PROTOCOLO DE LLAMADA
+5.
+PROTOCOLO DE CLIENTE DIFICIL
+6.
+PROTOCOLO DE CONTINGENCIAS
+7.
+PROTOCOLO DE GESTIONES
+8.
+PROTOCOLO DE FACTURACIÓN
+
+---PAGE_BREAK---
+NUESTROS LINEAMIENTOS
+Transmite una 
+actitud positiva
+Mantén una sonrisa telefónica.
+Deriva solo si es 
+necesario
+Conoce a tu 
+cliente PERÚ 
+FIBRA
+Revisa su servicio contratado e 
+historial de incidencias en nuestro 
+CRM para contextualizar la llamada.
+Sé claro y 
+conciso
+Utiliza términos simples para 
+explicarle al cliente lo que está 
+pasando con su servicio.
+Personaliza tu 
+atención
+Adopta el estilo de comunicación 
+del cliente.
+Si el cliente te llama por tu nombre, trátalo de 
+tú y por su nombre.
+Si el cliente se presenta con Señor(a), 
+Licenciado(a), Don(ña), Doctor(a), etc., seguido 
+de su nombre o apellido, dirígete a él/ella de 
+esa misma forma.
+Si el cliente se refiere a ti como Señor(ita) o 
+Joven(cita), dirígete a él/ella como Señor(a) o 
+Señorita según corresponda
+VOZ 
+INFORMAL
+VOZ 
+FORMAL
+Trata de resolver los problemas del 
+cliente en un primer contacto.
+
+---PAGE_BREAK---
+ABC PERÚ FIBRA
+QUÉ DIGO
+QUÉ NO DIGO
+DEFINICIÓN
+Cable Drop
+-
+Cable que se conecta a los puertos de la CTO e ingresa 
+al domicilio del cliente.
+Cable ethernet
+Cable de red / 
+LAN / RJ45
+Cable que nos permite conectar el router a nuestros 
+dispositivos de manera directa. 
+Caja
+CTO
+Caja que protege los empalmes de fibra entre la red 
+principal y el domicilio de los clientes.
+Dirección IP
+IP / Protocolo de 
+Internet
+Número que identifica nuestro dispositivo en Internet.
+DNS
+-
+Sistema de nombres de dominio. Funciona como la guía 
+telefónica en Internet. Ubica las IP de los servidores de 
+servicio al colocar el nombre, ejemplo: Facebook.com.
+IP Dinámica
+-
+IP pública que cambia cada cierto tiempo.
+IP Estática
+-
+IP pública que no cambia, siempre será la misma.
+IP Privada
+-
+Direcciones que identifican a nuestro router y 
+dispositivos conectados a él.
+IP Pública
+-
+Dirección que identifica a mi router, como mi dispositivo 
+principal de cara a la red de internet. También, identifica 
+servidores en internet.
+Jumper / 
+Cable amarillo
+Patch Cord
+Cable que conecta al cable Drop en la roseta con la 
+ONT del cliente.
+NAT
+Network Address 
+Translation
+Traducción de direcciones de red. Procedimiento que 
+vincula tu IP privada a la IP Pública otorgada por tu 
+operador para interactuar en Internet.
+Roseta
+-
+Caja que protege el empalme entre el cable de fibra de 
+exteriores y el de interiores.
+Router
+ONT
+Dispositivo que convierte la señal óptica en señal digital 
+en tu router para conectarte a Internet vía cable o WiFi.
+
+---PAGE_BREAK---
+ABC GAMER
+QUÉ DIGO
+DEFINICIÓN
+Enrutamiento
+Cuando el Gamer ingresa a un juego de la lista, lo 
+conectamos con el servidor más óptimo para dicho juego. 
+Si abre otro juego, automáticamente localizamos el mejor 
+servidor y conectamos al Gamer.
+Lag
+Ping elevado, superior al promedio.
+Latencia
+Tiempo de respuesta ante una acción en la red, medido en 
+milisegundos.
+Pérdida de 
+paquetes
+Cuando el juego se queda congelado por algunos 
+segundos durante la partida.
+Ping
+Mide la latencia en milisegundos (ms). El ping promedio va 
+a depender del juego y servidor elegido.
+SDwan
+Red de área extensa, definida por software, que gestiona y 
+controla de forma centralizada todos los componentes de 
+hardware a través del software.
+Servidor
+Lugar donde se puede elegir jugar. Mientras más alejado, 
+mayor será el ping.
+IP Privada
+Dirección que identifica a nuestro router y dispositivos 
+conectados a él.
+IP Pública
+Dirección que identifica a mi router como mi dispositivo 
+principal para la red de Internet. También, identifica 
+servidores en Internet.
+Jumper / Cable 
+amarillo
+Cable que conecta al cable Drop en la roseta con la ONT 
+del cliente.
+NAT
+Traducción de direcciones de red. Procedimiento que 
+vincula tu IP Privada a la IP Pública de tu operador para 
+que puedas interactuar en Internet.
+Roseta
+Caja que protege el empalme entre el cable de fibra de 
+exterior y de interior.
+Router
+Dispositivo que convierte la señal óptica en señal digital en 
+tu router, para conectarte a internet vía cable o WiFi.
+
+---PAGE_BREAK---
+SALUDO INICIAL
+Opción 1. Bienvenido(a) a Perú Fibra.
+Opción 2. Gracias por llamar a Perú Fibra.
+Saludar al cliente con una 
+de estas alternativas.
+Opción 1. Mi nombre es (Nombre y Apellido)
+Opción 2. Te saluda (Nombre y Apellido)
+Presentarse con una de 
+estas alternativas.
+Opción 1. ¿Con quién tengo el gusto?
+Opción 2. ¿Con quién tengo el agrado de 
+comunicarme?
+Recuerda siempre enfatizar el saludo de 
+bienvenida!
+Preguntar por el nombre 
+del cliente con una de 
+estas alternativas.
+LO QUE DIGO
+LO QUE HAGO
+CONFIRMACIÓN 
+DE MOTIVO DE 
+LA LLAMADA
+PROTOCOLO DE 
+LLAMADA
+VOZ 
+FORMAL
+VOZ 
+INFORMAL
+Opción 1. Cuéntame, ¿en qué te puedo ayudar el 
+día de hoy?
+Opción 2. ¿Cómo te puedo ayudar?
+Validar el motivo de la 
+llamada, puedes 
+parafrasear lo mencionado 
+por el cliente.
+SOLICITAR  
+DATOS DE LA 
+CUENTA DEL 
+CLIENTE 
+En este apartado nos referimos a la solicitud de 
+datos para ingresar a la cuenta del cliente. 
+Me permites por favor el DNI del titular del servicio
+Confirma que estas comunicando con el titular: 
+Me estoy comunicando con la persona titular.
+No es lo mismo solicitar datos que la validación
+de datos y seguridad. La validación de datos es
+para
+las
+solicitudes
+del
+titular
+donde
+corresponda validar la titularidad.
+Ingresas a la cuenta para 
+ayudar al cliente en su 
+consulta.
+Asesor no debe indicar el 
+nombre del titular, deber 
+ser el cliente quien lo 
+mencione. 
+Identifica el problema del cliente:
+Informativo:
+Status:
+Solicitud:
+Problema:
+SONDEO:
+Por favor, detállame, ¿cómo se presenta el 
+problema?
+Respuesta del cliente:
+• No tengo internet en ningún dispositivo.
+• No me carga ninguna pagina.
+Validar la necesidad del 
+cliente, para dar la 
+solución en la llamada. 
+PREGUNTAS DE 
+SONDEO
+
+---PAGE_BREAK---
+SOLUCIÓN
+LO QUE DIGO
+LO QUE HAGO
+CONTEXTO 
+PROTOCOLO DE 
+LLAMADA
+VOZ 
+FORMAL
+VOZ 
+INFORMAL
+Dar Contexto es Explicarle al cliente el por qué 
+estás haciendo algo y cómo eso ayudará a 
+resolver su problema.
+Asimismo refiere a dar al cliente toda la 
+información de su caso y los plazos de espera en 
+el caso de que se requiera. 
+Ejemplo:
+Qué se está haciendo.
+Que vamos a hacer nosotros para ayudarle.
+Ejemplo de Contexto: Vamos a realizar algunas 
+validaciones y descartes  en el sistema y en su 
+equipo para identificar el origen del inconveniente.
+Le iré indicando cada paso.
+El contexto que darás al 
+cliente  es de acuerdo a la 
+solicitud o problema 
+expresado en la llamada, 
+cada gestión tiene un 
+contexto específico, por lo 
+cual es importante seguir 
+el protocolo e indicar al 
+cliente todo lo relacionado 
+a la solución.
+Antes de Finalizar la llamada asegurate de saber 
+si el cliente tiene alguna duda o solicitud 
+adicional:
+¿La información brindada sobre [Mencionar la 
+problemática o consulta tratada en la llamada] fue 
+clara?
+¿Todo claro con la información brindada el dia de 
+hoy?
+Opción 1. ¡Qué bueno saberlo!
+Opción 2. ¡Excelente
+¡Ha sido un gusto atenderte hoy!
+Recuerda que siempre puedes comunicarte con
+nosotros cuando lo necesites, ¡estamos aquí para
+ayudarte!
+Un buen cierre es el último 
+impulso para que el cliente 
+se quede con una 
+percepción positiva del 
+servicio. Muestra 
+Amabilidad desde el 
+principio de la llamada 
+hasta el cierre.
+CIERRE 
+POSITIVO Y 
+PREGUNTA DE 
+CLARIDAD
+★
+Validar en el Protocolo PF el tipo de
+gestión solicitado por el Cliente y sigue los
+pasos establecidos para resolver su caso,
+asegurando
+que
+cada
+acción
+sea
+informada al cliente durante el proceso
+★
+Cliente menciona que se mudara de 
+ubicación revisas en el protocolo el 
+apartado de Solicitud de Traslado
+Recuerda verificar en CRM las comunicaciones 
+previas.
+Sigue los pasos del 
+protocolo PF para dar 
+solución al inconveniente.
+DERIVACIÓN 
+ENCUESTA
+Al finalizar la llamada recibirá una breve encuesta
+para calificar la atención recibida en la llamada..
+Gracias por llamar a Perú Fibra (OBLIGATORIO)
+Enviar encuesta
+
+---PAGE_BREAK---
+INGRESO DE 
+LLAMADA 
+TIEMPO DE 
+ESPERA VOZ 
+Se utiliza cuando necesitamos realizar validaciones 
+en línea, solo  si es necesario para la solución. 
+Se debe informar al cliente el motivo de la espera.
+★
+Informar el motivo de las espera. 
+★
+Retomar contacto antes del minuto. 
+★
+Agradecer la espera
+Informar al cliente  
+antes de colocar en 
+espera.
+1 minuto Maximo
+Primer contacto: 
+Realizar saludo dentro de los 60 segundos. 
+Respuestas posteriores: máximo 120 segundos.
+★
+Saludo
+★
+Identificación del 
+asesor.
+★
+Disculpa por 
+demora (si 
+aplica)
+★
+Disposición de 
+ayuda
+CANAL CHAT
+Responder dentro de los primeros 5  segundos. 
+Garantizar una atención 
+ágil, clara y resolutiva.
+ALERTAS DE 
+RESPUESTA 
+CHAT
+En casos donde el cliente se ausente del chat
+enviar las alertas de espera de la respuesta para
+continuar.
+Todo cliente ausente debe ser cerrado con las
+alertas correspondientes en el tiempo indicado.
+Enviar alertas
+LINEAMIENTOS DE MANEJO DEL TIEMPO
+CANAL VOZ 
+INGRESO DEL 
+CHAT 
+LO QUE DIGO
+LO QUE HAGO
+VOZ 
+FORMAL
+VOZ 
+INFORMAL
+TIEMPO DE 
+ESPERA CHAT 
+Se debe informar al cliente el motivo de la espera.
+★
+Informar el motivo del hold.
+★
+Retomar contacto antes del minuto. 
+★
+Agradecer la espera
+Opción 1. Por favor, permíteme un momento. 
+Vamos a (…)
+Opción 2. Bríndame unos instantes para (…)
+Gracias por tu espera. 
+Informar al cliente la 
+espera. 
+MÁS INFORMACIÓN 
+PROTOCOLO 
+WHATSAPP 
+No debe exceder del minuto
+1 minuto tiempo máximo
+TIPIFICACIÓN  
+CCVOX
+
+---PAGE_BREAK---
+Si el número de llamada coincide con el registrado:
+Verifico que (te/se) esta(s) comunicando del número 
+que tiene(s) registrado con nosotros. ¿(Tu/Su) nombre 
+es [Indicar solo primer nombre y primer apellido]?
+Si dice que SÍ:
+Por favor, (indícame/indíqueme) (tu/su) número de 
+contacto adicional.
+Si dice que NO:
+No (te/se) preocupe(s). [No insistir, continuar con la 
+gestión]
+Validar si el doc. de 
+identidad registrado es 
+del titular. 
+SOLO si es el titular, 
+realizar ofrecimiento de 
+actualizar telf. registrado.
+Registrar teléfono de 
+referencia en CRM 
+Experiencia, desde el 
+botón del lápiz.
+Si el número de llamada es diferente al registrado:
+Verifico que (te/se) está(s) comunicando de un número 
+distinto al registrado, ¿desea(s) que tomemos ese 
+número como (tu/su) teléfono de contacto?
+Si dice SÍ: 
+Por favor, responde(a) las siguientes preguntas de 
+seguridad:
+¿Cuál es el plan actual que usted tiene?
+¿Cuál es el nombre completo del titular?
+¿Qué tipo de documento tiene y cuál es su número?
+Si responde correctamente:
+Perfecto, vamos a registrar el número [Dictar el 
+número telefónico de la llamada atendida]. 
+¿Consideraría(s) agregar un teléfono de referencia en 
+caso la comunicación se corte?
+Si brinda telf. referencia:
+Por favor, (indícame/indíqueme) (tu/su) número de 
+contacto.
+Si NO brinda telf. referencia:
+No (te/se) Si NO brinda telf. referencia:
+No (te/se) preocupe Si en otro momento desea agregar 
+su número de teléfono de referencia, no dude en 
+contactarnos.
+Si dice NO:
+No (te/se) preocupe(s). [No insistir, continuar con la 
+gestión]
+Validar si el doc. de 
+identidad registrado es 
+del titular. 
+SOLO si es el titular, 
+realizar ofrecimiento de 
+actualizar telf. registrado.
+Actualizar teléfono 
+aplicando ID Validator.
+Registrar teléfono de 
+referencia en CRM 
+Experiencia, desde el 
+botón del lápiz.
+LO QUE DIGO
+LO QUE HAGO
+VALIDACIÓN DE 
+NÚMERO DE 
+CONTACTO
+VALIDACIÓN DE 
+CORREO 
+ELECTRÓNICO
+Para brindar(te/le) un mejor servicio y garantizar que 
+reciba(s) toda la información sobre (tu/su) servicio, 
+necesitamos actualizar el correo electrónico 
+registrado.
+¿Podría confirmarnos si sigue utilizando el correo 
+ABCDEF [Indicar solo las primeras 6 letras]?
+Si dice SÍ: 
+Mantendremos este correo como principal para que 
+pueda(s) recibir todas nuestras comunicaciones.
+Si dice NO: 
+¿Nos proporciona(s) (tu/su) nuevo correo? Para 
+actualizar la información en nuestro sistema y pueda(s)
+recibir todas nuestras comunicaciones.
+Registrar el correo en 
+CRM Experiencia, desde 
+el botón del lápiz.
+
+---PAGE_BREAK---
+b)
+Para 
+información 
+confidencial:
+c)
+Para 
+variación en 
+contrato:
+LO QUE DIGO
+LO QUE HAGO
+SOLICITUD DE 
+DATOS
+a)
+Para 
+consultas:
+Para Quien Aplica este Speech?
+Para
+consultas comerciales o generales
+que no
+otorguen datos sensibles, podemos responder sin la
+necesidad de solicitar o corroborar algún dato del
+titular.
+SOLO si NO es el Titular: [Resolver consulta]
+SOLO para el Titular:  
+Bríndame tu correo electrónico y número de teléfono.
+Actualizar el correo y 
+número, de ser necesario.
+¿Para qué aplica este speech?
+SOLO solicitamos los datos del titular cuando el 
+cliente pide:
+★
+Información de la cuenta, facturación.
+★
+Revisión técnica. 
+★
+Registro de reclamo, queja o apelación
+SOLO si NO es el Titular:
+Por seguridad, (indícame/indíqueme) el nombre y 
+apellido del titular del servicio y su número de 
+documento de identidad.
+Si solicita datos personales del titular:
+Para solicitar los datos personales del titular, por 
+favor, escríbenos al protecciondedatos@perufibra.pe
+indicando el motivo.
+Actualizar el correo, de 
+ser necesario, aplicando 
+ID Validator sólo para el 
+titular.
+SOLO si es el Titular:
+Por seguridad, (confírmame/confírmeme) el número de 
+(tu/su) documento de identidad.
+Por favor, bríndame (tu/su) correo electrónico y 
+número de teléfono.
+SOLO si NO es el Titular:
+(Te/Le) comento cuáles son los pasos para realizar 
+[Mencionar la solicitud de variación del contrato que 
+indicó el cliente y comentar procedimiento].
+Para iniciar con la solicitud, el titular del servicio debe 
+contactarse con nosotros.
+SOLO para el Titular:
+Por seguridad, (confírmame/confírmeme) (tus/sus) 
+nombres y apellidos completos y el número de (tu/su) 
+documento de identidad.
+Por favor, (bríndame/bríndeme) (tus/sus) correo 
+electrónico y número de teléfono. [Aplicar Contrato de 
+Voz por Migración]
+Tanto para el NO Titular 
+como para el Titular, 
+compartiremos los pasos 
+para realizar una solicitud de 
+variación en el contrato. 
+Sin embargo, SOLO 
+ejecutaremos dicha solicitud 
+cuando el Titular lo solicite 
+en la llamada.
+Actualizar el correo, de 
+ser necesario, realizar el 
+contrato de voz solo si es 
+el titular.
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+Aplicar speech para:
+★
+Actualización de datos.
+★
+Cambio de plan.
+★
+Cambio de clave WIFI 
+★
+Servicios solicitados.
+Pasos para la validación:
+Perfecto, vamos a proceder con la validación de identidad. 
+Por favor, (indícame/indíqueme) la respuesta:
+1. ¿Cuáles son (tus/sus) nombres y apellidos completos?
+2. ¿Cuál es (tu/su) número de documento de identidad?
+3. ¿Cuál es la dirección de instalación de (tu/su) servicio?
+DEBE RESPONDER LAS 
+PRIMERAS 3 
+CORRECTAS 
+Respuesta correcta:
+4. ¿Cuál es el importe de (tu/su) último recibo emitido?
+[Realizar contrato de voz]
+Si el cliente no responde correctamente:
+6. ¿Alguna vez ha(s) realizado algún traslado de servicio?
+7. ¿Ha(s) tenido alguna suspensión de servicio en los 
+últimos 3 meses?
+Respuesta incorrecta a las  2  DE 3 preguntas:
+La información brindada no coincide con nuestros 
+registros.
+Por lo cual, en esta oportunidad, no podemos proceder 
+con
+(tu/su) solicitud. En las próximas 24 Hrs, puede(s) volver a
+contactar(te/se) con nosotros.
+Aplicar speech.
+No deben realizar 
+procesos si el cliente 
+no valida las 
+preguntas, debe 
+llamar en 24 horas 
+En caso el cliente no desee responder las preguntas:
+Estas validaciones nos ayudarán a prevenir que (tu/su)
+servicio se vea afectado por terceros. Así, aseguramos que
+cualquier modificación tenga (tu/su) consentimiento.
+Aplicar speech.
+PREGUNTAS DE 
+VALIDACIÓN Y 
+SEGURIDAD
+SEGURIDAD DE 
+LA 
+INFORMACIÓN 
+Se consideran datos sensibles:
+-DNI
+-Nombre completo
+-Dirección del servicio
+-Correo electrónico registrado
+-Número telefónico registrado
+El cliente debe mencionar los datos completos
+El asesor no debe sugerir ni completar información
+Validar que los datos coincidan con el sistema
+La información sensible debe ser proporcionada 
+únicamente por el cliente, nunca por el asesor.
+El asesor solo 
+confirma, no revela 
+información 
+completa.
+
+---PAGE_BREAK---
+Speech: Siento que (tu/su) experiencia no haya sido 
+la mejor. 
+¿Es usted el titular del servicio? SI 
+Continuas el proceso.
+★
+Sondeo del motivo: ¿Podría(s) compartirnos el 
+motivo principal para tomar esta decisión?
+Nuestro objetivo es mejorar continuamente y, si es 
+posible, ofrecer(te/le) una solución que se ajuste mejor 
+a (tus/sus) necesidades. [Aplicar Manejo de 
+Objeciones y de ser necesario Servicios Solicitados]
+Opciones de Retención:
+★
+BAJA POR PROBLEMAS CON SERVICIO:
+Podemos brindar SOPORTE depende del
+sondeo
+que se le haya realizado; SOA (luz verde o amarilla) y
+VT (luz roja)
+★
+BAJA POR PROBLEMAS ECONÓMICOS:
+Podemos
+brindar
+SUSPENSIÓN
+TEMPORAL,
+recuerden que nosotros como ATC PF,
+tenemos
+mínimo 15 días y máximo 60 días, si no acepta le
+podemos brindar CAMBIO DE PLAN DOWNGRADE.
+★
+BAJA POR VIAJE:
+Primero brindamos un TRASLADO indicando el costo
+real y luego brindamos como segunda retención el
+traslado con el 50%, si cliente no desea o no tiene
+cobertura, ofrecemos SUSPENSIÓN TEMPORAL.
+★
+BAJA POR MUDANZA:
+Primero brindamos un TRASLADO indicando el costo
+real
+y luego brindamos como segunda retención el
+50% de costo de traslado, si cliente no desea o no
+tiene
+cobertura,
+ofrecemos
+SUSPENSIÓN
+TEMPORAL y si cliente no desea nada de lo ofrecido
+como
+tercera
+opción
+tenemos
+el
+CAMBIO
+DE
+TITULARIDAD para que algún familiar pueda tener los
+beneficios de cliente.
+★
+BAJA POR PROBLEMAS PERSONALES:
+Podemos brindar SUSPENSIÓN TEMPORAL, para
+que de esa forma cliente tenga la posibilidad de tener
+un tiempo resolviendo su inconveniente y luego
+regresar con nosotros.
+★
+BAJA
+PORCOMPETENCIA,
+LENTITUD
+O
+QUEJA POR VELOCIDAD:
+Podemos brindarte un up grade temporal sin que
+tengas que pagar algun monto adicional.
+OFRECER
+AL
+MENOS
+2
+OPCIONES
+DE
+RETENCIÓN
+Cliente debe enviar correo desde el correo registrado en 
+CRM colocando en el asunto solicitud de actualización 
+de número telefónico+nombre y apellido+DNI.
+En el cuerpo del Correo: 
+●
+Nombres completos
+●
+DNI 
+●
+Número Nuevo a Actualizar. 
+Ofrecer: 
+- Suspensión temporal 
+de 15 a 60 días.
+- Traslado/ VT/ 
+Reubicación /Cambio 
+ONT/ Cambio Patch Cord 
+con 50% Dscto.
+Requisito: Solo se 
+agendará la solicitud de 
+baja cuando la llamada 
+ingrese desde el mismo 
+número registrado en CRM. 
+Si el cliente llama desde un 
+número distinto y desea 
+actualizarlo se le indica que 
+debe enviar un correo a 
+contacto@perufibra.pe
+solicitando la actualización 
+del Número telefónico, 
+desde el mismo correo 
+electrónico registradro, 
+posterior a la actualización 
+debe llamar para realizar la 
+solicitud de baja.
+(Solo para clientes que 
+quieran procesar la baja y 
+no llamen del número 
+registrado y desea 
+actualizarlo)
+Consultar con el cliente el 
+acceso al correo registrado 
+en CRM si indica que ya no 
+tiene acceso, realizar 
+preguntas de validación y 
+seguridad y si pasa la 
+seguridad actualizar SOLO 
+el Correo y que siga 
+proceso de envío de datos. 
+CLIENTE 
+SOLICITA BAJA
+
+---PAGE_BREAK---
+Cliente no acepta 1ra Retención: registra solicitud:
+Voy a registrar su agendamiento de Baja, iniciaremos 
+validando su dirección donde está instalado el servicio.
+Si falla después de 2 intentos:
+La información brindada no coincide con nuestros 
+registros. Por lo cual, en esta oportunidad no podemos 
+proceder con tu solicitud.
+En las próximas 24 horas puedes volver a contactarte con 
+nosotros para ayudarte.
+Si atiendes al cliente el mismo día y verificas que falló en la 
+validación de la dirección, deberás informar que debe 
+volver a comunicarse después de 24 horas para realizar 
+una nueva validación.
+Si indica la dirección correcta del CRM: Generamos la  
+Botonera 
+Estamos enviando un código de confirmación al contacto 
+registrado. ¿Prefiere(s) que lo enviemos a  (tu/su) correo o 
+número de teléfono? Al recibir el código, por favor 
+indícamelo para completar el registro. 
+El plazo para seleccionar fecha de atención  de baja 
+en la botonera es de 7 días calendario,  contando 
+feriados y fines de semana. 
+SI FALLA CODIGO DE VERIFICACIÓN:
+Si falla después de 3 intentos:
+(Nombre del cliente), lamentablemente el código ingresado 
+no coincide y ya alcanzamos el número máximo de 
+intentos. En este caso, será necesario que te comuniques 
+nuevamente en 24 horas para atender tu solicitud 
+nuevamente.
+Si atiendes al cliente el mismo día y verificas que ya agotó 
+los intentos de validación en la botonera, no debes 
+derivarlo nuevamente. Deberás informar que debe volver a 
+comunicarse después de 24 horas para realizar un nuevo 
+intento de verificación.
+-Ingresar la solicitud 
+de baja en el CRM,
+procedimiento,
+-Solicitar y registrar 
+el código de 
+confirmación recibido 
+por el cliente.
+-Procedemos con 
+transferencias.
+Cliente no desea retención, intentar transferir:
+(Permítame/Permíteme) transferir la llamada a nuestro 
+equipo de Soporte Perú Fibra para que puedan 
+guiar[te/lo(a)] en el proceso de cancelación de contrato. 
+Por favor, aguard(e/a) en línea unos minutos.
+Nota: Solo realiza 1 intento de transferencia a 
+fidelización,  si no se concreta la llamada en línea 
+deberás agendar la solicitud e indicar al cliente el 
+speech. 
+Transferir a 
+fidelizaciones 
+indicando:
+- Motivo de baja
+- Nro. doc. identidad
+- Nombre del cliente
+- Código de solicitud
+CLIENTE 
+SOLICITA BAJA
+LO QUE DIGO
+LO QUE HAGO
+
+---PAGE_BREAK---
+En caso la transferencia no haya sido exitosa:
+Lunes a Sábado:
+He intentado comunicarme con el área de Fidelización en 
+este momento; sin embargo, no ha sido posible realizar la 
+transferencia. 
+De mi parte he dejado registrada y agendada tu 
+petición de baja. 
+Comentarle que el proceso final lo gestiona el área de 
+fidelización, quienes se estarán comunicando con usted en 
+un plazo máximo de 48 horas para brindarte toda la 
+información y acompañarte en el proceso de cancelación.
+Indícanos algún horario en el que prefiere ser contactado, 
+para así ayudarte más rápido. Le recomiendo mantener 
+disponible su línea y, en caso tenga el bloqueo de 
+llamadas activado, es recomendable que lo desactive para 
+que el área pueda comunicarse con usted sin problemas y 
+finalizar el proceso correspondiente.
+Muchas gracias por su tiempo y confianza. Que tenga un 
+excelente día.
+Si es Domingo:
+El área encargada de realizar la cancelación de su servicio 
+no está disponible el día Domingo, pero descuide ya he 
+agendado su petición, ellos se contactarán con usted en 
+un plazo de 48 horas donde le brindaran toda la 
+información y acompañarán en el proceso de cancelación.
+Indicanos algún horario en el que prefiere ser contactado, 
+para así ayudarle más rápido. Le recomiendo mantener 
+disponible su línea y, en caso tenga el bloqueo de 
+llamadas activado, es recomendable que lo desactive para 
+que el área pueda comunicarse con usted sin problemas y 
+finalizar el proceso correspondiente.
+Muchas gracias por su tiempo y confianza. Que tenga un 
+excelente día.
+Registrar respuesta 
+del cliente en CRM y 
+finalizar llamada.
+PLANTILLA
+- Ofrecimiento 
+realizado: 
+- ¿Se logró retener?
+- ¿Se concretó la 
+transferencia a 
+fidelización?
+- Motivo principal por 
+el que solicita la baja:
+- Observaciones 
+adicionales: 
+CLIENTE 
+SOLICITA BAJA
+LO QUE DIGO
+LO QUE HAGO
+Cliente se contacta para dar de baja un servicio 
+de Titular fallecido:
+Si el cliente menciona que el Titular es su familiar:
+Lamento
+Mucho
+la
+situación
+que
+estás
+atravesando! dado que usted está gestionando la cuenta
+del titular fallecido, necesitamos que remita un correo
+a contacto@perufibra.pe
+adjuntando el acta de defunción y detalle el trámite
+que desea realizar, ya sea la baja del servicio o el cambio
+de titularidad.
+Una
+vez
+recibido
+el
+correo,
+el
+área
+correspondiente procederá con la validación y le informará
+los siguientes pasos.
+Despedida.
+Escuchar Activament
+e al cliente.
+Mostrar empatía 
+en todo el contacto y 
+dar el speech corresp
+ondiente.
+BAJA 
+TITULAR 
+FALLECIDO
+
+---PAGE_BREAK---
+LO QUE HAGO
+LO QUE DIGO 
+TITULAR EN 
+EL 
+EXTRANJERO 
+O 
+INCAPACITAD
+O  SOLICITA 
+BAJA 
+Cliente se contacta para dar de baja un servicio y el  
+Titular se encuentra en el extranjero:
+Cuando el titular del servicio se encuentra en el extranjero,
+debe enviar una carta poder emitida o validada por la
+embajada, autorizando
+a un
+familiar para
+realizar la
+solicitud de cancelación del servicio, remitiendo un correo
+a
+contacto@perufibra.pe
+desde
+el
+correo
+registrado
+adjuntando la carta poder de la embajada, en la cual
+autorice al familiar a gestionar la baja del servicio.
+Una vez recibido el correo,
+el área correspondiente
+realizará
+la
+validación
+de
+la
+documentación
+y
+posteriormente se comunicarán los siguientes pasos para
+completar el proceso de cancelación.
+Cliente indica que el titular tiene infarto cerebral o está
+en UCI:
+Para este caso es necesario que el familiar remita un
+correo a contacto@perufibra.pe adjuntando el informe
+médico de su familiar con el diagnóstico correspondiente
+que no le permite realizar la solicitud.
+Una vez recibido el correo,
+el área correspondiente
+procederá con la validación y le informará los siguientes
+pasos.
+Despedida.
+Escuchar 
+Activamente al 
+cliente. 
+Mostrar empatía en 
+todo el contacto y dar 
+el speech 
+correspondiente. 
+CLIENTE 
+DESISTE DE 
+CANCELACIÓN 
+Cliente se comunica para desistir de la cancelación del 
+servicio:
+Que debemos revisar:
+1.
+Debe estar en estado Vigente con solicitud de baja 
+o hasta  suspensión definitiva, si ya está en estado 
+de baja no se puede ejecutar la reactivación.
+2.
+No debe tener deuda. 
+Pasos:
+-Validar preguntas de seguridad y titularidad.
+-Genera la solicitud en CRM realizando la botonera.
+Tipo de solicitud: Desiste de cancelación de servicio 
+Motivo de la solicitud:  Cancelar Suspensión definitiva.
+Seleccionas los 7 días calendario.
+El plazo para la reactivación es de 24 horas, si el cliente 
+tiene deuda debe realizar el pago para que se procese. 
+Escuchar 
+atentamente al 
+cliente.
+Revisar CRM para 
+validar estado del 
+servicio. 
+Debe cancelar la 
+deuda pendiente. 
+Indicar el proceso a 
+seguir. 
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+Cliente indica que no le llega la verificación por SMS 
+para Solicitud de BAJA. 
+Verifiquemos que dispositivo tiene el cliente, si es Android
+o IPhone:
+¿Podría confirmarme si tu dispositivo es Android o
+IPhone? Le consulto porque, en algunos casos, si tienes
+activado
+Truecaller
+puede
+que
+no
+te
+lleguen
+estas
+notificaciones o también Google bloquea los mensajes de
+texto de empresas.
+No se preocupe yo le guió para que pueda revisar el
+mensaje de Confirmación.
+★
+Para Clientes con Android:
+En la app Mensajes, presiona las tres líneas ☰o el logo de
+tu correo Electrónico.
+Selecciona
+“Spam y bloqueados”
+o “Mensajes no
+deseados. Busca si el mensaje del servicio está allí como
+Código de confirmación o verificación. Si lo encuentras,
+mantén
+presionado
+y
+selecciona
+“Mover
+a
+bandeja
+principal” o “Marcar como no spam”.
+★
+Para Clientes con  IPHONE:Guía al cliente para 
+que pueda revisar el SMS de verificación:
+Revisar Configuración > Mensajes > Filtrar remitentes
+desconocidos y desactivarlo.
+Recuerda que también tienes estos pasos:
+1ERO: Código al teléfono principal.
+2DO: Envío al correo del cliente.
+3ERO: Solicitar un número adicional, actualizar CRM y
+reenviar el código de verificación, recuerda que tienes 3 
+intentos.
+Verifica que el cliente 
+tenga activo el 
+número de su cuenta, 
+sino es así actualiza 
+los datos del cliente. 
+Sigue los pasos de 
+búsqueda en 
+mensajes Spam o 
+correos SPAM.
+PROBLEMAS 
+CON CÓDIGO 
+DE 
+VERIFICACIÓN 
+POR SMS 
+Para el recojo de equipos, le llamaremos a su número de 
+teléfono registrado para agendar el recojo de los equipos 
+de Perú Fibra. Para garantizar la entrega de los equipos, le 
+enviaremos un código de atención a su WhatsApp. Por 
+favor, asegúrese de entregar los equipos únicamente al 
+motorizado que le proporcione dicho código.
+•
+Si cuenta con la tipificación de baja total del 
+servicio.
+(Te/Le) contactaremos para agendar el recojo de los 
+equipos WIN. Para garantizar la entrega, (te/le) enviaremos 
+un código de atención a (tu/su) correo y teléfono registrado. 
+Por favor, deberá(s) (asegurarte/asegurarse) de entregar 
+los equipos solo al motorizado que proporcione dicho 
+código. 
+•
+Cliente indica que le reprograman consecutivamente el 
+recojo 
+Si
+el
+recojo
+de
+sus
+equipos
+fue
+programado
+por
+WhatsApp, le recomiendo escribir al mismo número desde
+el cual lo contactaron para que puedan ayudarle a
+coordinar el recojo.
+De todas maneras, por mi parte ya informé al área
+correspondiente y solicité que se dé cumplimiento al
+recojo lo antes posible. Quedamos atentos a cualquier
+consulta.
+Escuchar 
+atentamente al 
+cliente.
+Si el cliente ya tiene 
+ESTADO BAJA alertar 
+al 
+Supervisor intername
+nte para que se 
+recojan los equipos.
+RECOJO DE 
+EQUIPOS 
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+Cliente se comunica para Actualizar sus datos:
+¿Escuchamos con atención y sondeamos?
+¿Me podría comentar cuál es el motivo de la actualización 
+de datos? 
+Si menciona que para dar de baja al servicio indicamos:
+Bien entiendo la solicitud, en este caso para la 
+actualización de los datos para su posterior solicitud de 
+baja,  le comento el proceso que vamos a seguir:
+Debe enviar un correo a contacto@perufibra.pe solicitando 
+la actualización del Número telefónico, desde el mismo 
+correo electrónico registrado. 
+Posterior a la actualización que se le confirma en el correo, 
+debe llamar para realizar la solicitud de baja.
+(Solo para clientes que quieran procesar la baja )
+-Cliente no menciona baja, sino que indica quiero 
+actualizar mi número o mi correo. 
+Escuchamos con atención, demostremos amabilidad y 
+procedemos a Validar datos de seguridad titular a 
+través de las 5 PREGUNTAS DE VALIDACIÓN Y 
+SEGURIDAD
+y tipificar en CRM indicando los detalles de la solicitud. 
+Escuchar 
+atentamente al 
+cliente.
+Si es por temas de 
+baja 
+Indicar el proceso a 
+seguir. 
+CLIENTE 
+DESEA 
+ACTUALIZAR 
+SUS DATOS 
+CAMBIO DE 
+PLAN 
+Cliente solicita cambio de Plan:
+Validar que plan tiene el cliente para saber 
+qué cambio corresponde.
+Planes Disponibles:
+Downgrade/ Upgrade:
+•El cliente debe tener al menos un recibo pagado y 
+no debe tener pagos pendientes (El servicio 
+debe estar Vigente) No debe presentar recibo 
+VENCIDO.
+•Validar datos de seguridad titular a través 
+de las PREGUNTAS DE VALIDACIÓN Y SEGURIDAD.
+•Realizar Grabación de Voz.
+•Tipifica como Solicitud- Cambio de Plan-
+(Downgrade o Upgrade)
+Speech: Podrá(s) navegar con la nueva 
+velocidad de (tu/su) plan a partir del primer día del 
+próximo mes. En (tu/su) próximo recibo, visualizará(s) el 
+valor de (tu/su) nuevo plan.
+Aplicar speech.
+TIPIFICACIÓN CRM
+En caso solicite la ejecución anticipada para downgrade:
+Para evitar futuros inconvenientes en el 
+monto de (tu/su) recibo, la actualización del monto a 
+facturar debe aplicarse a partir del 01 del siguiente mes.
+Aplicar speech solo pa
+ra downgrade.
+En caso solicite la ejecución anticipada para upgrade:
+Para evitar futuros inconvenientes en el 
+monto de (tu/su) recibo, la actualización del monto a 
+facturar debe aplicarse a partir del 01 del siguiente mes.
+Aplicar speech solo pa
+ra Upgrade.
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+SOPORTE 
+ATC 
+PERDIDA 
+DEL 
+SERVICIO
+SOPORTE ATC PÉRDIDA DEL SERVICIO
+Cliente indica que no tiene servicio o menciona 
+estoy sin internet. Para ayudar al cliente realiza 
+las siguientes acciones:
+•Válida en CRM EXPERIENCIA que el cliente tenga 
+el servicio activo.
+•Validar que el cliente no esté en el drive de Masivos.
+•Revisa la Leyenda de Estado en CRM
+Activated (Online): Servicio activo y ONT encendida
+Activated (Offline): Servicio activo y posible LOS 
+ROJO O MASIVO
+•Valida en CRM Experiencia el Estado de Red 
+y luces en router con el cliente.
+Si el cliente presenta LOS ROJO generar 
+los siguientes descartes:
+XXX, por favor, ¿podrías confirmarnos 
+si has desconectado y conectado el cable jumper (cable 
+de fibra amarillo) en algún momento?
+Por favor asegúrate de que todos los cables 
+estén bien enchufados tanto en el router como en las 
+tomas de pared.
+Desconecta el router de la corriente, espera 
+entre 10 segundos. Luego, conecta nuevamente y 
+espera unos minutos para que se inicie por completo.
+Verifica si puedes navegar sin problemas.
+Si el problema 
+persiste Generar tiket en QUANTUM DERIVAR VT LOS 
+ROJO
+RECORDAR 
+no debes tomar 
+VTS ni postventa 
+a clientes con 
+deuda pendiente, ni su
+spensión 
+si después del 28 
+del mes el cliente 
+tiene deuda en recibo, 
+se debe invitar a pagar 
+y no 
+tomar pedido, porque 
+tiene deuda pendiente.
+Si el 
+cliente continúa sin 
+poder navegar 
+en Internet realizamos
+la programación 
+de VT (LOS 
+ROJO o derivación a 
+SOA (LUZ VERDE 
+O AMARILLA).
+Estimado(a) cliente, el sistema me muestra los siguientes 
+rangos de atención disponibles:
+Si les aparece solo 1 tramo es porque ese es el que esta 
+disponible para el Distrito:
+▪Coordinar fecha y rango horario.
+▪Ofrecer el primer tramo horario que figura en CRM.
+Si presentas inconvenientes para el agendamiento, alerta a 
+tu supervisor.
+Speech de agendamiento: La fecha más próxima 
+disponible es el [Indicar fecha] entre las xx:xx y xx:xx.
+¿Estás de acuerdo? 
+Una vez agendada la visita: ¡Perfecto,
+(Nombre del cliente)! Tu visita técnica ha sido agendada 
+para el [Indicar fecha] entre las xx:xx y xx:xx. 
+Recuerda que debe estar presente una persona mayor de 
+edad con su documento de identidad para recibir a los 
+técnicos.
+Indicar código de solicitud: Tu código de solicitud es el 
+[Indicar ID de CRM]
+RECORDAR no debes tomar VTS ni post venta a 
+clientes con deuda pendiente si después del 28 del 
+mes el cliente tiene deuda, se debe invitar a pagar y no 
+tomar pedido, porque tiene deuda pendiente. 
+Programar la VT según 
+disponibilidad en 
+quantum.
+★
+Confirmar con el 
+cliente la 
+dirección del 
+servicio y válida 
+en CRM y 
+QUANTUM que 
+concuerden.
+★
+Solicitar un 
+numero de 
+teléfono 
+adicional.
+★
+Llenar la 
+solicitud en el 
+QUANTUM
+AGENDAMIENTO 
+VISITA TÉCNICA
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+AGENDAMIENTO
+VT CLIENTE 
+CRITICO.
+Cliente no esta de Acuerdo con Fecha de 
+programación disponible.
+En casos críticos agendar según disponibilidad y alertar al
+Grupal con tu SUPERVISOR
+para escalamiento a VT e
+indicar al cliente:
+Estimado(a) cliente, el sistema me muestra los siguientes
+rangos de atención disponibles.
+Comprendo el inconveniente y la urgencia de su caso.
+¿Podría indicarme cuál de estos horarios le resulta más
+conveniente para programar la visita? Asimismo, registraré
+sus observaciones y alertaré al equipo de Visitas Técnicas
+sobre la urgencia de su caso.
+Si se genera una disponibilidad para atenderle antes del
+horario programado, el equipo se comunicará con usted
+para
+coordinar la
+atención.
+De
+no
+contar
+con
+una
+disponibilidad previa, su visita técnica se realizará dentro
+del rango horario programado."
+Cliente se comunica por que presenta lentitud en 
+la navegación.
+Speech: Con gusto le ayudo a revisar la lentitud 
+que presenta en su conexión para identificar la causa y 
+darle una solución. Por favor, detállame, ¿cómo se 
+presenta el problema?
+(Nombre del cliente), verificó que su servicio 
+se encuentra activo en nuestro sistema. 
+Entonces Necesitamos realizar algunos procedimientos de 
+descarte, indícame:
+¿El inconveniente que estás presentando es vía cable 
+de red, wifi o ambos? ¿En cuantos dispositivos 
+está conectado (a)?
+Qué hacer: Válida en CRM Experiencia que el 
+cliente tenga servicio activo y no esté en Masivo.
+•Ingresa al smart- Ingresar la serie MAC, sino 
+figura matriculada reportar al supervisor “Tiene que ser 
+la MAC actual del cliente.
+•Dirigirse a KPI View- Validar en STA 
+Service Bearing Capability si sus dispositivos 
+conectados tienen el color amarillo de lentitud.
+•Al validar que presenta lentitud, el procedimiento es 
+desconectar el router de la corriente por 10 segundos y 
+que vuelva a conectarse y pruebe la conexión.
+•Validar la saturación de red y refrescar en SW y validar 
+con el cliente que este navegando con normalidad.
+NO DERIVAR LENTITUD WIFI A AT (AL MENOS 
+DE QUE SEAN UN CASO PUNTUAL)
+Si sigue presentando lentitud se procede a derivar el 
+caso a AT transfiriendo la llamada al área.
+En el caso de no poder concretar 
+la trasnferencia (Corroborar en la llamada o chat que el 
+número de Contacto de cliente esté activo para que el 
+área de Soporte puedan comunicarse con el).
+•Tipificar 
+según casuística 
+y subir a QUANTUM.
+•Validar que 
+la dirección del cliente 
+sea la correcta, 
+le consultamos 
+en llamada, 
+debe concordar 
+En CRM y QUANTUM, 
+sino concuerda llenar 
+la correcta 
+en QUANTUM.
+SOPORTE ATC 
+LENTITUD O 
+INTERMITENCIA
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+Recordatorio :
+No brindamos soporte para servicios de IPTV, MagisTV, 
+Flujo TV, TV Directo, entre otros.
+Cuando un cliente reporta que determinados canales no 
+cargan o ya no aparecen, no es posible verificar si se han 
+realizado cambios en la parrilla de canales, debido a que 
+se trata de servicios ajenos a nuestro alcance de soporte.
+Muestra Empatia
+Escucha y da speech
+con amabilidad. 
+SOPORTE 
+SERVICIOS TV
+Transferencia NO EXITOSA:
+(Nombre del cliente), en este momento todos nuestros
+especialistas están en atención. Hemos registrado tu
+comunicación mediante el ticket N.º XXX para que se
+comuniquen contigo dentro de un plazo máximo de
+30 minutos
+Transferencia EXITOSA:
+Para que tengas la
+mejor atención
+posible, te voy
+a transferir con el área de soporte técnico, quienes
+podrán ayudarte de inmediato. Solo te pido un momento,
+por favor.
+Transferencia Asistida:
+Hola compañero, te transfiero al cliente [Nombre] 
+con ticket XXXXX generado por inconvenientes en XXXXX.
+3 INTENTOS 
+DE TRANSFERENCIA 
+DE 10 SEGUNDOS 
+CADA INTENTO.
+TRASFERENCIA 
+HACIA AT
+Para cancelaciones VT por PEXT:
+(Tu/Su) Ticket de Atención Nro. XXX ha sido escalado 
+a nuestro equipo de red física para iniciar con los 
+trabajos correctivos y no será necesario ingresar 
+a (tu/su) domicilio. No (te/se) preocupé(s), (tu/su) servicio 
+está en buenas manos.
+Validar Ticket en 
+CRM Experiencia.
+PARA 
+CANCELACION
+ES VT 
+POR PEXT:
+El cliente reporta instalación recién realizada en 
+mal estado, Cable exterior colgado pero con servicio, 
+queja de vecinos por cableado:
+Validar información del cliente:
+Recordemos que son escenarios atípicos y que 
+debemos sondear pára tener mayor información. Se 
+maneja diferente que Fibra rota exterior:
+-Solicitar fotos o videos del problema que presenta
+-Registrar comentarios de afectación (riesgo, 
+tránsito, quejas).
+Con estas evidencias se escala al área encargada 
+para poder seguir el proceso correspondiente.
+Escucha con atención.
+CLIENTE 
+REPORTA 
+MAL 
+CABLEADO, 
+CABLE 
+EXTERIOR 
+COLGADO
+QUEJAS DE 
+VECINOS 
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+ANCHO DE 
+BANDA 
+•
+Validar en CRM que el servicio este Activo y no se
+encuentre el masivo.
+•
+Valida el Plan Contratado y Plan Asignado en CRM
+Experiencia sea el mismo, si al validar en CRM que el
+plan asignado no es el mismo que el contratado
+reportarlo internamente sin generar ningún tipo de
+descarte ni derivación, indicarle al cliente que se le
+estará llamando una vez que este solventado el
+problema.
+Speech:
+Entiendo
+que
+me comentas
+que
+no
+está
+llegando a la velocidad contratada, no te preocupes te
+voy a ayudar revisando en el sistema lo ocurrido.
+Sondeo
+necesario:
+El
+test
+de
+velocidad
+lo
+hizo
+conectado al cableado o por WIFI?
+Ancho de Banda WIFI:
+•
+Validar con el cliente si se encuentra conectado a una
+VPN.
+(De
+estar
+conectado
+a
+alguna
+VPN
+debe
+desconectarla.)
+•
+Validar que el cliente se encuentre conectado a la red
+WIFI de PERU FIBRA, si está en la red 2,4 Ghz o 5
+Ghz, no debe estar conectado a ningún Mesh o
+dispositivo
+externo.
+(RECUERDA
+QUE
+PUEDES
+VALIDARLO EN SMART WIFI)
+•
+Realizar el Speed Test en Smart Wifi, Si la MAC no
+está matriculada indicarle al supervisor de turno para
+que la pueda matricular y corroborar con el cliente que
+sea la mis MAC que está en el CRM.
+•
+Darle click a la opción de start y validar si los canales
+se encuentran saturados en el Smart wifi.
+•
+Indicarle al cliente que apague el ONT y lo vuelve a
+encender por 5 segundos.
+•
+Luego que realice sus test de velocidad en su
+dispositivo puede ser CELULAR, LAPTOP no otros
+equipos he indicarle que por wifi no se brinda la
+totalidad del plan ya que la señal es inalámbrica.
+Ancho de banda – Cableado
+•
+Validar si el dispositivo cableado está conectado
+directo a algún adaptador o está conectado desde el
+ONT principal.
+•
+Para realizar las pruebas de conexión, necesitaras que
+se encuentre conectado directo al Router de PERU
+FIBRA.
+•
+Validar con el cliente que cable de categoría tiene.
+•
+Solicitarle al cliente que realice el test por la pagina
+www.speedtest.net
+•
+Indicarle al cliente que las pruebas del Test se realizan
+en una PC o LAPTOP (NO EN TV). Ten en cuenta que,
+a través de la red cableada garantizamos el 70% de la
+velocidad contratada.
+Si
+después
+de
+realizar
+todos
+los
+descartes
+correspondientes persiste el problema se podrá derivar a
+AT.
+Saludar cordialmente 
+y mostrar disposición 
+de ayuda:
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+INGRESO A 
+UNA PÁGINA 
+O APP EN 
+ESPECÍFICO. 
+No puedo ingresar a una página web/app en 
+específico
+Speech: Con gusto le ayudo a revisar el ingreso a la 
+pagina (que mencione el cliente) y darle una solución.
+Sondeo:
+★Válida
+si
+puedes
+ingresar
+con
+otros
+dispositivos
+conectados para saber de donde puede surgir este
+inconveniente.
+★Comprueba si puedes ingresar con la red de tu
+operador móvil, eso permitirá reconocer si el problema
+radica en una página o APP en específico.
+★Desenchufa el router, espera 10 segundos y vuélvalo a
+enchufar. Posterior a ello espera un 1 minuto a que se
+vuelva a configurar y vuelva a probar.
+En caso el problema persiste se deriva a AT mediante
+transferencia o agendamiento.
+Saludar cordialmente 
+y mostrar disposición:
+Cliente solicita cambio de contraseña WIFI:
+Recuerda que únicamente el titular puede solicitar el
+cambio.
+Pasos:
+Validar
+datos
+de
+seguridad
+titular
+a
+través
+de
+las PREGUNTAS DE VALIDACIÓN Y SEGURIDAD.
+1.Solicitar al cliente cual es el nombre de la red y la
+contraseña que quiere colocar,
+Son Mínimo 8 caracteres entre letras y números.
+Dirígete al smart colocando el usuario y contraseña
+1. Seleccionar HOME y vuelve a seleccionar HOME
+2. Al lado derecho tenemos un buscador, colocar la serie 
+MAC que se encuentra en el CRM del cliente. 
+MAC 485754433F3E7EAD y dale click en buscar.
+1.
+Seleccionas la opción WI-FI Settings y procedes a 
+generar el cambio de contraseña o nombre de wifi 
+seleccionando el icono de editar.
+Nota: Al cambiar la contraseña, guardas el cambio y 
+procedes a indicar al cliente que pruebe su conexión con 
+la nueva contraseña.
+Si la MAC no está matriculada  indicarle al supervisor de 
+turno para que la pueda matricular y corroborar  con el 
+cliente que sea la mis MAC que está en el CRM.
+Cuando el cliente 
+consulte por el cambio 
+de contraseña o lo 
+solicite y se complete en 
+línea se tipifica:
+Informativo-Atención 
+Tecnológica-Cambio 
+de contraseña WiFi
+Si no puedes realizar el 
+cambio y lo derivas a 
+SOA tipifica:
+Problemas con 
+servicio-Actualización 
+de datos-Cambio de 
+contraseña WiFi
+CAMBIO DE 
+CLAVE WIFI
+O NOMBRE DE 
+RED 
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+Cliente
+consulta
+por
+aplicación
+de
+TV
+que
+le
+ofrecieron con el servicio de internet.
+Qué hacer?
+Escuchar al cliente.
+Se empático.
+Usa el posicionamiento positivo en todo momento.
+★
+Parafraseo y validación?
+Entiendo que me comentas que te ofrecieron una app TV
+con el servicio de internet?
+En caso de que no entiendes lo que el cliente te está
+comentando sondea para entender la necesidad o
+problemática que se presenta.
+Speech:
+(Nombre del cliente), muchas gracias por compartir lo
+que le ofrecieron desde el área de Ventas.
+Para asegurarnos de que reciba información correcta, le
+confirmó que actualmente Perú Fibra no cuenta con una
+aplicación propia para ver TV. Nuestro servicio es
+exclusivamente internet hogar por fibra óptica.
+CLIENTE 
+SOLICITA 
+SOPORTE PARA 
+APP DE TV 
+CLIENTE 
+REPORTA 
+CONTRATACIÓ
+N NO 
+RECONOCIDA 
+Cliente indica que verifica cobro de un servicio que 
+no reconoce, ya sea que ya tenga 1 servicio activo o 
+no haya sido cliente y se verifique la activación. 
+Entiendo lo que me comentas, vamos a validar lo
+sucedido con tu caso. No te preocupes, estoy aquí para
+ayudarte.
+Sondeo:
+-¿En algún momento solicitaste la instalación de nuestro
+servicio?
+¿Tienes conocimiento si algún familiar o tercero pudo
+haber solicitado el servicio con tus datos?
+¿Me
+podrías
+confirmar
+tu
+dirección
+para
+poder
+corroborar en el sistema?
+¿Me podrías confirmar tu Número de teléfono y correo
+electrónico?
+Si el cliente indica que no lo contrato realizamos
+Speech:
+Entiendo lo que nos indica y, para poder gestionar
+correctamente su caso, deberá presentar un reclamo por
+contratación no solicitada. De esta manera, el área
+correspondiente podrá realizar la investigación y validar
+la
+información
+relacionada con
+la
+contratación. Le
+recomendamos ingresar el reclamo indicando que usted
+no reconoce ni ha solicitado dicho servicio.
+NO SE LE DA INFORMACIÓN DE DIRECCIÓN, NI
+DATOS.
+★
+Escuchar al 
+cliente.
+★
+Realizar el 
+sondeo.
+★
+Contener en 
+caso de 
+molestias.
+★
+Ser empático e 
+informar con 
+tranquilidad. 
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+Cliente indica que el plan contratado no es el
+correcto (ofrecido en la venta)
+●
+Apertura / Contención
+Entiendo lo que me comentas, vamos a revisar tu caso
+para validar lo sucedido.
+No te preocupes, estoy aquí para ayudarte.
+●
+Sondeo
+¿Qué plan te indicaron al momento de la contratación y
+que plan escogiste (En caso de que no lo haya
+comentado)
+●
+Validación en sistema
+Verificar: Plan actualmente activo, Fecha de contratación
+●
+Escalar
+Vamos
+a
+escalar
+tu
+caso
+para
+una
+validación
+correspondiente y revisar la contratación. Nos estaremos
+contactando contigo dentro de un plazo de 48 horas
+para llegar a una solución.
+Agendamos internamente:
+Si el plan sí coincide indicar: He validado la información
+y el plan activo corresponde al que fue contratado.
+En este caso podemos ofrecer un plan menor sin
+embargo hay que tener un recibo pagado, por lo cual
+debería disfrutar este mes, pagar el recibo una vez se
+refleje
+y solicitar posteriormente el siguiente mes el
+cambio de plan, para que aplique.
+Escuchar al cliente.
+Realizar el sondeo. 
+Revisar el plan 
+contratado. 
+CLIENTE INDICA 
+QUE PLAN 
+CONTRATADO 
+NO ES EL 
+CORRECTO EN 
+EL MOMENTO 
+DE LA VENTA 
+Speech:
+Entiendo
+lo
+que
+mencionas
+sobre
+la
+información del mesh.
+Con mucho gusto. Para este tipo de consulta, realizaré la
+derivación a nuestra área de Ventas, donde validarán su
+solicitud
+le
+informarán
+las
+opciones
+de
+MESH
+disponibles.
+Antes de realizar la transferencia, ¿hay alguna otra
+consulta en la que pueda ayudarle el día de hoy?
+Se trasfiere la llamada a la Cola de Ventas.
+Estimado cliente, para que el área Comercial pueda
+atender
+su
+solicitud,
+por
+favor
+comuníquese
+nuevamente con nuestra central al número (01) 754-
+6000. Seleccione la opción 1: No soy cliente y cuando
+el
+sistema
+lo
+solicite
+ingrese
+un
+número de
+DNI
+diferente al asociado al servicio.
+★
+Escuchar al 
+cliente.
+★
+Realizar el 
+sondeo.
+★
+Ser empático e 
+informar con 
+tranquilidad. 
+CLIENTE SOLICI
+TA MESH 
+
+---PAGE_BREAK---
+PROTOCOLO DE 
+CLIENTE DIFÍCIL
+Última actualización: 25 de Mayo de 2026
+
+---PAGE_BREAK---
+LLAMADA 
+REITERATIVA
+a)
+Para 
+resolución ya 
+enviada:
+(Permíteme/Permítame) revisar el estado del 
+caso, por favor.
+Verifico que la resolución de (tu/su) reclamo 
+ha sido enviada al correo electrónico 
+registrado. [Si el cliente lo solicita, comentar la 
+resolución en línea].
+Si el cliente solicita 
+información sobre algún 
+reclamo atendido por PERÚ 
+FIBRA, revisar los detalles de 
+dicho reclamo y la resolución 
+brindada en CRM 
+Experiencia.
+b)
+Para 
+resolución 
+pendiente y 
+dentro del 
+plazo 
+regulatorio:
+(Permíteme/Permítame) revisar el estado del 
+caso, por favor.
+Verifico que (tu/su) reclamo se encuentra en 
+proceso de revisión. Si bien aún no se cumple 
+el plazo regulatorio, voy a solicitarle al equipo 
+de Reclamos que pueda (enviarte/enviarle) la 
+resolución lo más pronto posible. 
+Si el cliente solicita 
+información sobre algún 
+reclamo atendido por PERÚ 
+FIBRA, revisar los detalles de 
+dicho reclamo en CRM 
+Experiencia y el plazo 
+regulatorio para responder 
+según su tipificación.
+LLAMADA VICIO
+[Presentarse o anunciarse para validar 
+contacto dos veces]. Mantener tono neutro 
+y pausado (sin sonar apresurado).
+Bienvenido(a) a Perú Fibra . Te saluda 
+(Nombre y Apellido)
+¿Con quién tengo el gusto?
+Esperas 5  segundos y repite el saludo 
+Inicial.
+Bienvenido(a) a Perú Fibra . Te saluda 
+(Nombre y Apellido)
+¿Con quién tengo el gusto?
+En caso no conteste, aplicar speech:
+Estimado(a) cliente, debido a que no 
+detectamos respuesta en la llamada, 
+procederemos a liberarla.
+Gracias por comunicarte con Perú Fibra. Que 
+tengas un buen día.
+Tipificar como llamada vicio.
+VISTA CRM 
+LO QUE DIGO
+LO QUE HAGO
+PROTOCOLO DE 
+CLIENTE DIFÍCIL
+VOZ 
+FORMAL
+VOZ 
+INFORMAL
+c)
+Para 
+resolución 
+pendiente y 
+fuera del plazo 
+regulatorio:
+(Permíteme/Permítame) revisar el estado del 
+caso, por favor.
+Verifico que (tu/su) reclamo se encuentra en 
+proceso de revisión. Voy a solicitarle al equipo 
+de Reclamos que pueda (enviarte/enviarle) la 
+resolución lo más pronto posible.
+Si el cliente solicita 
+información sobre algún 
+reclamo atendido por PERÚ 
+FIBRA, revisar los detalles de 
+dicho reclamo en CRM 
+Experiencia y el plazo 
+regulatorio para responder 
+según su tipificación.
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+DEVOLUCIÓN DE 
+LLAMADA
+Buenos días/Buenas tardes/Buenas noches
+Opción 1. Mi nombre es (Nombre y Apellido) de Perú 
+Fibra
+Opción 2. Te saluda (Nombre y Apellido) de Perú 
+Fibra
+Hace unos minutos, te comunicaste con nosotros, 
+pero la llamada se cortó. Nos estamos contactando 
+para atender tu requerimiento. ¿Cómo te puedo 
+d
+?
+Devolver la llamada al 
+cliente y comenzar el 
+protocolo de atención.
+CLIENTE 
+INCÓMODO 
+DESEA 
+RECLAMAR
+Si el cliente persiste en ingresar una queja o un nuevo 
+reclamo, debemos atenderlo en la llamada (NO 
+derivarlo a web) y proceder con el registro de la 
+solicitud.
+Primero, aplica el  sondeo para brindar solución y 
+contener reclamo:
+Comprendo (tu/su) malestar. (Cuéntame/Cuénteme), 
+¿cuáles son los inconvenientes que está(s) 
+presentando?
+Si el cliente insiste en registrar reclamo:
+Entiendo (tu/su) malestar, ese no es el estándar de 
+atención y soporte que queremos brindarle a nuestros 
+clientes. Por ello, con la información que nos ha(s)
+brindado, vamos a realizar las acciones e 
+indagaciones pertinentes para atender lo reportado. 
+Por favor, (bríndame/bríndeme) los detalles para 
+registrar (tu/su) solicitud. [Consultarle constantemente 
+si culminó con el dictado de su solicitud a fin de 
+que quede constancia en la grabación].
+Si el cliente persiste en
+ingresar una queja o 
+un nuevo reclamo, 
+debemos atenderlo en 
+la llamada 
+(NO derivarlo a web) y 
+proceder con el registro 
+de la solicitud.
+CLIENTE 
+OFENSIVO
+Entendemos su molestia y sentimos los 
+inconvenientes que se han presentado. Tratemos de 
+tranquilizarnos para continuar con la atención. Estoy 
+aquí para ayudarlo(a).
+[Si el cliente continúa gritando, aplicar el siguiente 
+speech y proceder a cortar la llamada]
+Estimado(a) cliente, hemos intentado continuar con la 
+comunicación. Sin embargo, al no permitirnos 
+indicarle una solución, procederemos a finalizar la 
+llamada. Le invitamos a volver a contactarnos en otro 
+momento.
+Aplicar speech 2 veces 
+antes de finalizar la 
+llamada.
+Validamos que (tu/su) (queja/apelación) ha 
+sido correctamente elevada al Osiptel. No te 
+preocupes, Osiptel (te/le) comunicará la 
+respectiva resolución.
+Si el cliente solicita 
+información sobre alguna 
+queja o apelación atendida 
+por OSIPTEL, aplicar speech.
+QUEJA O 
+APELACIÓN
+
+---PAGE_BREAK---
+PROTOCOLO DE 
+CONTINGENCIAS
+Última actualización: 21 de Marzo de 2026 
+
+---PAGE_BREAK---
+Para continuar con los descartes, ¿podría(s) apoyar(te/se) con algún compañero 
+o familiar que se encuentre disponible en (tu/su) domicilio?
+Si el cliente indica que SÍ:
+Excelente, colóquelo al teléfono, por favor. 
+Si el cliente indica que NO:
+No (te/se) preocupe(s). (Te/Le) acabo de generar el código de atención Nro.
+[Dictar número] para programar una visita técnica. En menos de 24 hrs, uno de 
+nuestros especialistas se pondrá en contacto (contigo/con usted) para agendar la 
+visita.
+[NO debes indicarle al cliente en NINGÚN 
+momento que es parte de un incidente masivo]
+Aplicar speech PREVIA CONFIRMACIÓN DEL 
+SUPERVISOR. Solo Aplicarlo cuando la 
+operación sube alerta de Incidencia masiva. 
+(Te/Le) pedimos disculpas por cualquier 
+incomodidad que (puedas/pueda) estar 
+presentando.
+En
+estos
+momentos,
+nuestros
+técnicos
+especializados están revisando los detalles y, en
+caso
+exista
+algún
+inconveniente,
+este
+será
+solucionado a la brevedad posible.
+Cliente insiste en plazo de Resolución:
+Comprendo totalmente tu inquietud.
+Aún no tenemos una hora exacta de resolución,
+pero estamos dando seguimiento prioritario para
+que se solucione lo antes posible, nuestro equipo
+técnico
+está
+trabajando
+para
+restablecer
+el
+servicio.
+Escuchar el motivo de la 
+llamada y aplicar speech 
+si el cliente presenta
+problemas por: 
+★
+Masivos
+★
+Averías
+★
+Mantenimiento 
+preventivo
+★
+Emergencias
+★
+Liberación de 
+ancho de banda
+PROBLEMAS 
+MASIVOS
+LO QUE DIGO
+LO QUE HAGO
+PROTOCOLO DE 
+CONTINGENCIAS
+VOZ 
+FORMAL
+VOZ 
+INFORMAL
+CAÍDA MASIVA DE 
+APLICATIVOS 
+INTERNOS/ 
+SATURACIÓN
+DERIVACIÓN A 
+PERSONA NO 
+TECNOLÓGICA
+(Le/te) comento que estamos renovando nuestra operativa de Instalaciones en 
+[Indicar distrito], retirando los cables en desuso a favor del ornato del distrito y 
+descontaminación ambiental.
+Queremos asegurar(te/le) que comprendemos la importancia de esta instalación. 
+Por lo cual, nos comprometemos a mantenernos en contacto para coordinar una 
+nueva programación que se ajuste a (tu/su) disponibilidad.
+LIMPIEZA DE 
+CABLEADO 
+AÉREO
+Aplicar speech PREVIA CONFIRMACIÓN DEL 
+SUPERVISOR.
+En estos momentos, estamos realizando una 
+actualización de nuestros sistemas internos. Una 
+vez, que se restablezca el sistema, nos estaremos 
+comunicando (contigo/ con usted) para continuar 
+con (tu/su) solicitud.
+Por favor, (bríndame/bríndeme) (tus/sus) nombres 
+completos, (tu/su) número de contacto y un 
+número de referencia adicional.
+Registrar los datos del 
+cliente en el  Excel de 
+contingencias en caso 
+amerite registrar ticket. 
+Consolidar la información 
+e informar al supervisor.
+
+---PAGE_BREAK---
+LO QUE DIGO
+LO QUE HAGO
+DEUDA EN EL 
+PREDIO
+CAÍDA DE 
+APLICATIVOS
+EXTERNOS
+PROBLEMA 
+PÁGINA DE 
+RECLAMOS
+[Tomar datos para registrar el reclamo cuando la 
+página se encuentre disponible].
+He registrado (tu/su) reclamo. El plazo de 
+verificación es de [Mencionar días]. En un plazo de
+[Mencionar días para responder], (te/le)
+responderemos por el correo electrónico brindado 
+en la solicitud de reclamo.
+Devolver la llamada para 
+entregar el número de 
+reclamo.
+SIN COBERTURA
+Sentimos los inconvenientes que pueda(s) estar 
+presentando con esta incidencia.
+Hemos comprobado que se trata de una caída 
+masiva de [Mencionar aplicativos con 
+inconvenientes] a nivel global, ajeno al alcance de 
+nuestro servicio de Internet, lo cual impide 
+momentáneamente la correcta navegación a través 
+de esta(s) plataforma(s).
+Aplicar ante caídas de 
+WhatsApp, Facebook e 
+Instagram, entre otros.
+ERROR DE 
+FACTURACIÓN 
+MASIVO
+Siento escuchar eso. Escalaré el caso con el equipo de Facturación para que 
+revisen a detalle (tu/su) recibo y realicen el ajuste correspondiente a través de una 
+Nota de Crédito en un plazo no mayor a 48 horas.
+Válido que (tu/su) zona cuenta con cobertura. Sin 
+embargo, presenta saturación de clientes. Por lo 
+cual, en esta oportunidad, la venta no se podrá 
+concretar. Sentimos los inconvenientes que esta 
+situación haya podido ocasionar. Gracias por (tu/su) 
+comprensión. 
+Contexto: Cliente 
+interesado en el servicio, 
+pero no califica por deuda 
+en el predio.
+Gracias por (comunicarte/comunicarse) con 
+nosotros. (Te/Le) comento que estamos trabajando 
+para ampliar nuestra cobertura y llegar hasta el lugar 
+dónde te encuentras. Pronto, (te/le) traeremos 
+novedades. No olvide(s) estar atento(a) a nuestras 
+redes sociales.
+Leer si se valida que el 
+cliente no cuenta con 
+cobertura en su zona.
+He comprobado que (tu/su) servicio se encuentra de 
+acuerdo a las características contratadas. El 
+inconveniente se debe a que hay varios dispositivos 
+conectados a (tu/su) red que generan alto consumo, 
+lo cual no es habitual en un servicio residencial. Por 
+contrato, el servicio ofrecido es únicamente para 
+hogares y está prohibido su redistribución.
+Cliente presenta tráfico 
+inusual en el Smart OLT.
+CLIENTE 
+REVENDEDOR
+CALL OUT A 
+USUARIOS NO 
+ATENDIDOS
+Hola. Me comunico con (Nombre y Apellido del 
+cliente). Te saluda, (Nombre de asesor). Me contacto 
+para validar si se encuentra todo bien con tu 
+servicio.
+Solo aplicar un intento.
+Comprendo (tu/su) molestia. (Te/Le) pedimos 
+disculpas por cualquier incomodidad que
+(puedas/pueda) estar presentando. 
+(Permíteme/Permítame) atender (tu/su) 
+requerimiento, ¿cómo (te/le) puedo ayudar?
+Pedir disculpas y tipificar 
+el motivo.
+MALA GESTIÓN 
+EN OTROS 
+PUNTOS DE 
+CONTACTO
+
+---PAGE_BREAK---
+PROTOCOLO DE 
+GESTIONES
+Última actualización: 25 de Mayode 2026 
+
+---PAGE_BREAK---
+SUSPENSIÓN 
+TEMPORAL
+PROTOCOLO DE GESTIONES 
+Cliente solicita Suspensión Temporal: Puede 
+suspender su internet por un mínimo de 15 días y un 
+máximo de dos meses por año de servicio.
+★
+Validar fecha de programación de la 
+suspensión temporal.
+★
+El cliente puede solicitar con un plazo mínimo 
+15 días y máximo 60 días.
+★
+Debe tener pagado al menos 1 recibo.
+★
+Recuerden que cliente debe comunicarse 48 
+horas antes del día que desee la suspensión 
+temporal. 
+Speech: Podemos realizar la suspensión 
+temporal del servicio por un plazo mínimo de 
+15 días y máximo, 60 días calendario. Por 
+favor, para realizar tu solicitud, indícame los 
+siguientes datos:
+★
+Fecha de inicio de suspensión y fecha de fin 
+de suspensión.
+★
+Ir al proceso de Preguntas de Validación y 
+seguridad] realizar las preguntas 
+completas.
+★
+Grabación de VOZ.
+★
+Llenar Plantilla en CRM
+|COD|
+|DNI|
+|MOTIVO|
+|SUBMOTIVO|
+|FECHA INICIO|
+|FECHA FIN|
+|CANTIDAD DE DÍAS|
+|OBSERVACIONES|
+★
+Plazo de 48 
+horas para la 
+ejecución de la 
+suspensión.
+★
+No se debe 
+colocar 
+suspensiones 
+para el Dia 
+Domingo, si el 
+cliente llama el 
+Sábado para 
+iniciar 
+suspensión el 
+Domingo debe 
+colocarse 
+Fecha de 
+Lunes.
+Cliente consulta por suspensión menor a 15 días
+Para Suspensión Temporal No Aplica por Plazo 
+Mín:
+Sentimos comunicar(te/le) que, por normativa de 
+OSIPTEL, el plazo mínimo de una suspensión 
+temporal es de 15 días calendario.
+Aplicar Speech 
+Para Suspensión Temporal No Aplica por Plazo 
+Máx:
+Sentimos comunicar(te/le) que, por normativa de 
+OSIPTEL, el plazo máximo de una suspensión 
+temporal es de 60 días calendario.
+Debe tener pagado al 
+menos 1 recibo.
+Para Fidelización, 
+aplicar excepción de 
+suspensión por 90 
+días.
+Para Suspensión Temporal Ejecutada:
+He tomado (tu/su) solicitud de suspensión temporal 
+para el servicio [Indicar Plan] por un plazo de XX días 
+calendario desde las 00:00 horas del [Indicar Fecha de 
+Inicio] hasta las 00:00 horas del [Indicar Fecha de Fin]. 
+Por lo cual, el día XXXX recibirá(s) (tu/su) recibo, 
+considerando que el monto a pagar será proporcional 
+a los días de uso del servicio.
+Registrar variación de 
+suspensión en CMR 
+Experiencia.
+EL DIA POSTERIOR A 
+LA REACTIVACION
+
+---PAGE_BREAK---
+QUÉ HAGO
+QUÉ DIGO
+PROTOCOLO DE GESTIONES 
+REACTIVACIÓN 
+SUSPENSIÓN 
+TEMPORAL
+Cliente quiere reactivar su servicio antes de 
+cumplir los 15 días de suspensión:
+Antes de los 15 días como mínimo:
+Aplicar Speech:
+(Nombre del Cliente), para la reactivación de 
+su servicio, es necesario que pueda contar 
+con un  mínimo de 15 días como 
+suspendido. Por lo cual, no vamos a poder 
+reactivar el servicio.
+Verificar que no tenga una 
+variación en proceso.
+PLANTILLA CRM:
+|COD|
+|DNI|
+|MOTIVO|
+|OBSERVACIONES|
+Después de los 15 días como mínimo:
+(Nombre del Cliente), el plazo de 
+reactivación es [Indicar la fecha fin de 
+suspensión seleccionada en CRM 
+Experiencia], según la solicitud realizada.
+Si desea reactivación previa a la fecha 
+pactada:De acuerdo, vamos a proceder con 
+la validación de identidad.
+Validar datos de seguridad titular a través 
+de las PREGUNTAS DE VALIDACIÓN Y 
+SEGURIDAD]
+TIPIFICAR EN CRM
+Si responde correctamente, indicarle:
+(Nombre del cliente) hemos procedido con 
+la solicitud de reactivación de tu servicio. 
+Este cambio se hará efectivo en un máximo 
+de 24 horas. Tu código de solicitud es el 
+[Indicar ID de CRM].
+Llenar la Solicitud de 
+Reactivación en CRM para que 
+se ejecute.
+Si Cliente llama dia Sabado
+colocar reactivación para el 
+Lunes. .
+Cuando realizar una solicitud de cambio 
+de Patch Cord:
+Cuando se rompe o deteriora por
+manipulación o causas internas al domicilio.
+Necesitamos cambiar su cable amarillo 
+(patch cord) en una visita técnica. Tiene un 
+costo de S/60. El cual lo puede dividir en 1o 
+3 cuotas sin intereses que se facturarán en 
+su recibo mensual.
+Cuéntame, se encontraría de acuerdo?
+★
+Realizar Preguntas de Validación y 
+seguridad]
+★
+REALIZAR GRABACIÓN DE VOZ.
+Llenar Plantilla CRM con solicitud. 
+|COD CLIENTE|
+|DNI|
+|SERVICIO SOLICITADO|
+|MONTO TOTAL|
+|CUOTAS|
+|MONTO de CUOTA|
+|DIRECCIÓN|
+|REFERENCIA|
+|CELULAR|
+1.
+Registrar ticket y 
+verificar que tenga al 
+menos un recibo 
+pagado.
+Tarifario:
+★
+S/.60.00
+PLAZO : Seleccionar 
+disponibilidad de VT 
+mediante quantum.
+LLENAR LA SOLICITUD EN 
+QUANTUM
+POSVENTA CAMBIO CABLE 
+PATCH CORD
+CAMBIO CABLE 
+PATCH CORD
+
+---PAGE_BREAK---
+A solicitud del Cliente por los siguientes 
+escenarios, Cliente menciona en la llamada 
+que su ONT sufrió daños:
+★
+Físicos: Daños por golpes, derrames o 
+daños ocasionados por mascotas. Se 
+cobra ONT.
+★
+Debe devolver ONT anterior.
+Speech: Podemos realizar el cambio del 
+router, el costo es de S/ 220.  El cual lo 
+puedes dividir hasta en 1,2,5,8,10 Cuotas sin 
+intereses que se facturará en su recibo 
+mensual.
+Si el cliente no desea ofrecemos el costo del 
+50% S/110 el cual lo puede dividir 1,2, o 5 
+cuotas.
+Si el cliente acepta proceder a Validar datos 
+de seguridad titular a través de 
+las PREGUNTAS DE VALIDACIÓN Y 
+SEGURIDAD
+Realizar Grabación de voz. 
+Llenar la solicitud en CRM con la siguiente 
+Plantilla:
+|COD CLIENTE|
+|DNI|
+|SERVICIO SOLICITADO|
+|MONTO TOTAL|
+|CUOTAS|
+|MONTO DE CUOTA|
+|DIRECCIÓN|
+|REFERENCIA|
+|CELULAR|
+RECORDAR no debes tomar 
+VTS ni post venta a clientes 
+con deuda pendiente si 
+después del 28 del mes el 
+cliente tiene deuda, se debe 
+invitar a pagar y no tomar 
+pedido, porque tiene deuda 
+pendiente. 
+★
+Costo del cambio de 
+ONT: 220 SOLES 
+★
+Si el cliente no desea 
+ofrecemos el costo del 
+50%.
+★
+SUBIR TICKET A 
+QUANTUM  VT 
+POSTVENTA CAMBIO 
+DE  ONT.
+★
+Cliente debe devolver 
+ONT anterior. 
+CAMBIO DE ONT
+QUÉ DIGO
+QUÉ HAGO
+El plazo aproximado para la reinstalación del 
+servicio es de 24 horas a partir de la solicitud 
+brindada y tiene un costo de S/ 170. El cual 
+puede dividir en 1, 2, 4, 10 cuotas sin intereses 
+que se facturará en su recibo mensual.
+Si cliente no acepta costo inicial: Debido a los 
+inconvenientes, le ofrecemos un 50% de 
+descuento, el cual lo puedes dividir en 1, 2 0 5 
+cuotas sin intereses que se facturará en su 
+recibo mensual.
+Si el cliente acepta recuerda Validar datos de 
+seguridad titular (5 preguntas)
+Realizar Grabación de voz. 
+Plantilla CRM:
+|COD CLIENTE|
+|DNI|
+|SERVICIO SOLICITADO|
+|MONTO TOTAL|
+|CUOTAS|
+|MONTO DE CUOTA|
+|DIRECCIÓN|
+|REFERENCIA|
+|CELULAR|
+Aplica por rotura de fibra o
+reubicación con exceso de 
+metraje:
+Registrar ticket y verificar 
+que tenga al menos un recibo 
+pagado.
+Tarifario:
+★
+S/. 170.00
+★
+Si cliente no acepta 
+costo inicial ofrecer 
+50% descuento.
+Cliente debe estar VIGENTE
+LLENAR TICKET  EN 
+QUANTUM POST VENTA 
+REINSTALACIÓN
+Seleccionar Cupo e indicar 
+tramo al cliente 
+Cliente debe tener el 
+Router, sino debemos 
+ofrecer con costo
+REINSTALACIÓN 
+DE SERVICIO
+
+---PAGE_BREAK---
+MUDANZA / 
+TRASLADO DE 
+SERVICIO
+QUÉ HAGO
+QUÉ DIGO
+El cliente se muda de domicilio y solicita
+trasladar el servicio a la nueva Ubicación:
+1.
+Speech: Gracias por contactarnos antes 
+de su mudanza. 
+Por favor, indíqueme) los siguientes datos para 
+validar si la nueva dirección cuenta con cobertura 
+PERÚ FIBRA:
+-
+Dirección exacta.
+-
+Tipo de vivienda: condominio, casa, 
+edificio.
+-
+Referencia.
+1.
+Si la dirección tiene cobertura PERÚ 
+FIBRA: Podemos realizar el traslado del 
+servicio, según dispoinibilidad de 
+atenciones, tiene un costo de S/120, lo 
+puede) dividir en 1, 2, 3, 6 o 12 cuotas sin 
+intereses , el cual se facturará en su recibo 
+mensual.
+Si el cliente no acepta el traslado a 120 soles 
+ofrecer el 50% de descuento, S/60,  puede dividir 
+en 1 o 3 cuotas sin intereses 
+3. El cliente debe llevar el router a la nueva 
+ubicación para realizar el traslado del servicio.
+4. Llena la solicitud en CRM con la siguiente 
+Plantilla:
+Mudanza o Traslado del servicio:
+|COD CLIENTE|
+|DNI|
+|SERVICIO SOLICITADO|
+|MONTO TOTAL|
+|CUOTAS|
+|MONTO de CUOTA|
+|DIRECCIÓN ACTUAL|
+|NUEVA DIRECCIÓN|
+|COORDENADAS DE NUEVA DIRECCIÓN|
+|REFERENCIA|
+|CELULAR|
+Validar clasificación del cliente
+y que el traslado se realice 
+máximo hasta el piso 7.
+Tarifario:
+★
+S/.120.00
+★
+Si el cliente no desea 
+ofrecemos el costo del 
+50%.
+5. Recuerda hacer la 
+grabación de Voz 
+Correspondiente.
+6. LLENAR SOLICITUD EN 
+QUANTUM
+Llena todo los campos 
+solicitados. IMPORTANTE 
+COLOCAR LAS NUEVAS 
+COORDENADAS
+Aplica Para edificio no habilitado en distritos 
+Alto Valor de Lima:
+¿Cuál es la fecha de (tu/su) mudanza?
+Estamos emocionados de poder brindar(te/le)
+nuestro servicio desde el primer día en tu nuevo 
+hogar. Para iniciar la instalación, solo 
+necesitamos la autorización de la Junta de 
+Propietarios o del Administrador. Si nos 
+proporcionas un teléfono de contacto, nos 
+encargaremos de todo el seguimiento por ti. La 
+instalación de PERÚ FIBRA en (tu/su) edificio 
+tomará XXX días.
+Si la dirección NO tiene cobertura PERÚ 
+FIBRA:
+En estos momentos, no tenemos cobertura PERÚ 
+FIBRA en (tu/su) nueva dirección. Hemos 
+registrado (tus/sus) datos para contactar(te/lo(a)) 
+tan pronto como tengamos cobertura en esa 
+área.
+Registrar en CRM 
+Experiencia.
+MUDANZA / 
+TRASLADO DE 
+SERVICIO
+
+---PAGE_BREAK---
+REUBICACIÓN DE 
+ROUTER
+Una reubicación es cuando el cliente solicita 
+cambiar de lugar el router dentro de la casa. 
+El plazo aproximado para la reubicación del 
+router es según disponibilidad.
+Speech: El costo de la reubicación de su Router
+es de S/120.00. Lo puede dividir en 1, 2, 3, 6 a 
+12 cuotas sin intereses que se facturarán en su 
+recibo mensual.
+Si el cliente no acepta el costo real ofrecer el 
+50%: Debido a los inconvenientes le ofrecemos 
+un 50% de descuento, S/60.00 el cual lo puedes 
+dividir en 1 o 3 cuotas sin intereses que se 
+facturarán en su recibo mensual.
+Por favor, para realizar su solicitud, indícame a 
+cuántos metros de la ubicación actual deseas 
+reubicar su equipo.
+1.
+Llena la solicitud en CRM con la 
+siguiente Plantilla:
+|COD CLIENTE|
+|DNI|
+|SERVICIO SOLICITADO|
+|MONTO TOTAL|
+|CUOTAS|
+|MONTO DE CUOTA|
+|DIRECCIÓN|
+|REFERENCIA|
+|CELULAR|
+2. LLENAR SOLICITUD EN EL QUANTUM:
+POSVENTA-REUBICACIÓN DE ONT.
+3. Recuerda hacer la grabación de Voz 
+Correspondiente.
+Registrar ticket y verificar 
+que tenga al menos un 
+recibo pagado.
+Tarifario:
+★
+S/. 120.00 
+★
+Si no acepta el costo 
+inicial ofrecer 
+descuento del 50%.
+QUÉ DIGO
+QUÉ HAGO
+CABLEADO DE 
+MESH(solo 
+retenciones) NO 
+APLICA ATC
+El plazo aproximado para el cableado del mesh
+es de 48 Hrs. a partir de la confirmación 
+brindada y tiene un costo de S/ XXX. 
+Si es cliente masivo:
+Lo puedes dividir en X cuotas sin intereses que 
+se facturarán en (tu/su) recibo mensual.
+Si es cliente masivo con ticket:
+Debido a los inconvenientes, (te/le) ofrecemos 
+un X% de descuento, el cual lo puedes dividir en 
+6 cuotas sin intereses que se facturarán en 
+(tu/su) recibo mensual.
+Cuéntame, ¿(te/se) encontraría(s) de acuerdo?
+Registrar ticket y verificar 
+que tenga al menos un recibo 
+pagado.
+Tarifario:
+★
+Cliente de 
+retenciones: S/. 1.00
+★
+Cliente masivo: S/. 
+120.00 hasta 6 cuotas.
+★
+Cliente masivo con 
+tickets: S/. 150.00 con 
+50% descuento hasta 
+6 cuotas.
+
+---PAGE_BREAK---
+QUÉ HAGO
+QUÉ DIGO
+CAMBIO DE 
+TITULARIDAD O 
+CESIÓN 
+CONTRACTUAL
+Para cambiar de titular, el cliente debe estar 
+al día en sus pagos.
+Cliente debe tener el primer recibo emitido y 
+pagado. 
+Coménteme, ¿el nuevo titular es una persona 
+natural o jurídica?
+Por favor, para registrar su solicitud, es 
+necesario contar con los siguientes requisitos:
+Correo electrónico del nuevo titular.      
+Número de teléfono del nuevo titular.  
+Copia legible, por ambas caras, del documento 
+de identidad del titular actual. DNI VIGENTE        
+Copia legible, por ambas caras, del documento 
+de identidad del nuevo titular. DNI VIGENTE         
+-
+Formato de cesión de posesión 
+contractual y firmado por ambos 
+solicitantes.
+-
+[Solo para cesión contractual] Vigencia 
+de poderes de la empresa actualizada a 
+la fecha. Mínimo de actualización 3 
+meses.
+-
+Informar al cliente que Las firmas en el 
+documento deben ser realizadas a 
+mano y similares a las del DNI. No se 
+aceptan fotos de firmas, ni firmas 
+digitales.
+Indicar al cliente que el formato de cambio de 
+titularidad o cesión contractual lle llegará a su 
+correo registrado en su perfil de cliente y 
+tendrá un plazo de 48h hábiles para enviar la 
+documentación caso contrario la solicitud se 
+cancelará.
+*Si el cliente no tiene acceso al correo 
+electrónico registrado  deben validar datos de 
+seguridad y realizar la actualización del correo.
+*Debes recolectar los datos correctos del 
+nuevo titular (el correo electrónico y número de 
+celular no pueden ser los mismos que el titular 
+actual).
+*Fecha de instalación: Cliente necesitará esta 
+fecha en uno de los formatos que se enviarán. 
+En ese caso, deberás realizar las preguntas 
+de validación de titularidad (completas) y 
+luego brindarle la fecha de instalación 
+correspondiente
+*Para los cambios de titularidad por 
+"FALLECIMIENTO", se podrá actualizar el 
+correo electrónico sin preguntas de validación, 
+para el envío correcto del formato de cambio 
+de titularidad.
+★
+Cliente no debe tener 
+recibo pendiente (si 
+tiene recibo recién 
+emitido del mes, 
+deberá cancelarlo por 
+adelantado para 
+poder ingresar su 
+solicitud de cambio 
+de titularidad)
+★
+PLANTILLA CRM 
+|Cod. pedido|
+|Nombre de antiguo titular|
+|Número de documento 
+Antiguo titular|
+|Nombre de nuevo titular|  
+|Número de documento 
+nuevo titular|  
+|Teléfono de nuevo titular|  
+|Correo del nuevo titular|
+|OBS|
+
+---PAGE_BREAK---
+QUÉ HAGO
+QUÉ DIGO
+CAMBIO DE IP 
+Cliente solicita cambio de IP Privada a 
+Pública. 
+Comprendo su solicitud y su interés en contar 
+con una IP Pública.
+Actualmente, Perú Fibra trabaja con IP Privada 
+en todos los servicios, por lo que no 
+realizamos el cambio a IP Pública. 
+En caso de que más adelante este servicio 
+esté disponible, con gusto lo estaremos 
+informando por nuestros canales oficiales.
+Posicionamiento positivo 
+ante una respuesta 
+negativa.
+
+---PAGE_BREAK---
+PROTOCOLO DE 
+FACTURACIÓN
+Última actualización: 25 de Mayo de 2026
+
+---PAGE_BREAK---
+Si el cliente tiene deuda:
+Tiene(s) un recibo pendiente de S/XXX, el cual fue 
+emitido el 04 de [Indicar mes] y venció el 28 del 
+mismo mes. Puede(s) realizar el pago con (tu/su) 
+número de documento de identidad a través de 
+Yape, BCP, Interbank y BBVA,
+¿Tiene(s) alguna duda sobre la información 
+brindada? 
+El cliente desea conocer:
+★
+Código de pago.
+★
+Formas de pago
+★
+Deuda actual
+Si el cliente NO tiene deuda:
+No tiene(s) deuda pendiente.
+Recuerda que (tu/su) recibo se emite los días XX de 
+[Indicar mes] y vence el 28 del mismo mes. Puede(s)
+realizar (tus/sus) próximos pagos con (tu/su) número 
+de documento de identidad a través de Yape, BCP, 
+Interbank y BBVA,
+¿Tiene(s) alguna duda sobre la información 
+brindada?
+Si la instalación es del 18 al 
+03, la fecha de emisión será 
+los 04 de cada mes.
+Si la instalación es del 04 al 
+17, la fecha de emisión será 
+los 18 de cada mes.
+PROTOCOLO DE 
+FACTURACIÓN
+DÉBITO 
+AUTOMÁTICO
+Por el momento, no brindamos esas opciones. 
+Tomaremos en consideración lo que nos indica(s)
+para brindar(te/le) mayores facilidades a futuro.
+Cliente desea saber si 
+podemos aplazar la fecha de 
+corte o fraccionar la deuda. 
+FACILIDADES 
+DE PAGO 
+Visita la página web del banco de (tu/su) preferencia 
+para conocer cómo afiliar(te/se) al débito 
+automático. Puede(s) afiliar(te/se) desde la página 
+web de Interbank o presencialmente en BBVA y 
+BCP.
+Aplicar speech cuando el 
+cliente desea saber cómo 
+afiliarse al débito automático.
+QUÉ HAGO
+QUÉ DIGO
+SUSPENDIDO 
+NO FIGURA 
+CRM EXP.
+Tiene(s) un recibo pendiente de S/XXX, el cual fue 
+emitido el 04 de [Indicar mes] y venció el 28 del 
+mismo mes. Puede(s) realizar el pago con (tu/su) 
+número de documento de identidad a través de 
+Yape, BCP, Interbank y BBVA,
+Recuerda que la reconexión del servicio se dará en 
+un plazo máximo de 24 Hrs., después de regularizar 
+el pago.
+¿Tiene(s) alguna duda sobre la información 
+brindada? 
+Cliente con servicio 
+SUSPENDIDO - NO FIGURA 
+PAGO EN CRM Exp.
+PLAZO DE 
+RECONEXIÓN
+Estamos trabajando para que pueda(s) contar con el 
+servicio lo más pronto posible. En menos de 24 
+horas, (tu/su) servicio estará activo.
+Gracias por (tu/su) paciencia.
+Cliente con servicio 
+SUSPENDIDO desea plazo de 
+reconexión.  
+CICLO O 
+DETALLE DE 
+FACTURACIÓN
+
+---PAGE_BREAK---
+Cliente solicita Ajuste por Avería o Masivo:
+Qué debes hacer?
+★
+Entender la situación: 
+Speech: Entiendo su incomodidad por la afectación.
+★
+Sondear el tiempo de afectación: 
+¿Podría indicarme desde cuándo presentó 
+inconvenientes con el servicio?
+¿Aproximadamente cuántos días estuvo sin 
+servicio?
+★
+Revisa los reportes previos:
+Validar contactos previos sobre reporte de avería por 
+parte del cliente.
+★
+Cliente debe contar con un recibo emitido.
+Con todos los datos que el cliente te facilita LLena la 
+planilla de Solicitud en CRM.
+Si el cliente tiene 2 pedidos colocar el Código al cual 
+está solicitando el ajuste.
+★
+Usa la calculadora para saber el monto 
+reclamado de acuerdo a los días de la 
+afectación. 
+★
+Descuento es cuando no hay recibo emitido. 
+Ajuste es al recibo actual. 
+Speech: 
+Permítame comentarle que los descuentos o ajustes 
+son gestionados únicamente por el área de 
+facturación, es por ello que he enviado la solicitud 
+con sus observaciones, ellos revisarán el caso y de 
+aprobarse lo verá reflejado en su recibo.
+Gracias por su comprensión.
+Plazo de Resolución: 48 horas hábiles para la 
+ejecución. (Los fines de Semana no se aplican 
+ajustes ni descuentos, todo lo solicitado el 
+Viernes, Sábado y Domingo recién se gestiona el 
+Lunes por el área de facturación, es decir se 
+excluyen los fines de semana y feriados.
+Se empático y Registra  la 
+solicitud. 
+Consideraciones:
+★
+Utilizar plantillas de 
+ajustes ubicadas en el 
+drive de ATC, 
+colocando los motivos 
+y sub motivos 
+correctos. 
+★
+Realizar la tipificación 
+correcta en CRM. 
+Retrasos en recibos por Yape o BBVA ( Clientes 
+reportan que le aparecen recibos.
+Que Decir: Lamento las molestias que has tenido 
+con el proceso de  su pago.
+Sondear: Has intentado realizar el pago por BBVA 
+O INTERBANK?
+Bien ante este caso estoy reportando el 
+inconveniente con tu recibo para que puedas realizar 
+el pago en (BBVA O YAPE)
+Ofrecer una segunda opción: 
+Algunos recibos se están actualizando, puede 
+deberse a una demora momentánea. Si tiene 
+disponibilidad puede realizar el pago por Interbank, 
+mientras se actualiza en los demás aplicativos.
+Si el cliente solo tiene YAPE O BBVA e intenta y no 
+le sigue apareciendo el recibo le informamos: 
+Estamos reportando el inconveniente con tu recibo 
+para que en las próximas horas puedes realizar el 
+pago por BBVA O YAPE.
+PROTOCOLO DE FACTURACIÓN
+AJUSTE O 
+DESCUENTO 
+POR 
+FACTURACIÓN 
+QUÉ HAGO
+QUÉ DIGO
+PROBLEMAS 
+DE PAGO 
+MEDIANTE 
+APLICATIVO
+
+---PAGE_BREAK---
+Cliente indica que pagó por error otro servicio de 
+PF o Win. 
+Qué debes hacer?
+Entiendo lo que ocurrió, no te preocupes, voy  a 
+ayudarte con la revisión. 
+★
+Sondeo:
+Me confirmas por favor a qué Código realizaste el 
+pago?
+Por favor el monto y Fecha:
+Aplicativo:
+¿Tienes el comprobante o fecha del pago? (Que lo 
+adjunte mediante chat)
+Validar en CRM:
+Monto
+Fecha
+Servicio al que se aplicó.
+Con estos datos vas a llenar la plantilla de Ajuste 
+Correspondiente. 
+Plazo de Resolución: 48 horas hábiles para el 
+ajuste correspondiente:
+Voy a generar la solicitud de revisión para que 
+este pago se pueda validar y se aplique 
+correctamente a su servicio. Esto puede tomar 
+hasta 48 horas mientras que el área realiza los 
+ajustes. 
+Escuchar con atención
+Investigar 
+Llenar plantilla de ajuste. 
+PROTOCOLO DE 
+FACTURACIÓN
+CLIENTE PAGA 
+POR ERROR 
+OTRO 
+SERVICIO  
+PERÚ FIBRA
+QUÉ HAGO
+QUÉ DIGO
+CLIENTE 
+REPORTA QUE 
+NO LE LLEGO 
+EL RECIBO A 
+SU CORREO 
+Cliente reporta que no le ha llegado el recibo de 
+pago por correo.
+Entiendo que no has recibido el recibo de pago a 
+través del correo electrónico. 
+Sondea:
+Anteriormente has recibido los recibido por correo?
+Descartes:
+Descarta que el correo haya llegado a Spam. 
+Valida que el correo registrado sea válido y esté en 
+funcionamiento. 
+En caso de que el cliente tenga un correo nuevo 
+procede a actualizar el correo.
+Speech:
+En caso no te haya llegado tu recibo a la bandeja 
+principal de tu correo, por favor verifica tu bandeja 
+de correos no deseados o spam. Adicionalmente, 
+verifica que nuestro correo electrónico 
+facturación@perufibra.pe no se encuentre en la 
+lista de correos bloqueados de tu servicio de correo 
+electrónico.
+Escuchar la consulta del 
+cliente.
+Descartar que el correo no 
+haya llegado a la bandeja de 
+SPAM. 
+
+---PAGE_BREAK---
+PROTOCOLO DE 
+FACTURACIÓN
+QUÉ HAGO
+QUÉ DIGO
+Cliente consulta cual es el Código para pagar su 
+servicio.
+El Código de pago es el Documento de identidad del 
+titular del servicio. 
+Aplicar speech cuando el 
+cliente desea saber cuál es su 
+código de pago.
+Cliente consulta cómo realizar el pago:
+Puede efectuar el pago ingresando a BBVA, YAPE E 
+INTERBANK :
+→Haz Click en la opción Pagar Servicios →
+Buscar Peru Fibra →Coloca su documento de 
+identidad y realiza el pago. 
+Por agentes de los mismos bancos también puede 
+realizar el pago.
+Aplicar speech cuando el 
+cliente desea saber cómo 
+pagar
+CÓDIGO DE 
+PAGO 
+PASOS PARA 
+REALIZAR 
+PAGO 
+Hay alguna manera de pagar mi recibo con 
+tarjeta?
+Speech: Con gusto le explico cómo puede pagar
+con su tarjeta.
+Ingrese al aplicativo de su banco, seleccione la
+tarjeta con la que desea pagar y toque la opción
+Pagar servicios. Después, escriba Peru Fibra en el
+buscador y la aplicación le mostrará el recibo para
+realizar el pago.
+Aplicar speech cuando el 
+cliente desea pagar con su 
+TC. 
+CLIENTE 
+QUIERE 
+PAGAR 
+MEDIANTE TC 
+DONDE VEO 
+MI Y 
+CUANDO 
+DEBO 
+PAGARLO
+¿Dónde veo mi recibo y cuándo debo pagarlo?
+Te lo enviamos cada mes al correo electrónico 
+registrado. Ahí verás la fecha de pago, tu código de 
+pago y el monto.
+Escucha la solicitud del 
+cliente.
+Verifica en CRM la 
+información. 
+
+---PAGE_BREAK---
+POLÍTICA DE 
+ESCALACIÓN 
+SUPERVISOR 
+Última actualización: 21 de Marzo de 2026 
+
+---PAGE_BREAK---
+Manejo de Solicitudes de Escalación  Supervisor
+Cuando un cliente solicita un supervisor, el asesor debe validar la razón, intentar resolver
+dentro de su alcance y escalar sólo cuando corresponda, garantizando siempre respeto y
+transparencia.
+1. Lineamientos obligatorios para el asesor
+1.1. Escucha activa y validación
+Escuchar sin interrumpir.
+Validar con empatía.
+Mostrar disposición para ayudar.
+Ejemplo: Entiendo, y gracias por informar. Permítame ayudarle con su caso.
+1.2. Intento de resolución (FCR)
+Antes de escalar, el asesor debe:
+Revisar si la solicitud es gestionable en su nivel.
+Agotar todas las herramientas y procesos.
+Explicar con claridad lo que sí puede hacer en ese momento.
+Speech:
+Puedo ayudarle directamente con este proceso, y así avanzamos más rápido.
+1.3. Criterios para escalar a un supervisor
+El asesor solo debe transferir o solicitar intervención de un supervisor cuando:
+El cliente insiste en que le comuniquen a un supervisor.
+No puedes incentivar en llamada a la escalación.
+1.4. Protocolo de escalamiento:
+Si el supervisor está disponible:
+Informar al cliente: Permítame un momento, voy a coordinar con mi supervisión.
+Transferir siguiendo el protocolo de la operación.
+Si el supervisor NO está disponible:
+Registrar la solicitud en CRM.
+Informar con claridad el plazo de contacto.
+Speech Cuando supervisor esté en otra llamada de escalación:
+En este momento mi supervisora está en gestión, pero ya registré su solicitud y se
+comunicará con usted en un plazo máximo de 24 horas hábiles. (Solo si el supervisor está en
+otra llamada).
+1.5. Prohibiciones: El asesor no debe:
+Decir no hay supervisores sin ofrecer alternativa.
+Colgar, negar la solicitud o evitarla.
+Prometer tiempos que no existen.
+Transferir la llamada sin contexto o sin explicar el caso.
+Hablar mal de la empresa o los compañeros.
+1.6 Registro obligatorio:
+Todo caso donde se solicita un supervisor debe quedar registrado con:
+Motivo de la solicitud.
+Gestión realizada por el asesor.
+Si se escaló o no, y por qué.
+Nota interna.
+Speech:
+Cliente indica quiero hablar con tu supervisor.
+Asesor: Entiendo que deseas hablar con un supervisor
+Con gusto puedo ayudarle con el escalamiento. Antes de transferirlo, necesito validar su
+caso para documentarlo correctamente y asegurar que el supervisor cuente con toda la
+información para ayudarle sin retrasos.
+Si el cliente insiste sin validar:
+Comprendo completamente. Procederé con el escalamiento.
+PROTOCOLO DE ESCALACIÓN SUPERVISOR 
+POLÍTICA 
+DE 
+ESCALACIÓN 
+SUPERVISOR 
+
+---PAGE_BREAK---
+CAMBIO DE 
+TITULARIDAD
+Última actualización: 11 de Octubre del 2024
+
+---PAGE_BREAK---
+[Cuidad], [Fecha]
+CONTRATO DE CESIÓN DE POSICIÓN CONTRACTUAL
+Conste por el presente documento el contrato de Cesión de Posición Contractual que celebran de una
+parte [Razón social del titular actual], con RUC N° [Colocar número de RUC], con domicilio en
+[Indicar dirección], [Indicar Ciudad], a la que en adelante se le denominará LA CEDENTE y de otra
+parte la empresa [Indicar Razón Social], identificada con RUC N° [Indicar Número de RUC] con
+domicilio fiscal en [Indicar Dirección de la empresa], debidamente representada por su Representante
+Legal [Indicar Nombre del Representante Legal] identificado con [Tipo de Documento] N° [Indica
+Número de Documento] a quién en adelante se le denominará LA CESIONARIA y de otra parte WI-
+NET TELECOM S.A.C., identificada con RUC N° 20521233991, con domicilio en Av. República de
+Panamá Nro. 3418 Int. 2301 – Urb. Limatambo - San Isidro, Lima, a quien en adelante se le denominará
+EL PROVEEDOR; en los términos y condiciones siguientes:
+ANTECEDENTES
+PRIMERA. - Con fecha [Indicar Fecha de instalación], LA CEDENTE celebró con EL PROVEEDOR un
+contrato de prestación del servicio de internet a domicilio, cuyas características aparecen en el referido
+contrato.
+SEGUNDA. - LA CESIONARIA está interesada en brindar el servicio referido en la cláusula anterior,
+asimismo asumir la posición contractual de LA CEDENTE frente a EL PROVEEDOR en los términos y
+condiciones expuestos en el contrato.
+OBJETO
+TERCERA. - Por el presente LA CEDENTE cede su posición contractual a LA CESIONARIA, asumiendo
+está última todos los derechos y obligaciones derivados de la contratación del servicio referido en la
+cláusula primera.
+CONFORMIDAD
+CUARTA. - EL PROVEEDOR por la presente otorga su conformidad con la cesión realizada.
+LEGISLACIÓN APLICABLE
+QUINTA. - Son aplicables al presente contrato las disposiciones del Código Civil peruano. El presente
+se regirá e interpretará conforme a la legislación peruana; sometiéndose las partes a la jurisdicción de
+los tribunales ordinarios de la ciudad de Lima, renunciando a cualquier otro fuero o jurisdicción que
+pudiera corresponder.
+_________________________
+_________________________
+LA CEDENTE                                                                        LA CESIONARIA
+_________________________
+PROVEEDOR
+El documento no debe presentar manchas ni 
+borrones.
+El documento debe estar firmado por el titular 
+actual y el nuevo titular.
+Conoce cómo llenar el formato - RUC A RUC
+Los datos deben ser legibles.
+Completa todos los campos indicados.
+
+---PAGE_BREAK---
+__________, _______
+CONTRATO DE CESIÓN DE POSICIÓN CONTRACTUAL
+Conste por el presente documento el contrato de Cesión de Posición Contractual que celebran
+de
+una
+parte
+_____________________________________________________,
+con
+RUC
+N°________________________,
+con
+domicilio
+en
+________________________________________________________________, ____________________,
+a la que en adelante se le denominará LA CEDENTE y de otra parte la empresa
+___________________________________________________,
+identificada
+con
+RUC
+N°
+________________________ con domicilio fiscal en _________________________________________,
+debidamente
+representada
+por
+su
+Representante
+Legal
+____________________________________________________ identificado con _________________
+N° ___________________ a quién en adelante se le denominará LA CESIONARIA y de otra parte
+WI-NET TELECOM S.A.C., identificada con RUC N° 20521233991, con domicilio en Av.
+República de Panamá Nro. 3418 Int. 2301 – Urb. Limatambo - San Isidro, Lima, a quien en
+adelante se le denominará EL PROVEEDOR; en los términos y condiciones siguientes:
+ANTECEDENTES
+PRIMERA. - Con fecha _________________, LA CEDENTE celebró con EL PROVEEDOR un
+contrato de prestación del servicio de internet a domicilio, cuyas características aparecen en el
+referido contrato.
+SEGUNDA. - LA CESIONARIA está interesada en brindar el servicio referido en la cláusula
+anterior, asimismo asumir la posición contractual de LA CEDENTE frente a EL PROVEEDOR en
+los términos y condiciones expuestos en el contrato.
+OBJETO
+TERCERA. - Por el presente LA CEDENTE cede su posición contractual a LA CESIONARIA,
+asumiendo está última todos los derechos y obligaciones derivados de la contratación del
+servicio referido en la cláusula primera.
+CONFORMIDAD
+CUARTA. - EL PROVEEDOR por la presente otorga su conformidad con la cesión realizada.
+LEGISLACIÓN APLICABLE
+QUINTA. - Son aplicables al presente contrato las disposiciones del Código Civil peruano. El
+presente se regirá e interpretará conforme a la legislación peruana; sometiéndose las partes a la
+jurisdicción de los tribunales ordinarios de la ciudad de Lima, renunciando a cualquier otro fuero
+o jurisdicción que pudiera corresponder.
+_________________________
+_________________________
+LA CEDENTE                                                                        LA CESIONARIA
+_________________________
+PROVEEDOR
+
+---PAGE_BREAK---
+[Cuidad], [Fecha]
+CONTRATO DE CESIÓN DE POSICIÓN CONTRACTUAL
+Conste por el presente documento el contrato de Cesión de Posición Contractual que celebran de una
+parte [Razón social del titular actual], con RUC N° [Colocar número de RUC], con domicilio en
+[Indicar dirección], [Indicar Ciudad], a la que en adelante se le denominará LA y de otra parte [Indicar
+Nombre del Nuevo Titular], identificado con [Tipo de Documento (DNI/CE)] N° [Indicar Número de
+Documento] con domicilio en [Indicar Dirección], a quien en adelante se le denominará LA
+CESIONARIA y de otra parte WI-NET TELECOM S.A.C., identificada con RUC N° 20521233991, con
+domicilio en Av. República de Panamá Nro. 3418 Int. 2301 – Urb. Limatambo - San Isidro, a quien en
+adelante se le denominará EL PROVEEDOR; en los términos y condiciones siguientes:
+ANTECEDENTES
+PRIMERA. - Con fecha [Indicar Fecha de instalación], LA CEDENTE celebró con EL PROVEEDOR un
+contrato de prestación del servicio de internet a domicilio, cuyas características aparecen en el referido
+contrato.
+SEGUNDA. - LA CESIONARIA está interesada en brindar el servicio referido en la cláusula anterior,
+asimismo asumir la posición contractual de LA CEDENTE frente a EL PROVEEDOR en los términos y
+condiciones expuestos en el contrato.
+OBJETO
+TERCERA. - Por el presente LA CEDENTE cede su posición contractual a LA CESIONARIA, asumiendo
+está última todos los derechos y obligaciones derivados de la contratación del servicio referido en la
+cláusula primera.
+CONFORMIDAD
+CUARTA. - EL PROVEEDOR por la presente otorga su conformidad con la cesión realizada.
+LEGISLACION APLICABLE
+QUINTA. - Son aplicables al presente contrato las disposiciones del Código Civil peruano. El presente se
+regirá e interpretará conforme a la legislación peruana; sometiéndose las partes a la jurisdicción de los
+tribunales ordinarios de la ciudad de Lima, renunciando a cualquier otro fuero o jurisdicción que pudiera
+corresponder.
+_________________________
+_________________________
+LA CEDENTE                                                                        LA CESIONARIA
+_________________________
+PROVEEDOR
+El documento no debe presentar manchas ni 
+borrones.
+El documento debe estar firmado por el titular 
+actual y el nuevo titular.
+Conoce cómo llenar el formato - RUC A DNI
+Los datos deben ser legibles.
+Completa todos los campos indicados.
+
+---PAGE_BREAK---
+__________, _______
+CONTRATO DE CESIÓN DE POSICIÓN CONTRACTUAL
+Conste por el presente documento el contrato de Cesión de Posición Contractual que celebran
+de
+una
+parte
+____________________________________________________,
+con
+RUC
+N°
+______________________, con domicilio en _______________________________________________,
+__________ , a la que en adelante se le denominará LA y de otra parte _______________________
+,
+identificado
+con
+______________
+N°
+_______________________
+con
+domicilio
+en
+___________________________ , a quien en adelante se le denominará LA CESIONARIA y de otra
+parte WI-NET TELECOM S.A.C., identificada con RUC N° 20521233991, con domicilio en Av.
+República de Panamá Nro. 3418 Int. 2301 – Urb. Limatambo - San Isidro, a quien en adelante se
+le denominará EL PROVEEDOR; en los términos y condiciones siguientes:
+ANTECEDENTES
+PRIMERA. - Con fecha ______________________ , LA CEDENTE celebró con EL PROVEEDOR
+un contrato de prestación del servicio de internet a domicilio, cuyas características aparecen en
+el referido contrato.
+SEGUNDA. - LA CESIONARIA está interesada en brindar el servicio referido en la cláusula
+anterior, asimismo asumir la posición contractual de LA CEDENTE frente a EL PROVEEDOR en
+los términos y condiciones expuestos en el contrato.
+OBJETO
+TERCERA. - Por el presente LA CEDENTE cede su posición contractual a LA CESIONARIA,
+asumiendo está última todos los derechos y obligaciones derivados de la contratación del
+servicio referido en la cláusula primera.
+CONFORMIDAD
+CUARTA. - EL PROVEEDOR por la presente otorga su conformidad con la cesión realizada.
+LEGISLACION APLICABLE
+QUINTA. - Son aplicables al presente contrato las disposiciones del Código Civil peruano. El
+presente se regirá e interpretará conforme a la legislación peruana; sometiéndose las partes a la
+jurisdicción de los tribunales ordinarios de la ciudad de Lima, renunciando a cualquier otro fuero
+o jurisdicción que pudiera corresponder.
+_________________________
+_________________________
+LA CEDENTE                                                                        LA CESIONARIA
+_________________________
+PROVEEDOR
+
+---PAGE_BREAK---
+[Cuidad], [Fecha]
+CONTRATO DE CESIÓN DE POSICIÓN CONTRACTUAL
+Conste por el presente documento el contrato de Cesión de Posición Contractual que celebran de una
+parte [Indicar nombre del Titular Actual], con [Colocar su Tipo de Documento (DNI/CE)] N° [Indicar
+Número de Documento], con domicilio en [Indicar dirección], [Indicar Ciudad], a la que en adelante
+se le denominará LA CEDENTE y de otra parte la empresa [Indicar Razón Social], identificada con
+RUC N° [Indicar Número de RUC] con domicilio fiscal en [Indicar Dirección de la empresa],
+debidamente representada por su Representante Legal [Indicar Nombre del Representante Legal]
+identificado con [Tipo de Documento] N° [Indica Número de Documento] a quién en adelante se le
+denominará LA CESIONARIA y de otra parte WI-NET TELECOM S.A.C., identificada con RUC N°
+20521233991, con domicilio en Av. República de Panamá Nro. 3418 Int. 2301 – Urb. Limatambo - San
+Isidro, Lima, a quien en adelante se le denominará EL PROVEEDOR; en los términos y condiciones
+siguientes:
+ANTECEDENTES
+PRIMERA. - Con fecha [Indicar Fecha de instalación], LA CEDENTE celebró con EL PROVEEDOR un
+contrato de prestación del servicio de internet a domicilio, cuyas características aparecen en el referido
+contrato.
+SEGUNDA. - LA CESIONARIA está interesada en brindar el servicio referido en la cláusula anterior,
+asimismo asumir la posición contractual de LA CEDENTE frente a EL PROVEEDOR en los términos y
+condiciones expuestos en el contrato.
+OBJETO
+TERCERA. - Por el presente LA CEDENTE cede su posición contractual a LA CESIONARIA, asumiendo
+está última todos los derechos y obligaciones derivados de la contratación del servicio referido en la
+cláusula primera.
+CONFORMIDAD
+CUARTA. - EL PROVEEDOR por la presente otorga su conformidad con la cesión realizada.
+LEGISLACION APLICABLE
+QUINTA. - Son aplicables al presente contrato las disposiciones del Código Civil peruano. El presente
+se regirá e interpretará conforme a la legislación peruana; sometiéndose las partes a la jurisdicción de
+los tribunales ordinarios de la ciudad de Lima, renunciando a cualquier otro fuero o jurisdicción que
+pudiera corresponder.
+_________________________
+_________________________
+LA CEDENTE                                                                        LA CESIONARIA
+_________________________
+PROVEEDOR
+El documento no debe presentar manchas ni 
+borrones.
+El documento debe estar firmado por el titular 
+actual y el nuevo titular.
+Conoce cómo llenar el formato - DNI A RUC
+Los datos deben ser legibles.
+Completa todos los campos indicados.
+
+---PAGE_BREAK---
+__________, _______
+CONTRATO DE CESIÓN DE POSICIÓN CONTRACTUAL
+Conste por el presente documento el contrato de Cesión de Posición Contractual que celebran de una parte
+__________________________________________________________,
+con
+___________
+N°
+________________________ , con domicilio en ______________________________________________,
+_____________________, a la que en adelante se le denominará LA CEDENTE y de otra parte la empresa
+______________________________________________________________ , identificada con RUC N°
+____________________
+con
+domicilio
+fiscal
+en
+__________________________________________________________________________, debidamente
+representada por su Representante Legal ___________________________________________________
+identificado con __________ N° _____________________ a quién en adelante se le denominará LA
+CESIONARIA y de otra parte WI-NET TELECOM S.A.C., identificada con RUC N° 20521233991, con
+domicilio en Av. República de Panamá Nro. 3418 Int. 2301 – Urb. Limatambo - San Isidro, Lima, a quien en
+adelante se le denominará EL PROVEEDOR; en los términos y condiciones siguientes:
+ANTECEDENTES
+PRIMERA. - Con fecha ___________________ , LA CEDENTE celebró con EL PROVEEDOR un contrato
+de prestación del servicio de internet a domicilio, cuyas características aparecen en el referido contrato.
+SEGUNDA. - LA CESIONARIA está interesada en brindar el servicio referido en la cláusula anterior,
+asimismo asumir la posición contractual de LA CEDENTE frente a EL PROVEEDOR en los términos y
+condiciones expuestos en el contrato.
+OBJETO
+TERCERA. - Por el presente LA CEDENTE cede su posición contractual a LA CESIONARIA, asumiendo
+está última todos los derechos y obligaciones derivados de la contratación del servicio referido en la
+cláusula primera.
+CONFORMIDAD
+CUARTA. - EL PROVEEDOR por la presente otorga su conformidad con la cesión realizada.
+LEGISLACION APLICABLE
+QUINTA. - Son aplicables al presente contrato las disposiciones del Código Civil peruano. El presente se
+regirá e interpretará conforme a la legislación peruana; sometiéndose las partes a la jurisdicción de los
+tribunales ordinarios de la ciudad de Lima, renunciando a cualquier otro fuero o jurisdicción que pudiera
+corresponder.
+_________________________
+_________________________
+LA CEDENTE                                                                        LA CESIONARIA
+_________________________
+PROVEEDOR
+
+---PAGE_BREAK---
+[Cuidad], [Fecha]
+CONTRATO DE CESIÓN DE POSICIÓN CONTRACTUAL
+Conste por el presente documento el contrato de Cesión de Posición Contractual que celebran de una
+parte [Indicar nombre del Titular Actual], con [Colocar su Tipo de Documento (DNI/CE)] N° [Indicar
+Número de Documento], con domicilio en [Indicar dirección], [Indicar Ciudad], a la que en adelante
+se le denominará LA CEDENTE y de otra parte [Indicar Nombre del Nuevo Titular], identificado con
+[Tipo de Documento (DNI/CE)] N° [Indicar Número de Documento] con domicilio en [Indicar
+Dirección], a quien en adelante se le denominará LA CESIONARIA y de otra parte WI-NET TELECOM
+S.A.C., identificada con RUC N° 20521233991, con domicilio en Av. República de Panamá Nro. 3418
+Int. 2301 – Urb. Limatambo - San Isidro, a quien en adelante se le denominará EL PROVEEDOR; en los
+términos y condiciones siguientes:
+ANTECEDENTES
+PRIMERA. - Con fecha [Indicar Fecha de instalación], LA CEDENTE celebró con EL PROVEEDOR un
+contrato de prestación del servicio de internet a domicilio, cuyas características aparecen en el referido
+contrato.
+SEGUNDA. - LA CESIONARIA está interesada en brindar el servicio referido en la cláusula anterior,
+asimismo asumir la posición contractual de LA CEDENTE frente a EL PROVEEDOR en los términos y
+condiciones expuestos en el contrato.
+OBJETO
+TERCERA. - Por el presente LA CEDENTE cede su posición contractual a LA CESIONARIA, asumiendo
+está última todos los derechos y obligaciones derivados de la contratación del servicio referido en la
+cláusula primera.
+CONFORMIDAD
+CUARTA. - EL PROVEEDOR por la presente otorga su conformidad con la cesión realizada.
+LEGISLACION APLICABLE
+QUINTA. - Son aplicables al presente contrato las disposiciones del Código Civil peruano. El presente
+se regirá e interpretará conforme a la legislación peruana; sometiéndose las partes a la jurisdicción de
+los tribunales ordinarios de la ciudad de Lima, renunciando a cualquier otro fuero o jurisdicción que
+pudiera corresponder.
+_________________________
+_________________________
+LA CEDENTE                                                                        LA CESIONARIA
+_________________________
+PROVEEDOR
+El documento no debe presentar manchas ni 
+borrones.
+El documento debe estar firmado por el titular 
+actual y el nuevo titular.
+Conoce cómo llenar el formato - DNI A DNI
+Los datos deben ser legibles.
+Completa todos los campos indicados.
+
+---PAGE_BREAK---
+__________, _______
+CONTRATO DE CESIÓN DE POSICIÓN CONTRACTUAL
+Conste por el presente documento el contrato de Cesión de Posición Contractual que celebran de una
+parte __________________________________________________________________________, con _________
+N°
+_______________________,
+con
+domicilio
+en
+____________________________________________________________ , _________________________ , a la
+que
+en
+adelante
+se
+le
+denominará
+LA
+CEDENTE
+y
+de
+otra
+parte
+____________________________________________________,
+identificado
+con
+___________
+N°
+________________________ con domicilio en ______________________________________________________,
+a quien en adelante se le denominará LA CESIONARIA y de otra parte WI-NET TELECOM S.A.C.,
+identificada con RUC N° 20521233991, con domicilio en Av. República de Panamá Nro. 3418 Int. 2301 –
+Urb. Limatambo - San Isidro, a quien en adelante se le denominará EL PROVEEDOR; en los términos y
+condiciones siguientes:
+ANTECEDENTES
+PRIMERA. - Con fecha ____________________ , LA CEDENTE celebró con EL PROVEEDOR un contrato
+de prestación del servicio de internet a domicilio, cuyas características aparecen en el referido contrato.
+SEGUNDA. - LA CESIONARIA está interesada en brindar el servicio referido en la cláusula anterior,
+asimismo asumir la posición contractual de LA CEDENTE frente a EL PROVEEDOR en los términos y
+condiciones expuestos en el contrato.
+OBJETO
+TERCERA. - Por el presente LA CEDENTE cede su posición contractual a LA CESIONARIA, asumiendo
+está última todos los derechos y obligaciones derivados de la contratación del servicio referido en la
+cláusula primera.
+CONFORMIDAD
+CUARTA. - EL PROVEEDOR por la presente otorga su conformidad con la cesión realizada.
+LEGISLACION APLICABLE
+QUINTA. - Son aplicables al presente contrato las disposiciones del Código Civil peruano. El presente se
+regirá e interpretará conforme a la legislación peruana; sometiéndose las partes a la jurisdicción de los
+tribunales ordinarios de la ciudad de Lima, renunciando a cualquier otro fuero o jurisdicción que pudiera
+corresponder.
+_________________________
+_________________________
+LA CEDENTE                                                                        LA CESIONARIA
+_________________________
+PROVEEDOR
+
+---PAGE_BREAK---
+CONSTANCIA DE NO ADEUDO
+Lima, 07 de marzo del 2025 
+Asunto: NO ADEUDO
+Estimada:
+Sra. LUIS ANGEL CUEVA SANTILLAN
+DNI N° 10091741
+En atención a su solicitud presentada en nuestras oficinas, se realizó 
+la verificación correspondiente en nuestro sistema. Nos complace 
+informarle que, a la fecha, usted no registra ningún tipo de deuda 
+vigente o pendiente de pago con nuestro servicio de internet WIN.
+Agradecemos su compromiso con el servicio durante el tiempo que 
+fue parte de la familia WIN. 
+Si tiene alguna pregunta o necesita asistencia adicional, no dude en 
+contactarnos.
+
+---PAGE_BREAK---
+CONSTANCIA DE NO ADEUDO
+Lima, 13 de marzo del 2025 
+Asunto: NO ADEUDO
+Estimada:
+Sra. LUIS ANGEL CUEVA SANTILLAN
+DNI N° 10091741
+En atención a su solicitud presentada por telefono, se realizó la 
+verificación correspondiente en nuestro sistema. Nos complace 
+informarle que, a la fecha, usted no registra ningún tipo de deuda 
+vigente o pendiente de pago con nuestro servicio de internet Perú 
+Fibra.
+Agradecemos su compromiso con el servicio durante el tiempo que 
+fue parte de la familia Perú Fibra. 
+Si tiene alguna pregunta o necesita asistencia adicional, no dude en 
+contactarnos.
+
+---PAGE_BREAK---

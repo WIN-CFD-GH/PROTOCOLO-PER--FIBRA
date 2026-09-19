@@ -1,0 +1,970 @@
+{
+  "Modular 1": [
+    {
+      "num": 1,
+      "question": "¿Cuál de las siguientes características corresponde a los beneficios principales del servicio de Perú Fibra?",
+      "full_question": "1. ¿Cuál de las siguientes características corresponde a los beneficios principales del servicio de Perú Fibra?",
+      "options": [
+        "A) Conexión mediante Híbrido de Fibra Óptica y Coaxial (HFC).",
+        "B) Internet ilimitado con simetría y Wi-Fi doble banda (2.4Ghz y 5Ghz).",
+        "C) Velocidad asimétrica en todos los planes regulares.",
+        "D) Banda única de 2.4Ghz para mayor estabilidad."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 2,
+      "question": "¿Qué es la ONT?",
+      "full_question": "2. ¿Qué es la ONT?",
+      "options": [
+        "A) Es la caja exterior que protege el empalme entre la red principal y el domicilio.",
+        "B) Es el cable de fibra de color amarillo conectado directamente a los equipos.",
+        "C) Es el dispositivo que convierte la señal óptica en señal digital para conectarse a Internet vía cable o WiFi.",
+        "D) Es el sistema de traducción de direcciones de red (NAT)."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 3,
+      "question": "¿Cómo se le conoce técnicamente al cable de fibra de color amarillo que conecta la roseta con la ONT del cliente?",
+      "full_question": "3. ¿Cómo se le conoce técnicamente al cable de fibra de color amarillo que conecta la roseta con la ONT del cliente?",
+      "options": [
+        "A) Cable Drop",
+        "B) Cable de Red (Ethernet / RJ45)",
+        "C) Jumper o Patch Cord",
+        "D) Caja CTO"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 4,
+      "question": "En el contexto del segmento \"Gamer\", ¿qué significa el término \"Ping\"?",
+      "full_question": "4. En el contexto del segmento \"Gamer\", ¿qué significa el término \"Ping\"?",
+      "options": [
+        "A) Es la pérdida momentánea de paquetes de datos que congela la pantalla.",
+        "B) Es la métrica que mide la latencia de la conexión en milisegundos (ms).",
+        "C) Es la red de área extensa definida por software (SDwan).",
+        "D) Es la traducción de la IP Privada a la IP Pública del operador."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 5,
+      "question": "¿Cuáles son las velocidades y precios de los planes residenciales regulares (sin considerar promociones) de Perú Fibra?",
+      "full_question": "5. ¿Cuáles son las velocidades y precios de los planes residenciales regulares (sin considerar promociones) de Perú Fibra?",
+      "options": [
+        "A) 100 Mbps a S/49.00 y 200 Mbps a S/59.00",
+        "B) 300 Mbps a S/59.00 y 600 Mbps a S/69.00",
+        "C) 400 Mbps a S/59.00 y 800 Mbps a S/69.00",
+        "D) 500 Mbps a S/69.00 y 1000 Mbps a S/79.00"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 6,
+      "question": "Si un cliente nuevo contrata el Plan de S/59.00 bajo la promoción actual de Altas Nuevas, ¿qué beneficio obtiene?",
+      "full_question": "6. Si un cliente nuevo contrata el Plan de S/59.00 bajo la promoción actual de Altas Nuevas, ¿qué beneficio obtiene?",
+      "options": [
+        "A) Navegará a 300 Mbps por 3 meses y luego bajará a 100 Mbps.",
+        "B) Navegará a 400 Mbps durante los primeros 6 meses y luego regresará a 300 Mbps.",
+        "C) Navegará a 600 Mbps durante todo su contrato de forma permanente.",
+        "D) Obtendrá un descuento del 50% en su recibo durante los primeros 6 meses."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 7,
+      "question": "¿Cuál es el costo de instalación de los planes residenciales regulares de Perú Fibra?",
+      "full_question": "7. ¿Cuál es el costo de instalación de los planes residenciales regulares de Perú Fibra?",
+      "options": [
+        "A) S/120.00",
+        "B) S/60.00",
+        "C) Sin costo de instalación (S/0.00).",
+        "D) S/50.00 fraccionado en su primer recibo."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 8,
+      "question": "Si un cliente titular solicita un \"Cambio de Plan\" (Upgrade o Downgrade), ¿A partir de cuándo se hace efectiva la nueva velocidad y la actualización en la facturación?",
+      "full_question": "8. Si un cliente titular solicita un \"Cambio de Plan\" (Upgrade o Downgrade), ¿A partir de cuándo se hace efectiva la nueva velocidad y la actualización en la facturación?",
+      "options": [
+        "A) A las 24 horas de solicitada la gestión en el CRM.",
+        "B) A partir del primer día del próximo mes.",
+        "C) A los 7 días calendario posteriores al requerimiento.",
+        "D) Inmediatamente tras finalizar la llamada."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 9,
+      "question": "¿Cuál es el plazo mínimo y máximo para aplicar una Suspensión Temporal de servicio por viaje o solicitud del cliente?",
+      "full_question": "9. ¿Cuál es el plazo mínimo y máximo para aplicar una Suspensión Temporal de servicio por viaje o solicitud del cliente?",
+      "options": [
+        "A) Mínimo 10 días y máximo 30 días calendario.",
+        "B) Mínimo 1 mes y máximo 3 meses calendario.",
+        "C) Mínimo 15 días y máximo 60 días calendario.",
+        "D) Mínimo 5 días y máximo 90 días calendario."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 10,
+      "question": "Sobre el trámite de \"Cambio de Titularidad\" o \"Cesión Contractual\", ¿Cuál de las siguientes afirmaciones es correcta?",
+      "full_question": "10. Sobre el trámite de \"Cambio de Titularidad\" o \"Cesión Contractual\", ¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "A) Las firmas en el formato pueden ser digitales, pegadas como imagen o firmadas a mano.",
+        "B) El cliente cedente puede tener hasta un recibo vencido al momento de la solicitud.",
+        "C) El nuevo titular puede mantener el mismo correo electrónico y número celular del titular anterior.",
+        "D) Las firmas en el documento deben ser realizadas a mano, similares a las del DNI, y no se aceptan firmas digitales."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "num": 11,
+      "question": "Un cliente se comunicará para informar que se muda y solicita trasladar su servicio. ¿Cuál es el costo regular de este procedimiento?",
+      "full_question": "11. Un cliente se comunicará para informar que se muda y solicita trasladar su servicio. ¿Cuál es el costo regular de este procedimiento?",
+      "options": [
+        "A) S/60.00",
+        "B) S/120.00",
+        "C) S/170.00",
+        "D) S/220.00"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 12,
+      "question": "Un cliente reporta que su mascota mordió severamente el router y este quedó inoperativo. ¿Qué gestión corresponde aplicar y cuál es su costo regular?",
+      "full_question": "12. Un cliente reporta que su mascota mordió severamente el router y este quedó inoperativo. ¿Qué gestión corresponde aplicar y cuál es su costo regular?",
+      "options": [
+        "A) Cambio de Patch Cord por S/60.00",
+        "B) Cambio de ONT por S/220.00 (fraccionable en cuotas).",
+        "C) Visita Técnica Gratuita por garantía del equipo.",
+        "D) Reinstalación de Servicio por S/170.00"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 13,
+      "question": "Un cliente solicita que le cambien su actual IP Privada a una IP Pública para configurar sus servidores. ¿Cuál es el procedimiento correcto a seguir?",
+      "full_question": "13. Un cliente solicita que le cambien su actual IP Privada a una IP Pública para configurar sus servidores. ¿Cuál es el procedimiento correcto a seguir?",
+      "options": [
+        "A) Informar que Perú Fibra trabaja con IP Privada en todos los servicios y no se realiza el cambio a IP Pública.",
+        "B) Realizar el cambio inmediatamente en el sistema Smart WiFi.",
+        "C) Informarle el costo adicional mensual y generar el ticket para soporte avanzado.",
+        "D) Escalar obligatoriamente el caso con un Supervisor."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "num": 14,
+      "question": "¿En qué escenarios aplica el cobro de S/170.00 por \"Reinstalación del Servicio\"?",
+      "full_question": "14. ¿En qué escenarios aplica el cobro de S/170.00 por \"Reinstalación del Servicio\"?",
+      "options": [
+        "A) Por suspensión de morosidad mayor a 30 días.",
+        "B) Por avería del cable amarillo interno (Jumper).",
+        "C) Exclusivamente por cambio de domicilio (Mudanza).",
+        "D) Por rotura de fibra exterior o por una reubicación con exceso de metraje."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "num": 15,
+      "question": "Cuando un usuario llama para solicitar información de facturación (deuda) o para presentar un reclamo, es obligatorio validar que sea el TITULAR del servicio y realizar las preguntas de seguridad antes de brindar los datos.",
+      "full_question": "15. Cuando un usuario llama para solicitar información de facturación (deuda) o para presentar un reclamo, es obligatorio validar que sea el TITULAR del servicio y realizar las preguntas de seguridad antes de brindar los datos.",
+      "options": [
+        "A) Verdadero, solo se debe solicitar y confirmar información sensible con el titular validado.",
+        "B) Falso, cualquier persona en el domicilio puede validar datos de facturación con el número de DNI.",
+        "C) Falso, solo para dar de baja el servicio es necesaria la validación de seguridad.",
+        "D) Verdadero, pero se pueden obviar las preguntas de seguridad si brinda la dirección correcta."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "num": 16,
+      "question": "¿Cuáles son las características del plan exclusivo de la campaña \"Edificios\"?",
+      "full_question": "16. ¿Cuáles son las características del plan exclusivo de la campaña \"Edificios\"?",
+      "options": [
+        "A) 800 Mbps por S/50.00 a nivel nacional.",
+        "B) 800 Mbps por S/79.00 para altas nuevas en Lima y provincias aplicables.",
+        "C) 600 Mbps por S/69.00 exclusivamente en zonas rurales.",
+        "D) 1000 Mbps por S/99.00 solo en Lima Metropolitana."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 17,
+      "question": "Un cliente que solicitó la Suspensión Temporal de su servicio hace 5 días, se comunica pidiendo reactivarlo hoy mismo. ¿Qué información se le debe brindar?",
+      "full_question": "17. Un cliente que solicitó la Suspensión Temporal de su servicio hace 5 días, se comunica pidiendo reactivarlo hoy mismo. ¿Qué información se le debe brindar?",
+      "options": [
+        "A) Que la reactivación se ejecutará de manera inmediata con un costo de S/30.00.",
+        "B) Que debe enviar un correo a contacto@perufibra.pe para que se apruebe la excepción.",
+        "C) Que el sistema realizará la reactivación en un plazo máximo de 24 horas sin restricciones.",
+        "D) Que es necesario cumplir un mínimo de 15 días suspendido, por lo cual no se puede reactivar el servicio aún."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "num": 18,
+      "question": "Si un cliente deteriora el cable amarillo de fibra ¿Cuál es el costo y las opciones de cuotas disponibles?",
+      "full_question": "18. Si un cliente deteriora el cable amarillo de fibra ¿Cuál es el costo y las opciones de cuotas disponibles?",
+      "options": [
+        "A) S/120.00, fraccionable hasta en 6 cuotas.",
+        "B) S/60.00, fraccionable hasta en 3 cuotas sin intereses.",
+        "C) S/220.00, fraccionable hasta en 10 cuotas.",
+        "D) El primer cambio es totalmente gratuito."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 19,
+      "question": "¿Qué sistema interno se utiliza específicamente para verificar las coordenadas y cobertura al momento de gestionar una solicitud de Traslado?",
+      "full_question": "19. ¿Qué sistema interno se utiliza específicamente para verificar las coordenadas y cobertura al momento de gestionar una solicitud de Traslado?",
+      "options": [
+        "A) CRM Experiencia",
+        "B) Smart WiFi",
+        "C) Perú Force",
+        "D) CCVOX"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 20,
+      "question": "El Plan Especial de 800 Mbps por S/50.00 está dirigido exclusivamente a:",
+      "full_question": "20. El Plan Especial de 800 Mbps por S/50.00 está dirigido exclusivamente a:",
+      "options": [
+        "A) Clientes nuevos (Altas nuevas) únicamente en zonas con cobertura en ciertas provincias y Norte Chico.",
+        "B) Clientes de todo Lima Metropolitana mediante retenciones.",
+        "C) Exclusivamente a clientes del segmento corporativo o empresas.",
+        "D) Clientes actuales que solicitan un upgrade de plan a nivel nacional."
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "Modular 2": [
+    {
+      "num": 1,
+      "question": "Si un cliente fue instalado el día 10 del mes, ¿Qué día se emitirá su recibo?",
+      "full_question": "1. Si un cliente fue instalado el día 10 del mes, ¿Qué día se emitirá su recibo?",
+      "options": [
+        "A) El 04 de cada mes.",
+        "B) El 18 de cada mes.",
+        "C) El 28 de cada mes.",
+        "D) El mismo día de su instalación cada mes."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 2,
+      "question": "¿Cuál es el día exacto de vencimiento de los recibos en Perú Fibra para todos los clientes?",
+      "full_question": "2. ¿Cuál es el día exacto de vencimiento de los recibos en Perú Fibra para todos los clientes?",
+      "options": [
+        "A) El 04 de cada mes.",
+        "B) El 15 de cada mes.",
+        "C) El 18 de cada mes.",
+        "D) El 28 de cada mes."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "num": 3,
+      "question": "¿Cuáles son los canales o entidades bancarias autorizadas para realizar el pago del servicio?",
+      "full_question": "3. ¿Cuáles son los canales o entidades bancarias autorizadas para realizar el pago del servicio?",
+      "options": [
+        "A) Solo agentes BCP e Interbank.",
+        "B) Yape, BCP, Interbank y BBVA.",
+        "C) Scotiabank, BanBif y Banco de la Nación.",
+        "D) Únicamente Yape y Plin."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 4,
+      "question": "¿Qué código o identificador debe utilizar el cliente para pagar su servicio en los aplicativos bancarios o agentes?",
+      "full_question": "4. ¿Qué código o identificador debe utilizar el cliente para pagar su servicio en los aplicativos bancarios o agentes?",
+      "options": [
+        "A) El código de pedido.",
+        "B) El código de pago del recibo.",
+        "C) El DNI/CE del titular del servicio.",
+        "D) Su número de teléfono registrado."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 5,
+      "question": "Si un cliente con el servicio suspendido por falta de pago realiza la cancelación total de su deuda hoy, ¿En qué plazo máximo se ejecutará la reconexión de su servicio?",
+      "full_question": "5. Si un cliente con el servicio suspendido por falta de pago realiza la cancelación total de su deuda hoy, ¿En qué plazo máximo se ejecutará la reconexión de su servicio?",
+      "options": [
+        "A) Inmediatamente.",
+        "B) En un máximo de 24 horas.",
+        "C) En un máximo de 48 horas hábiles.",
+        "D) Al cierre del mes de facturación."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 6,
+      "question": "Un cliente solicita un ajuste en su recibo debido a que estuvo sin servicio por una avería masiva. ¿Cuál es el plazo de resolución para que el área de facturación ejecute dicho ajuste?",
+      "full_question": "6. Un cliente solicita un ajuste en su recibo debido a que estuvo sin servicio por una avería masiva. ¿Cuál es el plazo de resolución para que el área de facturación ejecute dicho ajuste?",
+      "options": [
+        "A) 24 horas calendario.",
+        "B) 48 horas hábiles.",
+        "C) 7 días útiles.",
+        "D) 15 días calendario."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 7,
+      "question": "¿Si el cliente solicita un ajuste o descuento el día sábado, el plazo de resolución comienza a correr ese mismo día?",
+      "full_question": "7. ¿Si el cliente solicita un ajuste o descuento el día sábado, el plazo de resolución comienza a correr ese mismo día?",
+      "options": [
+        "A) Verdadero, el área de facturación trabaja todos los fines de semana con normalidad.",
+        "B) Verdadero, el sistema lo procesa automáticamente. Todo lo solicitado viernes, sábado o domingo recién se gestiona a partir del lunes.",
+        "C) Falso, se excluyen los fines de semana y feriados. Todo lo solicitado viernes, sábado o domingo recién se gestiona el lunes.",
+        "D) Falso, las solicitudes de fines de semana deben ser derivadas a soporte técnico."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 8,
+      "question": "¿Cuál es la diferencia principal en el proceso entre un \"Ajuste\" y un \"Descuento\" por afectación?",
+      "full_question": "8. ¿Cuál es la diferencia principal en el proceso entre un \"Ajuste\" y un \"Descuento\" por afectación?",
+      "options": [
+        "A) El ajuste lo aprueba el asesor y el descuento el supervisor.",
+        "B) El descuento es cuando NO hay un recibo emitido aún, mientras que el ajuste se aplica al recibo actual emitido.",
+        "C) El ajuste aplica solo a averías y el descuento a problemas comerciales.",
+        "D) Ninguna, ambos términos significan lo mismo en el CRM."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 9,
+      "question": "Un cliente indica que está intentando pagar por Yape y BBVA pero le figura un error. ¿Qué alternativa o manejo de llamada debes aplicar?",
+      "full_question": "9. Un cliente indica que está intentando pagar por Yape y BBVA pero le figura un error. ¿Qué alternativa o manejo de llamada debes aplicar?",
+      "options": [
+        "A) Decirle que el sistema de Perú Fibra está caído y llame mañana.",
+        "B) Reportar el inconveniente internamente y ofrecerle que, si tiene disponibilidad, intente realizar el pago por Interbank mientras se actualiza.",
+        "C) Derivar la llamada a Soporte Técnico.",
+        "D) Ingresar inmediatamente un reclamo ante Osiptel a nombre del cliente."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 10,
+      "question": "Si un cliente pagó por error otro servicio distinto al suyo (ej. otro código o familiar), ¿qué documento debes solicitarle obligatoriamente mediante chat para investigar el caso?",
+      "full_question": "10. Si un cliente pagó por error otro servicio distinto al suyo (ej. otro código o familiar), ¿qué documento debes solicitarle obligatoriamente mediante chat para investigar el caso?",
+      "options": [
+        "A) Una carta notarial de devolución.",
+        "B) El comprobante o fecha de pago.",
+        "C) El DNI de la persona a la que le pagó por error.",
+        "D) Su contrato original firmado."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 11,
+      "question": "Un cliente indica que no recibe su recibo en su correo electrónico. ¿Cuál es el primer descarte que debes realizar?",
+      "full_question": "11. Un cliente indica que no recibe su recibo en su correo electrónico. ¿Cuál es el primer descarte que debes realizar?",
+      "options": [
+        "A) Informarle que debe descargarlo desde la página web sin excepciones.",
+        "B) Pedirle que busque en la bandeja principal, que verifique su bandeja de Spam o que valide que facturacion@perufibra.pe no esté bloqueado.",
+        "C) Transferir la llamada al área de facturación o que valide que facturacion@perufibra.pe no esté bloqueado.",
+        "D) Volver a facturar el recibo con un cobro adicional por envío físico."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 12,
+      "question": "¿Qué es y para qué sirve principalmente la herramienta \"Perú Force\" en el flujo de atención del asesor?",
+      "full_question": "12. ¿Qué es y para qué sirve principalmente la herramienta \"Perú Force\" en el flujo de atención del asesor?",
+      "options": [
+        "A) Es el sistema que emite los recibos y calcula las cuotas del cliente.",
+        "B) Es la herramienta principal para tipificar llamadas (CRM).",
+        "C) Es la herramienta para verificar la cobertura exactas de los traslados y mudanzas.",
+        "D) Es la aplicación donde el cliente mide la velocidad de su internet."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 13,
+      "question": "Un cliente desea afiliarse al débito automático con su tarjeta. ¿Qué información correcta le debes brindar?",
+      "full_question": "13. Un cliente desea afiliarse al débito automático con su tarjeta. ¿Qué información correcta le debes brindar?",
+      "options": [
+        "A) Que nosotros mismos (asesores) podemos afiliarlo en la llamada con su tarjeta de crédito.",
+        "B) Que puede afiliarse desde la página web de Interbank o presencialmente en el BBVA y BCP.",
+        "C) Que el débito automático solo está disponible en el Banco de la Nación.",
+        "D) Que actualmente Perú Fibra no cuenta con la opción de débito automático en ningún banco."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 14,
+      "question": "Si un cliente llama el día 29 del mes solicitando una Visita Técnica o un servicio Postventa y verificas que no ha pagado su recibo, ¿Qué debes hacer?",
+      "full_question": "14. Si un cliente llama el día 29 del mes solicitando una Visita Técnica o un servicio Postventa y verificas que no ha pagado su recibo, ¿Qué debes hacer?",
+      "options": [
+        "A) Tomar el pedido normalmente, pues la deuda no afecta el soporte.",
+        "B) Generar la visita, pero advertirle que se le cobrará la visita técnica ya que cuenta con un recibo pendiente.",
+        "C) Invitar al cliente a pagar primero, no se debe tomar ningún pedido ni visita técnica si presenta deuda pendiente post-vencimiento.",
+        "D) Transferir la llamada a Fidelización."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 15,
+      "question": "Un cliente suspendido por deuda puede llamar para que le aplacemos la fecha de corte o fraccionemos su deuda directamente.",
+      "full_question": "15. Un cliente suspendido por deuda puede llamar para que le aplacemos la fecha de corte o fraccionemos su deuda directamente.",
+      "options": [
+        "A) Verdadero, el asesor puede extender la fecha de corte 5 días.",
+        "B) Falso, por el momento no brindamos opciones de fraccionamiento de deuda vencida ni aplazamiento de fecha de corte.",
+        "C) Verdadero, pero solo si el cliente tiene tarjeta de crédito o débito automático activado para el pago de sus recibos.",
+        "D) Falso, el cliente debe pagar obligatoriamente con el 50% de recargo."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 16,
+      "question": "Un cliente pregunta cómo puede pagar con su tarjeta de crédito si no puede ir a un agente. ¿Qué se le debe responder?",
+      "full_question": "16. Un cliente pregunta cómo puede pagar con su tarjeta de crédito si no puede ir a un agente. ¿Qué se le debe responder?",
+      "options": [
+        "A) Que los pagos solo se aceptan en efectivo.",
+        "B) Que debe ingresar al aplicativo de su banco, seleccionar la tarjeta de crédito, ir a 'Pagar servicios', buscar a Perú Fibra y realizar el pago.",
+        "C) Que envíe una foto de su tarjeta por WhatsApp para procesarlo nosotros.",
+        "D) Que el pago con tarjeta tiene un cargo extra del 5%."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 17,
+      "question": "Si identificas un error masivo de facturación que ha afectado a varios clientes, ¿cómo procede la corrección para un cliente que llama a reportarlo?",
+      "full_question": "17. Si identificas un error masivo de facturación que ha afectado a varios clientes, ¿cómo procede la corrección para un cliente que llama a reportarlo?",
+      "options": [
+        "A) Se escala a Facturación y se ajusta mediante una Nota de Crédito en un plazo no mayor a 48 horas.",
+        "B) Se anula el contrato del cliente ya que no procede con el ajuste o Nota de Crédito.",
+        "C) El cliente pierde ese mes de servicio.",
+        "D) Se cobra el doble en la siguiente factura."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "num": 18,
+      "question": "En el protocolo para gestionar un ajuste, si el cliente reporta que tuvo dos pedidos (tickets) distintos de afectación en el mes, ¿qué información clave debes registrar en la plantilla?",
+      "full_question": "18. En el protocolo para gestionar un ajuste, si el cliente reporta que tuvo dos pedidos (tickets) distintos de afectación en el mes, ¿qué información clave debes registrar en la plantilla?",
+      "options": [
+        "A) Solo el número de DNI.",
+        "B) El código exacto del ticket al cual el cliente está solicitando el ajuste.",
+        "C) La hora en la que llamó.",
+        "D) El monto que el cliente exige ganar en efectivo."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 19,
+      "question": "¿Cuál de los siguientes no es considerado un motivo para iniciar un ajuste por facturación?",
+      "full_question": "19. ¿Cuál de los siguientes no es considerado un motivo para iniciar un ajuste por facturación?",
+      "options": [
+        "A) Una avería masiva en su zona que duró 3 días.",
+        "B) Una interrupción reportada previamente y registrada con ticket técnico.",
+        "C) Una caída general de plataformas externas (WhatsApp, Facebook) que no tiene que ver con nuestra red.",
+        "D) La suspensión indebida del servicio por un error de lectura de pago en nuestros sistemas."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 20,
+      "question": "Al llenar la plantilla de ajustes o descuentos por avería, ¿Qué debes usar obligatoriamente para calcular el monto exacto reclamado?",
+      "full_question": "20. Al llenar la plantilla de ajustes o descuentos por avería, ¿Qué debes usar obligatoriamente para calcular el monto exacto reclamado?",
+      "options": [
+        "A) El aproximado que dicte el cliente.",
+        "B) La tarifa fija de S/10.00 por cada día.",
+        "C) La calculadora de averías según los días de afectación.",
+        "D) Un reporte emitido por Osiptel."
+      ],
+      "correctIndex": 2
+    }
+  ],
+  "Modular 3": [
+    {
+      "num": 1,
+      "question": "¿Qué es el \"Quantum\"?",
+      "full_question": "1. ¿Qué es el \"Quantum\"?",
+      "options": [
+        "A) El sistema para cobrar las deudas.",
+        "B) La plataforma de chat de WhatsApp.",
+        "C) La herramienta principal donde se realizan y gestionan los tickets para Visitas Técnicas (VTS, AT, POSTVENTA).",
+        "D) Es la herramienta principal donde se realizan y gestionan configuraciones de las ONT y cambios de credenciales de WI-FI."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 2,
+      "question": "Si al realizar el descarte de servicio el cliente te informa que el router tiene el indicador luminoso \"LOS\" en color ROJO, ¿qué es lo primero que debes preguntar/descartar?",
+      "full_question": "2. Si al realizar el descarte de servicio el cliente te informa que el router tiene el indicador luminoso \"LOS\" en color ROJO, ¿qué es lo primero que debes preguntar/descartar?",
+      "options": [
+        "A) Si cambió la clave del WiFi y recomendar cambio de credenciales si todavía no lo ha realizado.",
+        "B) Si pagó su recibo del mes.",
+        "C) Confirmar si ha manipulado el cable amarillo y asegurarse de que esté bien enchufado.",
+        "D) Si su televisor está encendido."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 3,
+      "question": "Tras hacer el descarte del cable Jumper, el cliente sigue con LOS ROJO y sin servicio. ¿Cuál es el paso a seguir?",
+      "full_question": "3. Tras hacer el descarte del cable Jumper, el cliente sigue con LOS ROJO y sin servicio. ¿Cuál es el paso a seguir?",
+      "options": [
+        "A) Derivarlo al área de ventas.",
+        "B) Aplicar un ajuste a su recibo.",
+        "C) Generar un ticket para derivar a VT",
+        "D) Pedirle que se compre otro router."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 4,
+      "question": "¿Qué plataforma se utiliza para realizar gestiones técnicas simples en línea, como el cambio de nombre de red, contraseña WiFi o validación de dispositivos conectados?",
+      "full_question": "4. ¿Qué plataforma se utiliza para realizar gestiones técnicas simples en línea, como el cambio de nombre de red, contraseña WiFi o validación de dispositivos conectados?",
+      "options": [
+        "A) Smart WiFi.",
+        "B) Quantum.",
+        "C) CCVOX.",
+        "D) Perú Force."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "num": 5,
+      "question": "Un cliente reporta lentitud en el servicio. Al sondear, descubres que hace las pruebas por Wi-Fi. ¿Cuál es la política respecto a la velocidad garantizada por conexión alámbrica?",
+      "full_question": "5. Un cliente reporta lentitud en el servicio. Al sondear, descubres que hace las pruebas por Wi-Fi. ¿Cuál es la política respecto a la velocidad garantizada por conexión alámbrica?",
+      "options": [
+        "A) Garantizamos el 100% solo en Wi-Fi 5GHz.",
+        "B) Garantizamos el 70% de la velocidad contratada a través de red cableada.",
+        "C) Se garantiza solo el 40% en todos los medios.",
+        "D) Perú Fibra garantiza la totalidad del plan sin importar si es cable o Wi-Fi."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 6,
+      "question": "Cuando el cliente te solicita cambiar la contraseña y el nombre de su red WiFi, ¿Cuál es el requisito de seguridad para el nuevo password?",
+      "full_question": "6. Cuando el cliente te solicita cambiar la contraseña y el nombre de su red WiFi, ¿Cuál es el requisito de seguridad para el nuevo password?",
+      "options": [
+        "A) Solo números, máximo 4.",
+        "B) Mínimo 8 caracteres combinando letras y números.",
+        "C) Nombre y apellido del cliente sin espacios.",
+        "D) Debe incluir siempre el número de DNI."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 7,
+      "question": "En la interfaz de Smart WiFi, ¿Qué campo debes modificar específicamente para cambiar la contraseña del cliente?",
+      "full_question": "7. En la interfaz de Smart WiFi, ¿Qué campo debes modificar específicamente para cambiar la contraseña del cliente?",
+      "options": [
+        "A) SSID.",
+        "B) Whitelist.",
+        "C) WPA Shared Key.",
+        "D) Frequency Band."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 8,
+      "question": "¿Es posible realizar el Test de Velocidad al mesh?",
+      "full_question": "8.¿Es posible realizar el Test de Velocidad al mesh?",
+      "options": [
+        "A) Sí.",
+        "B) No, solo se realiza el Gateway.",
+        "C) No.",
+        "D) Sí, ya que comparte la conexión de la ONT."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 9,
+      "question": "¿Para buscar y visualizar la información del router de un cliente en Smart WiFi, es un paso obligatorio que la SN (MAC) del cliente esté matriculada en la sección \"Whitelist\"?",
+      "full_question": "9. ¿Para buscar y visualizar la información del router de un cliente en Smart WiFi, es un paso obligatorio que la SN (MAC) del cliente esté matriculada en la sección \"Whitelist\"?",
+      "options": [
+        "A) Falso, la plataforma lee los routers automáticamente por el DNI.",
+        "B) Falso, la SN solo sirve en Quantum.",
+        "C) Verdadero, si el cliente no está en la Whitelist con su SN (agregando \"00259E-\" al inicio), no se podrá visualizar ni gestionar su router.",
+        "D) Verdadero, pero solo lo puede hacer un supervisor."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 10,
+      "question": "¿Cómo procedes si el cliente llama quejándose porque aplicaciones externas como Flujo TV, Magis TV o TV Directo no cargan los canales o están intermitentes?",
+      "full_question": "10. ¿Cómo procedes si el cliente llama quejándose porque aplicaciones externas como Flujo TV, Magis TV o TV Directo no cargan los canales o están intermitentes?",
+      "options": [
+        "A) Le configuro la aplicación de forma remota.",
+        "B) Agendo una Visita Técnica según el horario disponible de modo que puedan darle solución al problema.",
+        "C) Informo empáticamente que esos servicios son de terceros y ajenos a nuestro alcance de soporte de internet.",
+        "D) Le vendo un repetidor Mesh."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 11,
+      "question": "¿Qué significa el término \"Lag\" en el contexto de soporte para un cliente \"Gamer\"?",
+      "full_question": "11. ¿Qué significa el término \"Lag\" en el contexto de soporte para un cliente \"Gamer\"?",
+      "options": [
+        "A) Es la traducción de la IP privada a pública.",
+        "B) Es un Ping elevado superior al promedio, lo que genera retraso en el juego.",
+        "C) Es cuando el juego elige el servidor más cercano.",
+        "D) Es la marca del cable amarillo."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 12,
+      "question": "Si determinas que un cliente necesita ser atendido presencialmente y agendas una Visita Técnica, ¿Qué debes confirmar e informarle al momento de indicarle su rango de atención?",
+      "full_question": "12. Si determinas que un cliente necesita ser atendido presencialmente y agendas una Visita Técnica, ¿Qué debes confirmar e informarle al momento de indicarle su rango de atención?",
+      "options": [
+        "A) Que deberá pagar al técnico en efectivo.",
+        "B) Que tenemos un rango horario y que debe estar presente un mayor de edad con su DNI para recibir a los técnicos.",
+        "C) Que puede salir de casa porque la reparación es externa.",
+        "D) Que la visita será reprogramada automáticamente si no contesta la primera llamada de nuestros técnicos."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 13,
+      "question": "Si en Smart WiFi observas en la pestaña \"Optimization\" que el canal tiene alta interferencia, ¿Qué opción de configuración debe estar encendida para mitigar esto?",
+      "full_question": "13. Si en Smart WiFi observas en la pestaña \"Optimization\" que el canal tiene alta interferencia, ¿Qué opción de configuración debe estar encendida para mitigar esto?",
+      "options": [
+        "A) 5G Disabled.",
+        "B) Parental Control.",
+        "C) Auto channel selection",
+        "D) Restart Device."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 14,
+      "question": "Un cliente llama reportando lentitud. Realizas el test en Smart WiFi (\"Speed Test\" de Internet a Gateway) y marca correctamente los megas contratados. ¿Qué indica esto?",
+      "full_question": "14. Un cliente llama reportando lentitud. Realizas el test en Smart WiFi (\"Speed Test\" de Internet a Gateway) y marca correctamente los megas contratados. ¿Qué indica esto?",
+      "options": [
+        "A) Que el servicio llega bien hasta el router.",
+        "B) Que la red externa de Perú Fibra está fallando masivamente.",
+        "C) Que el cliente no ha pagado su recibo.",
+        "D) Que la CTO exterior está averiada."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "num": 15,
+      "question": "¿Cuál de los siguientes escenarios justifica generar una alerta por Contingencia de \"Limpieza de cableado aéreo\"?",
+      "full_question": "15. ¿Cuál de los siguientes escenarios justifica generar una alerta por Contingencia de \"Limpieza de cableado aéreo\"?",
+      "options": [
+        "A) Cliente reporta que el vecino le cortó el cable a propósito.",
+        "B) Se renueva la operativa de instalación retirando cables en desuso y esto genera una afectación programada que obliga a re-coordinar atención.",
+        "C) Un camión jaló el cable de poste a poste.",
+        "D) El cliente se muda y deja su cable botado."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 16,
+      "question": "Si no es posible concretar la transferencia de la llamada a la cola de SOA porque todos están ocupados, ¿qué debes indicarle al cliente?",
+      "full_question": "16. Si no es posible concretar la transferencia de la llamada a la cola de SOA porque todos están ocupados, ¿qué debes indicarle al cliente?",
+      "options": [
+        "A) Que hemos registrado su caso bajo un reclamo y el área especialista se comunicará con él en un plazo máximo de 20 minutos.",
+        "B) Que hemos registrado su caso bajo un ticket y el área especialista se comunicará con él en un plazo máximo de 30 minutos.",
+        "C) Que su servicio será suspendido hasta mañana.",
+        "D) Que vaya presencialmente a una oficina."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 17,
+      "question": "En la pestaña de \"Topología\" de Smart WiFi, ¿Qué dato NO es posible visualizar de forma precisa?",
+      "full_question": "17. En la pestaña de \"Topología\" de Smart WiFi, ¿Qué dato NO es posible visualizar de forma precisa?",
+      "options": [
+        "A) La cantidad de dispositivos conectados directamente al router Huawei.",
+        "B) El consumo en vivo del router principal.",
+        "C) Los dispositivos conectados a AP’s que no sean marca Huawei.",
+        "D) La señal inalámbrica (2.4G o 5G) que está usando un celular."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 18,
+      "question": "En caso de una Caída Masiva y Confirmada por el supervisor (ej. Caída Zonal o Mantenimiento). ¿Cuál debe ser el enfoque del Speech?",
+      "full_question": "18. En caso de una Caída Masiva y Confirmada por el supervisor (ej. Caída Zonal o Mantenimiento). ¿Cuál debe ser el enfoque del Speech?",
+      "options": [
+        "A) Culpar al área de redes.",
+        "B) Ocultar el problema y decirle que reinicie el router.",
+        "C) Pedir disculpas, informar que el equipo técnico especializado ya está trabajando en solucionarlo a la brevedad posible, sin usar la palabra \"masivo\" con el cliente.",
+        "D) Pedir disculpas, informar que el equipo técnico especializado no está trabajando en solucionarlo a la brevedad posible, y usar la palabra \"masivo\" con el cliente."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 19,
+      "question": "¿Cuándo la llamada corresponde a un cliente sin cobertura por \"Saturación de CTO\", debemos forzar la venta generando una sobreventa en la caja?",
+      "full_question": "19. ¿Cuándo la llamada corresponde a un cliente sin cobertura por \"Saturación de CTO\", debemos forzar la venta generando una sobreventa en la caja?",
+      "options": [
+        "A) Verdadero, siempre hay que priorizar la venta.",
+        "B) Falso, se debe explicar amablemente que, aunque hay cobertura, la zona presenta saturación, por lo que en esta oportunidad no se podrá concretar la instalación para asegurar la calidad de servicio.",
+        "C) Falso, se le debe instalar pero darle la mitad de los megas.",
+        "D) Verdadero, pero solo si paga el triple por instalación."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 20,
+      "question": "Durante un descarte de lentitud, se solicita al cliente que mida su velocidad. ¿A través de qué página web oficial debes instruirle que realice la prueba en su PC conectada por cable?",
+      "full_question": "20. Durante un descarte de lentitud, se solicita al cliente que mida su velocidad. ¿A través de qué página web oficial debes instruirle que realice la prueba en su PC conectada por cable?",
+      "options": [
+        "A) www.youtube.com",
+        "B) www.speedtest.net",
+        "C) www.perufibra.pe",
+        "D) www.fast.com"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "Modular 4": [
+    {
+      "num": 1,
+      "question": "Un cliente se contacta para solicitar la baja de su servicio por motivos económicos. ¿Cuáles son las dos principales opciones a ofrecer antes de aceptar la cancelación?",
+      "full_question": "1. Un cliente se contacta para solicitar la baja de su servicio por motivos económicos. ¿Cuáles son las dos principales opciones a ofrecer antes de aceptar la cancelación?",
+      "options": [
+        "A) Regalarle 2 meses gratis y luego un repetidor Mesh.",
+        "B) Ofrecer Suspensión Temporal (15 a 60 días) y Cambio de Plan a uno menor (Downgrade).",
+        "C) Ofrecerle cambiar de titular e instalarlo en otra provincia.",
+        "D) Informarle que está obligado a terminar 12 meses de contrato."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 2,
+      "question": "Si el motivo de la baja del cliente es por \"Mudanza\" a un distrito donde sí hay cobertura, ¿Qué herramientas de retención debes usar cronológicamente?",
+      "full_question": "2. Si el motivo de la baja del cliente es por \"Mudanza\" a un distrito donde sí hay cobertura, ¿Qué herramientas de retención debes usar cronológicamente?",
+      "options": [
+        "A) Cobrar penalidad, luego cancelar.",
+        "B) Primero brindar un Traslado con costo real; si no acepta, un Traslado con 50% de dscto; si aún no desea, Suspensión Temporal o Cambio de Titularidad.",
+        "C) Ofrecer Mudanza Gratis de inmediato.",
+        "D) Indicarle que él mismo instale los cables en la nueva casa."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 3,
+      "question": "¿Cuál es un requisito fundamental respecto a la línea telefónica para que un asesor ATC pueda procesar y agendar una solicitud de BAJA en el sistema?",
+      "full_question": "3. ¿Cuál es un requisito fundamental respecto a la línea telefónica para que un asesor ATC pueda procesar y agendar una solicitud de BAJA en el sistema?",
+      "options": [
+        "A) Que el cliente llame desde un teléfono fijo.",
+        "B) Que la llamada ingrese obligatoriamente desde el mismo número registrado en CRM. Si llama de otro, debe solicitar actualizarlo primero vía correo electrónico.",
+        "C) Que el cliente envíe un SMS de texto con la palabra BAJA.",
+        "D) Que el cliente grabe un video de seguridad."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 4,
+      "question": "Si un familiar llama para solicitar la cancelación del servicio porque el titular del contrato se encuentra internado en UCI, ¿Cuál es el proceso?",
+      "full_question": "4. Si un familiar llama para solicitar la cancelación del servicio porque el titular del contrato se encuentra internado en UCI, ¿Cuál es el proceso?",
+      "options": [
+        "A) Se cancela inmediatamente en la llamada creyendo en su palabra.",
+        "B) El familiar debe remitir un correo adjuntando el informe médico con el diagnóstico para que el área correspondiente valide la excepción.",
+        "C) Se cobra una multa al familiar por cancelar antes de tiempo.",
+        "D) Se le pide que desconecte el equipo para dar por terminado el contrato."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 5,
+      "question": "En el proceso de validación final de una Baja, el sistema enviará un SMS con un Código de Confirmación al titular. ¿Qué debes hacer si el cliente usa un equipo Android y reporta que el mensaje \"no le llega\"?",
+      "full_question": "5. En el proceso de validación final de una Baja, el sistema enviará un SMS con un Código de Confirmación al titular. ¿Qué debes hacer si el cliente usa un equipo Android y reporta que el mensaje \"no le llega\"?",
+      "options": [
+        "A) Generar la baja saltando este paso.",
+        "B) Exigir que cambie su chip a un equipo Apple.",
+        "C) Guiar al cliente para que revise su carpeta de \"Spam y bloqueados\" o desactivar el filtro de \"Truecaller\", ya que a veces estos desvían los SMS empresariales.",
+        "D) Reiniciar el sistema CRM del asesor."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 6,
+      "question": "Cuando identificas una \"Llamada Vicio\" (no hay respuesta por parte del cliente al descolgar), ¿Cuál es el protocolo exacto antes de colgar?",
+      "full_question": "6. Cuando identificas una \"Llamada Vicio\" (no hay respuesta por parte del cliente al descolgar), ¿Cuál es el protocolo exacto antes de colgar?",
+      "options": [
+        "A) Saludar, esperar 1 segundo y colgar de inmediato.",
+        "B) Presentarse, esperar 5 segundos, repetir el saludo inicial, y si no hay respuesta, aplicar el speech de despedida por inactividad y cortar.",
+        "C) Dejar la línea abierta hasta que el cliente hable para mejorar el TMO.",
+        "D) Empezar a gritar para que el cliente despierte."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 7,
+      "question": "Tienes en línea a un Cliente Ofensivo que no deja de gritar ni usar lenguaje inapropiado. ¿Cuántas veces debes aplicar el speech de advertencia antes de finalizar la llamada?",
+      "full_question": "7. Tienes en línea a un Cliente Ofensivo que no deja de gritar ni usar lenguaje inapropiado. ¿Cuántas veces debes aplicar el speech de advertencia antes de finalizar la llamada?",
+      "options": [
+        "A) Se corta de inmediato al primer grito.",
+        "B) Se aplica el speech 2 veces; si persiste, se procede a cortar la llamada.",
+        "C) Se aplica hasta 5 veces.",
+        "D) Nunca se le debe cortar la llamada, el asesor debe soportar el maltrato."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 8,
+      "question": "Un cliente llama indignado porque ingresó un reclamo hace días y no tiene respuesta. Al validar en CRM, notas que el reclamo aún se encuentra \"Pendiente y dentro del plazo regulatorio\". ¿Qué le debes informar?",
+      "full_question": "8. Un cliente llama indignado porque ingresó un reclamo hace días y no tiene respuesta. Al validar en CRM, notas que el reclamo aún se encuentra \"Pendiente y dentro del plazo regulatorio\". ¿Qué le debes informar?",
+      "options": [
+        "A) Que su caso se perdió y debe ingresar uno nuevo.",
+        "B) Que su reclamo está en proceso de revisión, que aún está dentro del plazo y que solicitarás al equipo que agilice la resolución.",
+        "C) Que el reclamo ha sido declarado infundado sin verificarlo.",
+        "D) Transferir de inmediato al jefe del call center."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 9,
+      "question": "Si un cliente quiere presentar un Reclamo o Queja formal, el asesor debe intentar derivarlo a que lo ingrese él mismo a través de la página web para ahorrar tiempo en la llamada.",
+      "full_question": "9. Si un cliente quiere presentar un Reclamo o Queja formal, el asesor debe intentar derivarlo a que lo ingrese él mismo a través de la página web para ahorrar tiempo en la llamada.",
+      "options": [
+        "A) Verdadero, la web es más rápida para el asesor.",
+        "B) Falso, si el cliente persiste en ingresar una queja o un nuevo reclamo, debemos atenderlo nosotros en la misma llamada (NO derivarlo a la web) y proceder con el registro.",
+        "C) Verdadero, los asesores de ATC no están capacitados para tomar quejas.",
+        "D) Falso, el cliente debe ir presencialmente a OSIPTEL."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 10,
+      "question": "¿Cuál es la \"Política de Escalación\" correcta cuando un cliente exige furioso hablar con un supervisor?",
+      "full_question": "10. ¿Cuál es la \"Política de Escalación\" correcta cuando un cliente exige furioso hablar con un supervisor?",
+      "options": [
+        "A) Transferir la llamada de inmediato al escuchar la palabra \"supervisor\".",
+        "B) Decirle que \"no hay supervisores disponibles\" para evitar que moleste.",
+        "C) Escuchar activamente, validar la razón e intentar una resolución (FCR) explicando lo que puedes hacer; solo si el cliente insiste después de agotar recursos, se procede con la escalación.",
+        "D) Colgar la llamada simulando una falla técnica."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 11,
+      "question": "Durante una escalación obligatoria, te das cuenta de que tu supervisor está atendiendo otra llamada. ¿Qué debes hacer con el cliente en línea?",
+      "full_question": "11. Durante una escalación obligatoria, te das cuenta de que tu supervisor está atendiendo otra llamada. ¿Qué debes hacer con el cliente en línea?",
+      "options": [
+        "A) Dejarlo esperando en hold infinitamente hasta que el supervisor se libere.",
+        "B) Registrar la solicitud en el CRM e informarle con claridad que el supervisor está en gestión y se comunicará con él en un plazo máximo de 24 horas hábiles.",
+        "C) Transferirlo de vuelta a la opción principal de ventas.",
+        "D) Inventar que el supervisor aprobó su ajuste."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 12,
+      "question": "Un cliente se arrepiente de cancelar su servicio y se comunica para \"Desistir de la baja\". ¿Cuáles son los dos requisitos técnicos/administrativos para poder aplicar la reactivación?",
+      "full_question": "12. Un cliente se arrepiente de cancelar su servicio y se comunica para \"Desistir de la baja\". ¿Cuáles son los dos requisitos técnicos/administrativos para poder aplicar la reactivación?",
+      "options": [
+        "A) Que el servicio esté aún en estado \"Vigente con solicitud de baja\" (no de baja total) y que el cliente NO tenga deuda.",
+        "B) Que pague 50 soles por reconexión y cambie su nombre.",
+        "C) Que el router haya sido devuelto y lo vuelva a comprar.",
+        "D) Que llame a OSIPTEL a retirar la carta de desistimiento."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "num": 13,
+      "question": "Si en el proceso de baja el cliente NO acepta las opciones de retención, intentas transferirlo a la cola de Fidelizaciones pero la llamada no conecta. ¿Qué debes indicarle?",
+      "full_question": "13. Si en el proceso de baja el cliente NO acepta las opciones de retención, intentas transferirlo a la cola de Fidelizaciones pero la llamada no conecta. ¿Qué debes indicarle?",
+      "options": [
+        "A) Que la baja está completada y el servicio ya fue cortado.",
+        "B) Que no se puede hacer nada y debe llamar otro día.",
+        "C) Que dejas agendada su petición y el área de Fidelización se contactará con él en un plazo máximo de 48 horas.",
+        "D) Que debe llevar su router a la oficina comercial más cercana."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 14,
+      "question": "Según la matriz de \"Baja por Viaje\", si el cliente se retira de su hogar actual y se va temporalmente por 45 días sin nadie en casa, ¿cuál es la mejor opción de retención a ofrecer?",
+      "full_question": "14. Según la matriz de \"Baja por Viaje\", si el cliente se retira de su hogar actual y se va temporalmente por 45 días sin nadie en casa, ¿cuál es la mejor opción de retención a ofrecer?",
+      "options": [
+        "A) Traslado de domicilio con 50% de descuento.",
+        "B) Upgrade de velocidad gratuito.",
+        "C) Suspensión Temporal",
+        "D) Cambio de titularidad a un vecino."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 15,
+      "question": "Un usuario no titular llama para dar de baja el servicio. Al sondear, descubres que el titular se encuentra en el extranjero de forma definitiva y no puede llamar. ¿Qué documento legal se le requiere?",
+      "full_question": "15. Un usuario no titular llama para dar de baja el servicio. Al sondear, descubres que el titular se encuentra en el extranjero de forma definitiva y no puede llamar. ¿Qué documento legal se le requiere?",
+      "options": [
+        "A) El pasaje de avión del titular escaneado.",
+        "B) Una Carta Poder emitida o validada por la embajada autorizando al familiar a gestionar la baja.",
+        "C) Una captura de pantalla de un mensaje de WhatsApp del titular.",
+        "D) El DNI físico del titular dejado en Perú."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 16,
+      "question": "¿Cuántos días calendario otorga el sistema (plazo para seleccionar fecha en la botonera de baja) al registrar la solicitud en CRM?",
+      "full_question": "16. ¿Cuántos días calendario otorga el sistema (plazo para seleccionar fecha en la botonera de baja) al registrar la solicitud en CRM?",
+      "options": [
+        "A) 1 día calendario.",
+        "B) 7 días calendario.",
+        "C) 15 días calendario.",
+        "D) 30 días calendario."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 17,
+      "question": "Verdadero o Falso: Cuando un asesor negocia una retención (ej. aplicar un 50% de descuento en traslado), puede aprobarla y cerrar el ticket directamente sin tipificar en el CRM porque la llamada queda grabada.",
+      "full_question": "17. Verdadero o Falso: Cuando un asesor negocia una retención (ej. aplicar un 50% de descuento en traslado), puede aprobarla y cerrar el ticket directamente sin tipificar en el CRM porque la llamada queda grabada.",
+      "options": [
+        "A) Verdadero, la grabación es el único sustento.",
+        "B) Falso, se debe tipificar obligatoriamente en el CRM completando la plantilla correspondiente con el ofrecimiento realizado y validando si se logró retener.",
+        "C) Verdadero, el CRM solo es para reportes técnicos.",
+        "D) Falso, la aprobación la debe dar el banco afiliado."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 18,
+      "question": "En el protocolo de Escalación, ¿Cuál de estas es una PROHIBICIÓN estricta para el asesor al momento de escalar?",
+      "full_question": "18. En el protocolo de Escalación, ¿Cuál de estas es una PROHIBICIÓN estricta para el asesor al momento de escalar?",
+      "options": [
+        "A) Transferir la llamada dando contexto al supervisor por interno.",
+        "B) Transferir la llamada sin contexto o hablar mal de la empresa o compañeros frente al cliente.",
+        "C) Registrar el motivo de la escalación en las notas.",
+        "D) Explicar al cliente los límites de gestión de la primera línea (FCR)."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "num": 19,
+      "question": "¿Cuál es el procedimiento cuando un cliente quiere una Suspensión Temporal de solo 10 días?",
+      "full_question": "19. ¿Cuál es el procedimiento cuando un cliente quiere una Suspensión Temporal de solo 10 días?",
+      "options": [
+        "A) Se aplica como excepción con permiso del supervisor.",
+        "B) Se aplica pero se le cobra como si fueran 15.",
+        "C) Se informa que, por normativa de OSIPTEL, el plazo mínimo obligatorio de una suspensión temporal es de 15 días calendario, por lo cual no aplica.",
+        "D) Se cambia el plan del cliente para esos 10 días."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "num": 20,
+      "question": "El cliente reporta que la página web oficial de Reclamos de Perú Fibra está caída y no puede registrar su queja. ¿Qué contingencia aplicas?",
+      "full_question": "20. El cliente reporta que la página web oficial de Reclamos de Perú Fibra está caída y no puede registrar su queja. ¿Qué contingencia aplicas?",
+      "options": [
+        "A) Tomas todos sus datos en llamada para registrar tú mismo el reclamo cuando la página esté disponible, y le devuelves la llamada para dictarle su número de expediente.",
+        "B) Le dices que vuelva a intentar entrar a la web en 5 horas.",
+        "C) Ignoras su requerimiento ya que tu área es teléfono, no soporte web.",
+        "D) Le recomiendas poner su queja en Facebook o Twitter."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

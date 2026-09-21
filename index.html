@@ -561,25 +561,24 @@ window.onerror = function(msg, url, lineNo, columnNo, error) {
 
 
         function selectBajaStep2(val, btn) {
-
             document.querySelectorAll('.baja-btn-2').forEach(b => b.classList.remove('border-pf-red', 'bg-red-50', 'ring-2', 'ring-pf-red'));
-
             btn.classList.add('border-pf-red', 'bg-red-50', 'ring-2', 'ring-pf-red');
+            
+            hideBajaDownstream(3);
 
             if (val === 'multi') {
-
                 document.getElementById('baja-multi-notice')?.classList.remove('hidden');
-
+                document.getElementById('baja-token-notice')?.classList.add('hidden');
+                document.getElementById('baja-step-3-single')?.classList.add('hidden');
+                document.getElementById('baja-step-3-multi')?.classList.remove('hidden');
             } else {
-
                 document.getElementById('baja-multi-notice')?.classList.add('hidden');
-
+                document.getElementById('baja-token-notice')?.classList.remove('hidden');
+                document.getElementById('baja-step-3-multi')?.classList.add('hidden');
+                document.getElementById('baja-step-3-single')?.classList.remove('hidden');
             }
-
             document.getElementById('baja-step-3')?.classList.remove('hidden');
-
             document.getElementById('baja-step-3')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-
         }
 
 
@@ -716,6 +715,8 @@ window.onerror = function(msg, url, lineNo, columnNo, error) {
 
                 document.getElementById('baja-step-2')?.classList.add('hidden');
 
+                document.getElementById('baja-token-notice')?.classList.add('hidden');
+
                 document.getElementById('baja-multi-notice')?.classList.add('hidden');
 
                 document.querySelectorAll('.baja-btn-2').forEach(b => b.classList.remove('border-pf-red', 'bg-red-50', 'ring-2', 'ring-pf-red'));
@@ -725,6 +726,10 @@ window.onerror = function(msg, url, lineNo, columnNo, error) {
             if (fromStep <= 3) {
 
                 document.getElementById('baja-step-3')?.classList.add('hidden');
+
+                document.getElementById('baja-step-3-single')?.classList.add('hidden');
+
+                document.getElementById('baja-step-3-multi')?.classList.add('hidden');
 
                 document.getElementById('baja-branch-falla-dir')?.classList.add('hidden');
 
@@ -3782,6 +3787,16 @@ const protocolData = [
 
 
 
+        <div id="baja-token-notice" class="hidden mt-3 p-3.5 bg-blue-50 border border-blue-200 rounded-2xl text-xs text-blue-900 flex items-center gap-2 font-medium">
+
+            <i class="ph-fill ph-shield-check text-base text-blue-700 shrink-0"></i>
+
+            <span><strong>ENVIAR TOKEN DE VERIFICACIÓN</strong></span>
+
+        </div>
+
+
+
         <div id="baja-multi-notice" class="hidden mt-3 p-3.5 bg-purple-50 border border-purple-200 rounded-2xl text-xs text-purple-900 flex items-center gap-2 font-medium">
 
             <i class="ph-fill ph-info text-base text-purple-700 shrink-0"></i>
@@ -3794,92 +3809,77 @@ const protocolData = [
 
 
 
-    <!-- PASO 3: VALIDACIÓN DE DIRECCIÓN Y SONDEO -->
-
+    <!-- PASO 3: VALIDACIÓN (TOKEN / DIRECCIÓN Y SONDEO) -->
     <div id="baja-step-3" class="hidden bg-white border-2 border-gray-200 rounded-3xl p-5 md:p-6 shadow-sm transition-all">
 
-        <div class="flex items-center gap-3 mb-4">
-
-            <span class="w-8 h-8 rounded-xl bg-red-100 text-pf-red font-black text-sm flex items-center justify-center shrink-0">3</span>
-
-            <div>
-
-                <span class="text-xs font-bold uppercase tracking-wider text-red-600 block">Paso 3</span>
-
-                <h4 class="text-base md:text-lg font-bold text-gray-900">Validación de Dirección y Sondeo</h4>
-
+        <!-- RAMA 1: TIENE SOLO 1 SERVICIO -->
+        <div id="baja-step-3-single" class="hidden">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="w-8 h-8 rounded-xl bg-red-100 text-pf-red font-black text-sm flex items-center justify-center shrink-0">3</span>
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-600 block">Paso 3</span>
+                    <h4 class="text-base md:text-lg font-bold text-gray-900">REALIZA VALIDACIÓN DE TOKEN</h4>
+                </div>
             </div>
 
+            <!-- Pregunta de Decisión Paso 3 (Token) -->
+            <h5 class="text-sm font-bold text-gray-800 mb-3">¿La validación de token fue exitosa?</h5>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <button type="button" onclick="selectBajaStep3('correcta', this)" class="baja-btn-3 flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-2xl border-2 border-gray-200 hover:border-green-500 bg-white hover:bg-green-50 text-gray-800 hover:text-green-800 font-bold text-sm transition-all shadow-xs cursor-pointer group">
+                    <i class="ph-fill ph-check-circle text-xl text-green-600 group-hover:scale-110 transition-transform"></i>
+                    <span>VALIDACIÓN CORRECTA</span>
+                </button>
+                <button type="button" onclick="selectBajaStep3('falla', this)" class="baja-btn-3 flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-2xl border-2 border-gray-200 hover:border-red-500 bg-white hover:bg-red-50 text-gray-800 hover:text-red-800 font-bold text-sm transition-all shadow-xs cursor-pointer group">
+                    <i class="ph-fill ph-x-circle text-xl text-red-500 group-hover:scale-110 transition-transform"></i>
+                    <span>FALLA VALIDACIÓN</span>
+                </button>
+            </div>
         </div>
 
-
-
-        <!-- Speeches de Validación y Sondeo -->
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-
-            <div class="bg-gray-50 border-l-4 border-red-500 p-4 rounded-r-2xl">
-
-                <span class="text-xs font-bold text-red-700 uppercase tracking-wider block mb-1">Speech de Sondeo del Motivo:</span>
-
-                <p class="text-gray-800 italic text-xs leading-relaxed">
-
-                    "¿Podría(s) compartirnos el motivo principal para tomar esta decisión? Nuestro objetivo es mejorar continuamente y, si es posible, ofrecer(te/le) una solución que se ajuste mejor a (tus/sus) necesidades."
-
-                </p>
-
+        <!-- RAMA 2: TIENE MÁS DE UN SERVICIO -->
+        <div id="baja-step-3-multi" class="hidden">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="w-8 h-8 rounded-xl bg-red-100 text-pf-red font-black text-sm flex items-center justify-center shrink-0">3</span>
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-600 block">Paso 3</span>
+                    <h4 class="text-base md:text-lg font-bold text-gray-900">Validación de Dirección y Sondeo</h4>
+                </div>
             </div>
 
-            <div class="bg-gray-50 border-l-4 border-blue-500 p-4 rounded-r-2xl">
-
-                <span class="text-xs font-bold text-blue-700 uppercase tracking-wider block mb-1">Speech de Validación de Dirección:</span>
-
-                <p class="text-gray-800 italic text-xs leading-relaxed">
-
-                    "Voy a registrar su agendamiento de baja, iniciaremos validando su dirección donde está instalado el servicio."
-
-                </p>
-
+            <!-- Speeches de Validación y Sondeo -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div class="bg-gray-50 border-l-4 border-red-500 p-4 rounded-r-2xl">
+                    <span class="text-xs font-bold text-red-700 uppercase tracking-wider block mb-1">Speech de Sondeo del Motivo:</span>
+                    <p class="text-gray-800 italic text-xs leading-relaxed">
+                        "¿Podría(s) compartirnos el motivo principal para tomar esta decisión? Nuestro objetivo es mejorar continuamente y, si es posible, ofrecer(te/le) una solución que se ajuste mejor a (tus/sus) necesidades."
+                    </p>
+                </div>
+                <div class="bg-gray-50 border-l-4 border-blue-500 p-4 rounded-r-2xl">
+                    <span class="text-xs font-bold text-blue-700 uppercase tracking-wider block mb-1">Speech de Validación de Dirección:</span>
+                    <p class="text-gray-800 italic text-xs leading-relaxed">
+                        "Voy a registrar su agendamiento de baja, iniciaremos validando su dirección donde está instalado el servicio."
+                    </p>
+                </div>
             </div>
 
-        </div>
+            <!-- Requisito de llamada -->
+            <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl mb-4 text-xs text-amber-900 flex items-start gap-2">
+                <i class="ph-fill ph-warning-circle text-base text-amber-600 mt-0.5 shrink-0"></i>
+                <span><strong>Requisito CRM:</strong> Solo se agenda la baja si la llamada ingresa desde el mismo número registrado en CRM. (Si llama de otro número, solicitar actualización por correo a <strong>contacto@perufibra.pe</strong>).</span>
+            </div>
 
-
-
-        <!-- Requisito de llamada -->
-
-        <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl mb-4 text-xs text-amber-900 flex items-start gap-2">
-
-            <i class="ph-fill ph-warning-circle text-base text-amber-600 mt-0.5 shrink-0"></i>
-
-            <span><strong>Requisito CRM:</strong> Solo se agenda la baja si la llamada ingresa desde el mismo número registrado en CRM. (Si llama de otro número, solicitar actualización por correo a <strong>contacto@perufibra.pe</strong>).</span>
-
-        </div>
-
-
-
-        <!-- Pregunta de Decisión Paso 3 -->
-
-        <h5 class="text-sm font-bold text-gray-800 mb-3">¿La dirección brindada coincide con los registros del CRM?</h5>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-
-            <button type="button" onclick="selectBajaStep3('correcta', this)" class="baja-btn-3 flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-2xl border-2 border-gray-200 hover:border-green-500 bg-white hover:bg-green-50 text-gray-800 hover:text-green-800 font-bold text-sm transition-all shadow-xs cursor-pointer group">
-
-                <i class="ph-fill ph-check-circle text-xl text-green-600 group-hover:scale-110 transition-transform"></i>
-
-                <span>DIRECCIÓN CORRECTA</span>
-
-            </button>
-
-            <button type="button" onclick="selectBajaStep3('falla', this)" class="baja-btn-3 flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-2xl border-2 border-gray-200 hover:border-red-500 bg-white hover:bg-red-50 text-gray-800 hover:text-red-800 font-bold text-sm transition-all shadow-xs cursor-pointer group">
-
-                <i class="ph-fill ph-x-circle text-xl text-red-500 group-hover:scale-110 transition-transform"></i>
-
-                <span>FALLA VALIDACIÓN</span>
-
-            </button>
-
+            <!-- Pregunta de Decisión Paso 3 -->
+            <h5 class="text-sm font-bold text-gray-800 mb-3">¿La dirección brindada coincide con los registros del CRM?</h5>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <button type="button" onclick="selectBajaStep3('correcta', this)" class="baja-btn-3 flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-2xl border-2 border-gray-200 hover:border-green-500 bg-white hover:bg-green-50 text-gray-800 hover:text-green-800 font-bold text-sm transition-all shadow-xs cursor-pointer group">
+                    <i class="ph-fill ph-check-circle text-xl text-green-600 group-hover:scale-110 transition-transform"></i>
+                    <span>VALIDACIÓN CORRECTA</span>
+                </button>
+                <button type="button" onclick="selectBajaStep3('falla', this)" class="baja-btn-3 flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-2xl border-2 border-gray-200 hover:border-red-500 bg-white hover:bg-red-50 text-gray-800 hover:text-red-800 font-bold text-sm transition-all shadow-xs cursor-pointer group">
+                    <i class="ph-fill ph-x-circle text-xl text-red-500 group-hover:scale-110 transition-transform"></i>
+                    <span>FALLA VALIDACIÓN</span>
+                </button>
+            </div>
         </div>
 
     </div>

@@ -426,7 +426,91 @@ window.onerror = function(msg, url, lineNo, columnNo, error) {
 
         // Organizado según el Índice solicitado para no omitir información.
 
-        function switchGestionesTab(tabId, btnElement) {
+        
+        function switchLlamadaTab(tabId, btnElement) {
+            const tabs = document.querySelectorAll('#llamada-content-container > .tab-content');
+            tabs.forEach(tab => {
+                tab.classList.remove('block');
+                tab.classList.add('hidden');
+            });
+            const btns = document.querySelectorAll('#llamada-sidebar-menu .internal-nav-btn');
+            btns.forEach(btn => {
+                btn.classList.remove('active');
+            });
+            const target = document.getElementById(tabId);
+            if (target) {
+                target.classList.remove('hidden');
+                target.classList.add('block');
+            }
+            if (btnElement) {
+                btnElement.classList.add('active');
+            }
+        }
+
+        function switchLlamadaSubTab(containerId, subTabId, btnElement) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            const subTabs = container.querySelectorAll('.sub-tab-content');
+            subTabs.forEach(t => {
+                t.classList.add('hidden');
+                t.classList.remove('block');
+            });
+            const btns = container.querySelectorAll('.sub-nav-btn');
+            btns.forEach(b => {
+                b.classList.remove('border-pf-red', 'bg-red-50', 'text-pf-red', 'shadow-sm', 'ring-1', 'ring-pf-red');
+                b.classList.add('border-gray-200', 'bg-white', 'text-gray-700');
+            });
+            const target = document.getElementById(subTabId);
+            if (target) {
+                target.classList.remove('hidden');
+                target.classList.add('block');
+            }
+            if (btnElement) {
+                btnElement.classList.remove('border-gray-200', 'bg-white', 'text-gray-700');
+                btnElement.classList.add('border-pf-red', 'bg-red-50', 'text-pf-red', 'shadow-sm', 'ring-1', 'ring-pf-red');
+            }
+        }
+
+        function switchClienteDificilTab(tabId, btnElement) {
+            const tabs = document.querySelectorAll('#cliente-dificil-content-container > .tab-content');
+            tabs.forEach(tab => {
+                tab.classList.remove('block');
+                tab.classList.add('hidden');
+            });
+            const btns = document.querySelectorAll('#cliente-dificil-sidebar-menu .internal-nav-btn');
+            btns.forEach(btn => {
+                btn.classList.remove('active');
+            });
+            const target = document.getElementById(tabId);
+            if (target) {
+                target.classList.remove('hidden');
+                target.classList.add('block');
+            }
+            if (btnElement) {
+                btnElement.classList.add('active');
+            }
+        }
+
+        function switchContingenciasTab(tabId, btnElement) {
+            const tabs = document.querySelectorAll('#contingencias-content-container > .tab-content');
+            tabs.forEach(tab => {
+                tab.classList.remove('block');
+                tab.classList.add('hidden');
+            });
+            const btns = document.querySelectorAll('#contingencias-sidebar-menu .internal-nav-btn');
+            btns.forEach(btn => {
+                btn.classList.remove('active');
+            });
+            const target = document.getElementById(tabId);
+            if (target) {
+                target.classList.remove('hidden');
+                target.classList.add('block');
+            }
+            if (btnElement) {
+                btnElement.classList.add('active');
+            }
+        }
+function switchGestionesTab(tabId, btnElement) {
 
             if (tabId === 'tab-gest-1') {
                 checkSuspensionWarning();
@@ -907,21 +991,179 @@ const protocolData = [
 
             },
 
-            {
-
+                        {
                 section: "4. PROTOCOLO DE LLAMADA",
 
                 icon: "ph-phone-call",
 
-                cards: [
+                content: `
+<div class="flex flex-col lg:flex-row gap-6 items-start w-full">
+    <!-- Panel Lateral Izquierdo: Menú Interno Vertical -->
+    <div class="w-full lg:w-[340px] shrink-0 lg:sticky lg:top-4 z-10" id="llamada-sidebar-menu">
+        <div class="bg-white rounded-2xl border border-gray-200 p-3 shadow-sm flex flex-col gap-1.5 w-full">
+            <div class="px-3 py-2 text-xs font-bold uppercase tracking-wider text-gray-400 border-b border-gray-100 flex items-center justify-between mb-1">
+                <span>Pasos de la Llamada</span>
+                <i class="ph ph-phone-call text-sm"></i>
+            </div>
+            
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-p1', this)">
+                <i class="ph-fill ph-hand-waving mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">1. Saludo Inicial (Bienvenida)</span>
+            </button>
 
-                    { 
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-p2', this)">
+                <i class="ph-fill ph-chat-text mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">2. Confirmación del Motivo</span>
+            </button>
 
-                        title: "1. Saludo Inicial (Bienvenida)", 
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-p3', this)">
+                <i class="ph-fill ph-identification-card mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">3. Solicitar Datos de la Cuenta</span>
+            </button>
 
-                        content: `
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-p4', this)">
+                <i class="ph-fill ph-magnifying-glass mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">4. Preguntas de Sondeo</span>
+            </button>
 
-                            <div class="mb-4 text-pf-red font-semibold">Opciones de Saludo:</div>
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-p5', this)">
+                <i class="ph-fill ph-lightbulb mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">5. Solución y Contexto</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-p6', this)">
+                <i class="ph-fill ph-check-circle mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">6. Cierre Positivo</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-p7', this)">
+                <i class="ph-fill ph-star mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">7. Derivación Encuesta</span>
+            </button>
+
+
+            <div class="px-3 py-2 text-xs font-bold uppercase tracking-wider text-gray-400 border-b border-gray-100 flex items-center justify-between mt-3 mb-1">
+                <span>Tiempos y Validaciones</span>
+                <i class="ph ph-shield-check text-sm"></i>
+            </div>
+            
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q1', this)">
+                <i class="ph-fill ph-phone-call mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">LINEAMIENTOS DE MANEJO DEL TIEMPO</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q2', this)">
+                <i class="ph-fill ph-phone-call mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">VALIDACIÓN DE NÚMERO DE CONTACTO</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q3', this)">
+                <i class="ph-fill ph-envelope mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">VALIDACIÓN DE CORREO ELECTRÓNICO</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q4', this)">
+                <i class="ph-fill ph-clipboard-text mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">SOLICITUD DE DATOS</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q5', this)">
+                <i class="ph-fill ph-lock-key mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">PREGUNTAS DE VALIDACIÓN Y SEGURIDAD</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q6', this)">
+                <i class="ph-fill ph-shield-check mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">SEGURIDAD DE LA INFORMACIÓN</span>
+            </button>
+
+
+            <div class="px-3 py-2 text-xs font-bold uppercase tracking-wider text-gray-400 border-b border-gray-100 flex items-center justify-between mt-3 mb-1">
+                <span>Gestiones en Llamada</span>
+                <i class="ph ph-wrench text-sm"></i>
+            </div>
+            
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q7', this)">
+                <i class="ph-fill ph-user-minus mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">RETENCIÓN: CLIENTE SOLICITA BAJA</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q8', this)">
+                <i class="ph-fill ph-device-mobile mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">PROBLEMAS CON CÓDIGO DE VERIFICACIÓN POR SMS</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q9', this)">
+                <i class="ph-fill ph-package mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">RECOJO DE EQUIPOS</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q10', this)">
+                <i class="ph-fill ph-pencil-simple mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">CLIENTE DESEA ACTUALIZAR SUS DATOS</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q11', this)">
+                <i class="ph-fill ph-arrows-left-right mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">CAMBIO DE PLAN (DOWNGRADE / UPGRADE)</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q12', this)">
+                <i class="ph-fill ph-wrench mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">GESTIÓN TÉCNICA</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q13', this)">
+                <i class="ph-fill ph-prohibit mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">CLIENTE REPORTA CONTRATACIÓN NO RECONOCIDA</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q14', this)">
+                <i class="ph-fill ph-file-text mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">PLAN INCORRECTO DESDE LA VENTA</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q15', this)">
+                <i class="ph-fill ph-wifi-high mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">SOLICITUD DE MESH</span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Columna Derecha: Contenido Seleccionado -->
+    <div class="flex-1 min-w-0 w-full" id="llamada-content-container">
+        <!-- Pantalla de Bienvenida por Defecto -->
+        <div id="tab-llamada-default" class="tab-content block">
+            <div class="bg-white border-2 border-gray-100 p-8 rounded-3xl shadow-sm text-center flex flex-col items-center justify-center min-h-[400px]">
+                <div class="bg-red-50 text-pf-red p-5 rounded-full mb-6 inline-flex">
+                    <i class="ph-fill ph-phone-call text-6xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-3">PROTOCOLO DE LLAMADA</h2>
+                <p class="text-gray-600 mb-8 max-w-md text-base mx-auto">
+                    Seleccione una opción del panel izquierdo para visualizar el procedimiento correspondiente.
+                </p>
+                <div class="bg-gray-50 border border-gray-200 p-5 rounded-2xl w-full max-w-lg mx-auto">
+                    <div class="flex items-start">
+                        <i class="ph-fill ph-info text-blue-500 text-xl mr-3 mt-0.5 shrink-0"></i>
+                        <p class="text-sm text-gray-700 text-left">
+                            Utilice el menú disponible para consultar procedimientos, speech, validaciones, observaciones, contingencias y procesos relacionados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- TAB PASO 1: 1. Saludo Inicial (Bienvenida) -->
+        <div id="tab-llamada-p1" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-hand-waving text-pf-red mr-2.5 text-2xl"></i>
+                    1. Saludo Inicial (Bienvenida)
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-base text-gray-700 leading-relaxed">
+                <div class="mb-4 text-pf-red font-semibold">Opciones de Saludo:</div>
 
                             <div class="flex flex-col gap-3 mb-6">
 
@@ -952,20 +1194,32 @@ const protocolData = [
                             </div>
 
                             <em class="text-pf-red block mt-4 italic font-medium">¡Recuerda siempre enfatizar el saludo de bienvenida!</em>
+            </div>
+        </div>
 
-                        ` 
+        <!-- TAB PASO 2: 2. Confirmación del Motivo -->
+        <div id="tab-llamada-p2" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-chat-text text-pf-red mr-2.5 text-2xl"></i>
+                    2. Confirmación del Motivo
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-base text-gray-700 leading-relaxed">
+                <div class='text-pf-red font-semibold mb-2'>Opciones:</div><div class='flex flex-col gap-3'><div class='bg-gray-100 p-4 rounded-2xl text-gray-700'>- Cuéntame, ¿en qué te puedo ayudar el día de hoy?</div><div class='bg-gray-100 p-4 rounded-2xl text-gray-700'>- ¿Cómo te puedo ayudar?</div></div><em class='text-gray-500 block mt-4 text-sm'>*Validar el motivo de la llamada, puedes parafrasear lo mencionado por el cliente.</em>
+            </div>
+        </div>
 
-                    },
-
-                    { title: "2. Confirmación del Motivo", content: "<div class='text-pf-red font-semibold mb-2'>Opciones:</div><div class='flex flex-col gap-3'><div class='bg-gray-100 p-4 rounded-2xl text-gray-700'>- Cuéntame, ¿en qué te puedo ayudar el día de hoy?</div><div class='bg-gray-100 p-4 rounded-2xl text-gray-700'>- ¿Cómo te puedo ayudar?</div></div><em class='text-gray-500 block mt-4 text-sm'>*Validar el motivo de la llamada, puedes parafrasear lo mencionado por el cliente.</em>" },
-
-                    { 
-
-                        title: "3. Solicitar Datos de la Cuenta", 
-
-                        content: `
-
-                            <div class="mb-2 text-pf-red font-semibold">Solicitud de datos para ingresar a la cuenta del cliente.</div>
+        <!-- TAB PASO 3: 3. Solicitar Datos de la Cuenta -->
+        <div id="tab-llamada-p3" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-identification-card text-pf-red mr-2.5 text-2xl"></i>
+                    3. Solicitar Datos de la Cuenta
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-base text-gray-700 leading-relaxed">
+                <div class="mb-2 text-pf-red font-semibold">Solicitud de datos para ingresar a la cuenta del cliente.</div>
 
                             <div class="bg-gray-100 p-4 rounded-2xl text-gray-700 mb-2">
 
@@ -986,54 +1240,57 @@ const protocolData = [
                             </div>
 
                             <em class="text-gray-500 block text-sm">*Nota: No es lo mismo solicitar datos que la validación de datos y seguridad. La validación de datos es para las solicitudes del titular donde corresponda validar la titularidad.</em>
+            </div>
+        </div>
 
-                        ` 
-
-                    },
-
-                    { 
-
-                        title: "4. Preguntas de Sondeo", 
-
-                        content: `
-
-                            Identifica el problema: Informativo, Status, Solicitud, Problema.
+        <!-- TAB PASO 4: 4. Preguntas de Sondeo -->
+        <div id="tab-llamada-p4" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-magnifying-glass text-pf-red mr-2.5 text-2xl"></i>
+                    4. Preguntas de Sondeo
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-base text-gray-700 leading-relaxed">
+                Identifica el problema: Informativo, Status, Solicitud, Problema.
 
                             <div class='text-pf-red font-semibold mt-4 mb-2'>Ejemplo de Sondeo:</div>
 
                             <div class='bg-gray-100 p-4 rounded-2xl text-gray-700'>'Por favor, detállame, ¿cómo se presenta el problema?' (Ej. No tengo internet, no carga páginas).</div>
 
                             <em class="text-gray-500 block mt-4 text-sm">*Nota: Validar la necesidad del cliente, para dar la solución en la llamada.</em>
+            </div>
+        </div>
 
-                        ` 
-
-                    },
-
-                    { 
-
-                        title: "5. Solución y Contexto", 
-
-                        content: `
-
-                            <div class='text-gray-900 font-semibold mb-2'>Solución:</div>
+        <!-- TAB PASO 5: 5. Solución y Contexto -->
+        <div id="tab-llamada-p5" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-lightbulb text-pf-red mr-2.5 text-2xl"></i>
+                    5. Solución y Contexto
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-base text-gray-700 leading-relaxed">
+                <div class='text-gray-900 font-semibold mb-2'>Solución:</div>
 
                             <div class='bg-gray-100 p-4 rounded-2xl text-gray-700 mb-4'>Sigue los pasos del protocolo PF para dar solución. Asegura que cada acción sea informada. Ej: si se muda, revisa Solicitud de Traslado.</div>
 
                             <div class='text-gray-900 font-semibold mb-2'>Contexto:</div>
 
                             <div class='bg-gray-100 p-4 rounded-2xl text-gray-700'>Explicarle al cliente el por qué haces algo. Ej: 'Vamos a realizar algunas validaciones en el sistema y su equipo para identificar el origen... Le iré indicando cada paso.'</div>
+            </div>
+        </div>
 
-                        ` 
-
-                    },
-
-                    { 
-
-                        title: "6. Cierre Positivo", 
-
-                        content: `
-
-                            <div class='mb-2 text-gray-700'>Antes de Finalizar la llamada asegúrate de saber si el cliente tiene alguna duda o solicitud adicional.</div>
+        <!-- TAB PASO 6: 6. Cierre Positivo -->
+        <div id="tab-llamada-p6" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-check-circle text-pf-red mr-2.5 text-2xl"></i>
+                    6. Cierre Positivo
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-base text-gray-700 leading-relaxed">
+                <div class='mb-2 text-gray-700'>Antes de Finalizar la llamada asegúrate de saber si el cliente tiene alguna duda o solicitud adicional.</div>
 
                             <div class='text-pf-red font-semibold mb-2'>Speech:</div>
 
@@ -1064,36 +1321,47 @@ const protocolData = [
                             </div>
 
                             <em class='text-gray-500 block text-sm'>*Nota: Un buen cierre es el último impulso para que el cliente se quede con una percepción positiva del servicio. Muestra Amabilidad desde el principio de la llamada hasta el cierre.</em>
+            </div>
+        </div>
 
-                        ` 
+        <!-- TAB PASO 7: 7. Derivación Encuesta -->
+        <div id="tab-llamada-p7" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-star text-pf-red mr-2.5 text-2xl"></i>
+                    7. Derivación Encuesta
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm text-base text-gray-700 leading-relaxed">
+                <div class='bg-gray-100 p-4 rounded-2xl text-gray-700'>Al finalizar la llamada recibirá una breve encuesta para calificar la atención. 'Gracias por llamar a Perú Fibra' (OBLIGATORIO).</div><em class='text-gray-500 block mt-4 text-sm'>*Nota: Enviar encuesta</em>
+            </div>
+        </div>
 
-                    },
+        <!-- TAB QA 1: LINEAMIENTOS DE MANEJO DEL TIEMPO -->
+        <div id="tab-llamada-q1" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-phone-call text-pf-red mr-2.5 text-2xl"></i>
+                    LINEAMIENTOS DE MANEJO DEL TIEMPO
+                </h3>
+            </div>
+            <div id="subcontainer-q1" class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                    
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q1', 'subtab-q1-1', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-pf-red bg-red-50 text-pf-red shadow-sm ring-1 ring-pf-red cursor-pointer">
+                    <i class="ph-fill ph-phone-call text-xl mr-2.5"></i>
+                    <span>CANAL VOZ</span>
+                </button>
 
-                    { title: "7. Derivación Encuesta", content: "<div class='bg-gray-100 p-4 rounded-2xl text-gray-700'>Al finalizar la llamada recibirá una breve encuesta para calificar la atención. 'Gracias por llamar a Perú Fibra' (OBLIGATORIO).</div><em class='text-gray-500 block mt-4 text-sm'>*Nota: Enviar encuesta</em>" }
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q1', 'subtab-q1-2', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-chat-circle-dots text-xl mr-2.5"></i>
+                    <span>CANAL DIGITAL</span>
+                </button>
 
-                ],
-
-                quickAccess: [
-
-                    { 
-
-                        title: "LINEAMIENTOS DE MANEJO DEL TIEMPO", 
-
-                        content: "",
-
-                        subItems: [
-
-                            {
-
-                                title: "CANAL VOZ",
-
-                                icon: "ph-phone-call",
-
-                                isModal: true,
-
-                                content: `
-
-<p class="text-gray-500 mb-8 text-lg">Gestión eficiente de tiempos durante la atención telefónica.</p>
+                </div>
+                
+                <div id="subtab-q1-1" class="sub-tab-content  animate-fade-in">
+                    <p class="text-gray-500 mb-8 text-lg">Gestión eficiente de tiempos durante la atención telefónica.</p>
 
 
 
@@ -1266,22 +1534,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-                                `
-
-                            },
-
-                            {
-
-                                title: "CANAL DIGITAL",
-
-                                icon: "ph-chat-circle-dots",
-
-                                isModal: true,
-
-                                content: `
-
-<p class="text-gray-500 mb-8 text-lg">Gestión eficiente de tiempos durante la atención por canales digitales.</p>
+                <div id="subtab-q1-2" class="sub-tab-content hidden animate-fade-in">
+                    <p class="text-gray-500 mb-8 text-lg">Gestión eficiente de tiempos durante la atención por canales digitales.</p>
 
 
 
@@ -1586,26 +1842,20 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
+            </div>
+        </div>
 
-                            }
-
-                        ]
-
-                    },
-
-                    { 
-
-                        title: "VALIDACIÓN DE NÚMERO DE CONTACTO", 
-
-                        icon: "ph-phone-call",
-
-                        isModal: true,
-
-                        content: `
-
-<p class="text-gray-500 mb-8 text-lg">Validación y actualización de teléfonos de contacto registrados.</p>
+        <!-- TAB QA 2: VALIDACIÓN DE NÚMERO DE CONTACTO -->
+        <div id="tab-llamada-q2" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-phone-call text-pf-red mr-2.5 text-2xl"></i>
+                    VALIDACIÓN DE NÚMERO DE CONTACTO
+                </h3>
+            </div>
+            <p class="text-gray-500 mb-8 text-lg">Validación y actualización de teléfonos de contacto registrados.</p>
 
 
 
@@ -2152,22 +2402,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "VALIDACIÓN DE CORREO ELECTRÓNICO",
-
-                        icon: "ph-envelope",
-
-                        isModal: true,
-
-                        content: `
-
-<p class="text-gray-500 mb-8 text-lg">Validación y actualización del correo electrónico registrado para garantizar la recepción de comunicaciones y notificaciones del servicio.</p>
+        <!-- TAB QA 3: VALIDACIÓN DE CORREO ELECTRÓNICO -->
+        <div id="tab-llamada-q3" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-envelope text-pf-red mr-2.5 text-2xl"></i>
+                    VALIDACIÓN DE CORREO ELECTRÓNICO
+                </h3>
+            </div>
+            <p class="text-gray-500 mb-8 text-lg">Validación y actualización del correo electrónico registrado para garantizar la recepción de comunicaciones y notificaciones del servicio.</p>
 
 
 
@@ -2412,32 +2657,38 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
+        <!-- TAB QA 4: SOLICITUD DE DATOS -->
+        <div id="tab-llamada-q4" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-clipboard-text text-pf-red mr-2.5 text-2xl"></i>
+                    SOLICITUD DE DATOS
+                </h3>
+            </div>
+            <div id="subcontainer-q4" class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-6">
+                    
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q4', 'subtab-q4-1', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-pf-red bg-red-50 text-pf-red shadow-sm ring-1 ring-pf-red cursor-pointer">
+                    <i class="ph-fill ph-chat-circle-dots text-xl mr-2.5"></i>
+                    <span>PARA CONSULTAS</span>
+                </button>
 
-                    },
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q4', 'subtab-q4-2', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-lock-key text-xl mr-2.5"></i>
+                    <span>PARA INFORMACIÓN CONFIDENCIAL</span>
+                </button>
 
-                    {
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q4', 'subtab-q4-3', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-file-text text-xl mr-2.5"></i>
+                    <span>PARA VARIACIÓN EN CONTRATO</span>
+                </button>
 
-                        title: "SOLICITUD DE DATOS",
-
-                        icon: "ph-clipboard-text",
-
-                        content: "",
-
-                        subItems: [
-
-                            {
-
-                                title: "PARA CONSULTAS",
-
-                                icon: "ph-chat-circle-dots",
-
-                                isModal: true,
-
-                                content: `
-
-<p class="text-gray-500 mb-8 text-lg">Para consultas comerciales o generales que no otorguen datos sensibles, podemos responder sin la necesidad de solicitar o corroborar algún dato del titular.</p>
+                </div>
+                
+                <div id="subtab-q4-1" class="sub-tab-content  animate-fade-in">
+                    <p class="text-gray-500 mb-8 text-lg">Para consultas comerciales o generales que no otorguen datos sensibles, podemos responder sin la necesidad de solicitar o corroborar algún dato del titular.</p>
 
 
 
@@ -2536,22 +2787,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                            },
-
-                            {
-
-                                title: "PARA INFORMACIÓN CONFIDENCIAL",
-
-                                icon: "ph-lock-key",
-
-                                isModal: true,
-
-                                content: `
-
-<p class="text-gray-500 mb-8 text-lg">SOLO solicitamos los datos del titular cuando el cliente pide:</p>
+                <div id="subtab-q4-2" class="sub-tab-content hidden animate-fade-in">
+                    <p class="text-gray-500 mb-8 text-lg">SOLO solicitamos los datos del titular cuando el cliente pide:</p>
 
 
 
@@ -2678,22 +2917,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                            },
-
-                            {
-
-                                title: "PARA VARIACIÓN EN CONTRATO",
-
-                                icon: "ph-file-text",
-
-                                isModal: true,
-
-                                content: `
-
-<!-- NOTA OPERATIVA -->
+                <div id="subtab-q4-3" class="sub-tab-content hidden animate-fade-in">
+                    <!-- NOTA OPERATIVA -->
 
 <div class="bg-blue-50 border-l-4 border-blue-500 p-5 rounded-r-xl shadow-sm mb-8 flex items-start">
 
@@ -2832,26 +3059,20 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
+            </div>
+        </div>
 
-                            }
-
-                        ]
-
-                    },
-
-                    {
-
-                        title: "PREGUNTAS DE VALIDACIÓN Y SEGURIDAD",
-
-                        icon: "ph-lock-key",
-
-                        isModal: true,
-
-                        content: `
-
-<p class="text-gray-500 mb-8 text-lg">Proceso de validación obligatoria para proteger la identidad del titular y prevenir modificaciones no autorizadas.</p>
+        <!-- TAB QA 5: PREGUNTAS DE VALIDACIÓN Y SEGURIDAD -->
+        <div id="tab-llamada-q5" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-lock-key text-pf-red mr-2.5 text-2xl"></i>
+                    PREGUNTAS DE VALIDACIÓN Y SEGURIDAD
+                </h3>
+            </div>
+            <p class="text-gray-500 mb-8 text-lg">Proceso de validación obligatoria para proteger la identidad del titular y prevenir modificaciones no autorizadas.</p>
 
 
 
@@ -3330,22 +3551,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "SEGURIDAD DE LA INFORMACIÓN",
-
-                        icon: "ph-shield-check",
-
-                        isModal: true,
-
-                        content: `
-
-<p class="text-gray-500 mb-8 text-lg">Lineamientos para el tratamiento y validación de información sensible durante la atención al cliente.</p>
+        <!-- TAB QA 6: SEGURIDAD DE LA INFORMACIÓN -->
+        <div id="tab-llamada-q6" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-shield-check text-pf-red mr-2.5 text-2xl"></i>
+                    SEGURIDAD DE LA INFORMACIÓN
+                </h3>
+            </div>
+            <p class="text-gray-500 mb-8 text-lg">Lineamientos para el tratamiento y validación de información sensible durante la atención al cliente.</p>
 
 
 
@@ -3540,30 +3756,43 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
+        <!-- TAB QA 7: RETENCIÓN: CLIENTE SOLICITA BAJA -->
+        <div id="tab-llamada-q7" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-user-minus text-pf-red mr-2.5 text-2xl"></i>
+                    RETENCIÓN: CLIENTE SOLICITA BAJA
+                </h3>
+            </div>
+            <div id="subcontainer-q7" class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 mb-6">
+                    
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q7', 'subtab-q7-1', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-pf-red bg-red-50 text-pf-red shadow-sm ring-1 ring-pf-red cursor-pointer">
+                    <i class="ph-fill ph-user-minus text-xl mr-2.5"></i>
+                    <span>CLIENTE SOLICITA BAJA</span>
+                </button>
 
-                    },
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q7', 'subtab-q7-2', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-user-circle-minus text-xl mr-2.5"></i>
+                    <span>BAJA TITULAR FALLECIDO</span>
+                </button>
 
-                    {
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q7', 'subtab-q7-3', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-airplane-tilt text-xl mr-2.5"></i>
+                    <span>TITULAR EN EL EXTRANJERO O INCAPACITADO</span>
+                </button>
 
-                        title: "RETENCIÓN: CLIENTE SOLICITA BAJA",
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q7', 'subtab-q7-4', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-check-circle text-xl mr-2.5"></i>
+                    <span>DESISTE DE CANCELACIÓN</span>
+                </button>
 
-                        content: "",
-
-                        subItems: [
-
-                            {
-
-                                title: "CLIENTE SOLICITA BAJA",
-
-                                icon: "ph-user-minus",
-
-                                isModal: true,
-
-                                content: `
-
-<p class="text-gray-500 mb-6 text-base md:text-lg">Proceso y opciones de retención para clientes que solicitan la baja del servicio.</p>
+                </div>
+                
+                <div id="subtab-q7-1" class="sub-tab-content  animate-fade-in">
+                    <p class="text-gray-500 mb-6 text-base md:text-lg">Proceso y opciones de retención para clientes que solicitan la baja del servicio.</p>
 
 
 
@@ -3709,7 +3938,7 @@ const protocolData = [
 
             <span class="text-xs font-bold text-amber-800 uppercase tracking-wider block mb-2">Speech:</span>
 
-            <p class="text-gray-800 italic text-sm leading-relaxed mb-3">
+            <p class="text-gray-800 italic text-sm leading-relaxed">
 
                 "Por políticas de seguridad de la información, el trámite de baja del servicio debe ser gestionado directamente por el titular de la línea. Le solicitamos que el titular se comunique con nosotros para proceder con su solicitud."
 
@@ -4381,24 +4610,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-
-
-`
-
-                            },
-
-                            {
-
-                                title: "BAJA TITULAR FALLECIDO",
-
-                                icon: "ph-user-circle-minus",
-
-                                isModal: true,
-
-                                content: `
-
-<div class="bg-white rounded-2xl max-w-3xl mx-auto">
+                <div id="subtab-q7-2" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-3xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -4463,22 +4678,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                            },
-
-                            {
-
-                                title: "TITULAR EN EL EXTRANJERO O INCAPACITADO",
-
-                                icon: "ph-airplane-tilt",
-
-                                isModal: true,
-
-                                content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                <div id="subtab-q7-3" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -4687,22 +4890,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                            },
-
-                            {
-
-                                title: "DESISTE DE CANCELACIÓN",
-
-                                icon: "ph-check-circle",
-
-                                isModal: true,
-
-                                content: `
-
-<p class="text-gray-500 mb-8 text-lg">Proceso para gestionar la reactivación cuando el cliente desiste de la cancelación.</p>
+                <div id="subtab-q7-4" class="sub-tab-content hidden animate-fade-in">
+                    <p class="text-gray-500 mb-8 text-lg">Proceso para gestionar la reactivación cuando el cliente desiste de la cancelación.</p>
 
 
 
@@ -4863,26 +5054,20 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
+            </div>
+        </div>
 
-                            }
-
-                        ]
-
-                    },
-
-                    {
-
-                        title: "PROBLEMAS CON CÓDIGO DE VERIFICACIÓN POR SMS",
-
-                        icon: "ph-device-mobile",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+        <!-- TAB QA 8: PROBLEMAS CON CÓDIGO DE VERIFICACIÓN POR SMS -->
+        <div id="tab-llamada-q8" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-device-mobile text-pf-red mr-2.5 text-2xl"></i>
+                    PROBLEMAS CON CÓDIGO DE VERIFICACIÓN POR SMS
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -5135,22 +5320,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "RECOJO DE EQUIPOS",
-
-                        icon: "ph-package",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+        <!-- TAB QA 9: RECOJO DE EQUIPOS -->
+        <div id="tab-llamada-q9" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-package text-pf-red mr-2.5 text-2xl"></i>
+                    RECOJO DE EQUIPOS
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -5275,22 +5455,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "CLIENTE DESEA ACTUALIZAR SUS DATOS",
-
-                        icon: "ph-pencil-simple",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+        <!-- TAB QA 10: CLIENTE DESEA ACTUALIZAR SUS DATOS -->
+        <div id="tab-llamada-q10" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-pencil-simple text-pf-red mr-2.5 text-2xl"></i>
+                    CLIENTE DESEA ACTUALIZAR SUS DATOS
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -5437,22 +5612,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "CAMBIO DE PLAN (DOWNGRADE / UPGRADE)",
-
-                        icon: "ph-arrows-left-right",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+        <!-- TAB QA 11: CAMBIO DE PLAN (DOWNGRADE / UPGRADE) -->
+        <div id="tab-llamada-q11" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-arrows-left-right text-pf-red mr-2.5 text-2xl"></i>
+                    CAMBIO DE PLAN (DOWNGRADE / UPGRADE)
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -5655,34 +5825,63 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
+        <!-- TAB QA 12: GESTIÓN TÉCNICA -->
+        <div id="tab-llamada-q12" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-wrench text-pf-red mr-2.5 text-2xl"></i>
+                    GESTIÓN TÉCNICA
+                </h3>
+            </div>
+            <div id="subcontainer-q12" class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 mb-6">
+                    
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-1', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-pf-red bg-red-50 text-pf-red shadow-sm ring-1 ring-pf-red cursor-pointer">
+                    <i class="ph-fill ph-wifi-slash text-xl mr-2.5"></i>
+                    <span>PÉRDIDA DEL SERVICIO</span>
+                </button>
 
-                    },
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-2', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-calendar-plus text-xl mr-2.5"></i>
+                    <span>AGENDAMIENTO VISITA TÉCNICA</span>
+                </button>
 
-                    {
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-3', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-warning-octagon text-xl mr-2.5"></i>
+                    <span>AGENDAMIENTO VT CLIENTE CRÍTICO</span>
+                </button>
 
-                        title: "GESTIÓN TÉCNICA",
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-4', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-phone-transfer text-xl mr-2.5"></i>
+                    <span>TRANSFERENCIA HACIA AT</span>
+                </button>
 
-                        icon: "ph-wrench",
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-5', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-wrench text-xl mr-2.5"></i>
+                    <span>CANCELACIÓN ES VT POR PEXT</span>
+                </button>
 
-                        isModal: false,
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-6', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-warning text-xl mr-2.5"></i>
+                    <span>CLIENTE REPORTA MAL CABLEADO / CABLE EXTERIOR COLGADO / QUEJAS DE VECINOS</span>
+                </button>
 
-                        content: "",
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-7', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-television text-xl mr-2.5"></i>
+                    <span>SOPORTE SERVICIOS TV</span>
+                </button>
 
-                        subItems: [
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-8', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-device-mobile-camera text-xl mr-2.5"></i>
+                    <span>CLIENTE SOLICITA SOPORTE PARA APP DE TV</span>
+                </button>
 
-                            {
-
-                        title: "PÉRDIDA DEL SERVICIO",
-
-                        icon: "ph-wifi-slash",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                </div>
+                
+                <div id="subtab-q12-1" class="sub-tab-content  animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -5845,22 +6044,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "AGENDAMIENTO VISITA TÉCNICA",
-
-                        icon: "ph-calendar-plus",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                <div id="subtab-q12-2" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -6007,22 +6194,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "AGENDAMIENTO VT CLIENTE CRÍTICO",
-
-                        icon: "ph-warning-octagon",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-3xl mx-auto">
+                <div id="subtab-q12-3" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-3xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -6099,22 +6274,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "TRANSFERENCIA HACIA AT",
-
-                        icon: "ph-phone-transfer",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                <div id="subtab-q12-4" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -6221,22 +6384,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "CANCELACIÓN ES VT POR PEXT",
-
-                        icon: "ph-wrench",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-3xl mx-auto">
+                <div id="subtab-q12-5" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-3xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -6303,22 +6454,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "CLIENTE REPORTA MAL CABLEADO / CABLE EXTERIOR COLGADO / QUEJAS DE VECINOS",
-
-                        icon: "ph-warning",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                <div id="subtab-q12-6" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -6433,22 +6572,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "SOPORTE SERVICIOS TV",
-
-                        icon: "ph-television",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-3xl mx-auto">
+                <div id="subtab-q12-7" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-3xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -6535,22 +6662,10 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "CLIENTE SOLICITA SOPORTE PARA APP DE TV",
-
-                        icon: "ph-device-mobile-camera",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                <div id="subtab-q12-8" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -6703,26 +6818,20 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
 
-`
+            </div>
+        </div>
 
-                            }
-
-                        ]
-
-                    },
-
-                    {
-
-                        title: "CLIENTE REPORTA CONTRATACIÓN NO RECONOCIDA",
-
-                        icon: "ph-prohibit",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+        <!-- TAB QA 13: CLIENTE REPORTA CONTRATACIÓN NO RECONOCIDA -->
+        <div id="tab-llamada-q13" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-prohibit text-pf-red mr-2.5 text-2xl"></i>
+                    CLIENTE REPORTA CONTRATACIÓN NO RECONOCIDA
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -6921,22 +7030,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "PLAN INCORRECTO DESDE LA VENTA",
-
-                        icon: "ph-file-text",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+        <!-- TAB QA 14: PLAN INCORRECTO DESDE LA VENTA -->
+        <div id="tab-llamada-q14" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-file-text text-pf-red mr-2.5 text-2xl"></i>
+                    PLAN INCORRECTO DESDE LA VENTA
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -7109,22 +7213,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    {
-
-                        title: "SOLICITUD DE MESH",
-
-                        icon: "ph-wifi-high",
-
-                        isModal: true,
-
-                        content: `
-
-<div class="bg-white rounded-2xl max-w-4xl mx-auto">
+        <!-- TAB QA 15: SOLICITUD DE MESH -->
+        <div id="tab-llamada-q15" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-wifi-high text-pf-red mr-2.5 text-2xl"></i>
+                    SOLICITUD DE MESH
+                </h3>
+            </div>
+            <div class="bg-white rounded-2xl max-w-4xl mx-auto">
 
     <div class="text-center mb-8">
 
@@ -7255,30 +7354,92 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
+    </div>
+</div>
 `
-
-                    }
-
-                ]
-
             },
-
             {
-
                 section: "5. PROTOCOLO DE CLIENTE DIFICIL",
 
                 icon: "ph-user-warning",
 
-                cards: [
+                content: `
+<div class="flex flex-col lg:flex-row gap-6 items-start w-full">
+    <!-- Panel Lateral Izquierdo: Menú Interno Vertical -->
+    <div class="w-full lg:w-[320px] shrink-0 lg:sticky lg:top-4 z-10" id="cliente-dificil-sidebar-menu">
+        <div class="bg-white rounded-2xl border border-gray-200 p-3 shadow-sm flex flex-col gap-1.5 w-full">
+            <div class="px-3 py-2 text-xs font-bold uppercase tracking-wider text-gray-400 border-b border-gray-100 flex items-center justify-between mb-1">
+                <span>Protocolo de Cliente Difícil</span>
+                <i class="ph ph-user-warning text-sm"></i>
+            </div>
+            
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchClienteDificilTab('tab-cd-1', this)">
+                <i class="ph-fill ph-phone-slash mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Llamada Vicio</span>
+            </button>
 
-                    { 
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchClienteDificilTab('tab-cd-2', this)">
+                <i class="ph-fill ph-arrows-clockwise mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Llamada Reiterativa</span>
+            </button>
 
-                        title: "Llamada Vicio", 
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchClienteDificilTab('tab-cd-3', this)">
+                <i class="ph-fill ph-scales mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Queja o Apelación</span>
+            </button>
 
-                        content: `
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchClienteDificilTab('tab-cd-4', this)">
+                <i class="ph-fill ph-chat-circle-dots mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Cliente Incómodo Desea Reclamar</span>
+            </button>
 
-<div class="space-y-6">
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchClienteDificilTab('tab-cd-5', this)">
+                <i class="ph-fill ph-shield-warning mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Cliente Ofensivo</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchClienteDificilTab('tab-cd-6', this)">
+                <i class="ph-fill ph-phone-incoming mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Devolución de Llamada</span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Columna Derecha: Contenido Seleccionado -->
+    <div class="flex-1 min-w-0 w-full" id="cliente-dificil-content-container">
+        <!-- Pantalla de Bienvenida por Defecto -->
+        <div id="tab-cd-default" class="tab-content block">
+            <div class="bg-white border-2 border-gray-100 p-8 rounded-3xl shadow-sm text-center flex flex-col items-center justify-center min-h-[400px]">
+                <div class="bg-red-50 text-pf-red p-5 rounded-full mb-6 inline-flex">
+                    <i class="ph-fill ph-user-warning text-6xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-3">PROTOCOLO DE CLIENTE DIFÍCIL</h2>
+                <p class="text-gray-600 mb-8 max-w-md text-base mx-auto">
+                    Seleccione una opción del panel izquierdo para visualizar el procedimiento correspondiente.
+                </p>
+                <div class="bg-gray-50 border border-gray-200 p-5 rounded-2xl w-full max-w-lg mx-auto">
+                    <div class="flex items-start">
+                        <i class="ph-fill ph-info text-blue-500 text-xl mr-3 mt-0.5 shrink-0"></i>
+                        <p class="text-sm text-gray-700 text-left">
+                            Utilice el menú disponible para consultar procedimientos, speech, pautas de manejo, desescalación y protocolos ante situaciones complejas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- TAB 1: Llamada Vicio -->
+        <div id="tab-cd-1" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-phone-slash text-pf-red mr-2.5 text-2xl"></i>
+                    Llamada Vicio
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -7467,18 +7628,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-` 
-
-                    },
-
-                    { 
-
-                        title: "Llamada Reiterativa", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 2: Llamada Reiterativa -->
+        <div id="tab-cd-2" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-arrows-clockwise text-pf-red mr-2.5 text-2xl"></i>
+                    Llamada Reiterativa
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- A) RESOLUCIÓN YA ENVIADA -->
 
@@ -7675,18 +7835,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Queja o Apelación", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 3: Queja o Apelación -->
+        <div id="tab-cd-3" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-scales text-pf-red mr-2.5 text-2xl"></i>
+                    Queja o Apelación
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -7755,18 +7914,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Cliente Incómodo Desea Reclamar", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 4: Cliente Incómodo Desea Reclamar -->
+        <div id="tab-cd-4" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-chat-circle-dots text-pf-red mr-2.5 text-2xl"></i>
+                    Cliente Incómodo Desea Reclamar
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -7893,18 +8051,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Cliente Ofensivo", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 5: Cliente Ofensivo -->
+        <div id="tab-cd-5" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-shield-warning text-pf-red mr-2.5 text-2xl"></i>
+                    Cliente Ofensivo
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -7997,18 +8154,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Devolución de Llamada", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 6: Devolución de Llamada -->
+        <div id="tab-cd-6" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-phone-incoming text-pf-red mr-2.5 text-2xl"></i>
+                    Devolución de Llamada
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -8091,30 +8247,122 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
+    </div>
+</div>
 `
-
-                    }
-
-                ]
-
             },
-
             {
-
                 section: "6. PROTOCOLO DE CONTINGENCIAS",
 
                 icon: "ph-warning-octagon",
 
-                cards: [
+                content: `
+<div class="flex flex-col lg:flex-row gap-6 items-start w-full">
+    <!-- Panel Lateral Izquierdo: Menú Interno Vertical -->
+    <div class="w-full lg:w-[320px] shrink-0 lg:sticky lg:top-4 z-10" id="contingencias-sidebar-menu">
+        <div class="bg-white rounded-2xl border border-gray-200 p-3 shadow-sm flex flex-col gap-1.5 w-full">
+            <div class="px-3 py-2 text-xs font-bold uppercase tracking-wider text-gray-400 border-b border-gray-100 flex items-center justify-between mb-1">
+                <span>Protocolo de Contingencias</span>
+                <i class="ph ph-warning-octagon text-sm"></i>
+            </div>
+            
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-1', this)">
+                <i class="ph-fill ph-broadcast mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Problemas Masivos</span>
+            </button>
 
-                    { 
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-2', this)">
+                <i class="ph-fill ph-cloud-slash mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Caída Masiva de Aplicativos Internos / Saturación</span>
+            </button>
 
-                        title: "Problemas Masivos", 
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-3', this)">
+                <i class="ph-fill ph-scissors mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Limpieza de Cableado Aéreo</span>
+            </button>
 
-                        content: `
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-4', this)">
+                <i class="ph-fill ph-users mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Derivación a Persona No Tecnológica</span>
+            </button>
 
-<div class="space-y-6">
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-5', this)">
+                <i class="ph-fill ph-arrows-left-right mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Mala Gestión en Otros Puntos de Contacto</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-6', this)">
+                <i class="ph-fill ph-buildings mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Deuda en el Predio</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-7', this)">
+                <i class="ph-fill ph-globe-slash mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Caída de Aplicativos Externos</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-8', this)">
+                <i class="ph-fill ph-browser mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Problema Página de Reclamos</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-9', this)">
+                <i class="ph-fill ph-signal-slash mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Sin Cobertura</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-10', this)">
+                <i class="ph-fill ph-file-text mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Error de Facturación Masivo</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-11', this)">
+                <i class="ph-fill ph-storefront mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Cliente Revendedor</span>
+            </button>
+
+            <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchContingenciasTab('tab-cont-12', this)">
+                <i class="ph-fill ph-phone-outgoing mr-3 text-lg shrink-0 text-gray-500"></i>
+                <span class="leading-tight">Call Out a Usuarios No Atendidos</span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Columna Derecha: Contenido Seleccionado -->
+    <div class="flex-1 min-w-0 w-full" id="contingencias-content-container">
+        <!-- Pantalla de Bienvenida por Defecto -->
+        <div id="tab-cont-default" class="tab-content block">
+            <div class="bg-white border-2 border-gray-100 p-8 rounded-3xl shadow-sm text-center flex flex-col items-center justify-center min-h-[400px]">
+                <div class="bg-red-50 text-pf-red p-5 rounded-full mb-6 inline-flex">
+                    <i class="ph-fill ph-warning-octagon text-6xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-3">PROTOCOLO DE CONTINGENCIAS</h2>
+                <p class="text-gray-600 mb-8 max-w-md text-base mx-auto">
+                    Seleccione una opción del panel izquierdo para visualizar el procedimiento correspondiente.
+                </p>
+                <div class="bg-gray-50 border border-gray-200 p-5 rounded-2xl w-full max-w-lg mx-auto">
+                    <div class="flex items-start">
+                        <i class="ph-fill ph-info text-blue-500 text-xl mr-3 mt-0.5 shrink-0"></i>
+                        <p class="text-sm text-gray-700 text-left">
+                            Utilice el menú disponible para consultar protocolos de contingencia ante caídas masivas, averías externas, anomalías y procedimientos operativos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- TAB 1: Problemas Masivos -->
+        <div id="tab-cont-1" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-broadcast text-pf-red mr-2.5 text-2xl"></i>
+                    Problemas Masivos
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -8253,18 +8501,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Caída Masiva de Aplicativos Internos / Saturación", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 2: Caída Masiva de Aplicativos Internos / Saturación -->
+        <div id="tab-cont-2" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-cloud-slash text-pf-red mr-2.5 text-2xl"></i>
+                    Caída Masiva de Aplicativos Internos / Saturación
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -8357,18 +8604,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Limpieza de Cableado Aéreo", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 3: Limpieza de Cableado Aéreo -->
+        <div id="tab-cont-3" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-scissors text-pf-red mr-2.5 text-2xl"></i>
+                    Limpieza de Cableado Aéreo
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -8441,18 +8687,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Derivación a Persona No Tecnológica", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 4: Derivación a Persona No Tecnológica -->
+        <div id="tab-cont-4" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-users text-pf-red mr-2.5 text-2xl"></i>
+                    Derivación a Persona No Tecnológica
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -8593,18 +8838,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Mala Gestión en Otros Puntos de Contacto", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 5: Mala Gestión en Otros Puntos de Contacto -->
+        <div id="tab-cont-5" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-arrows-left-right text-pf-red mr-2.5 text-2xl"></i>
+                    Mala Gestión en Otros Puntos de Contacto
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -8677,18 +8921,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Deuda en el Predio", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 6: Deuda en el Predio -->
+        <div id="tab-cont-6" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-buildings text-pf-red mr-2.5 text-2xl"></i>
+                    Deuda en el Predio
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -8765,18 +9008,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Caída de Aplicativos Externos", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 7: Caída de Aplicativos Externos -->
+        <div id="tab-cont-7" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-globe-slash text-pf-red mr-2.5 text-2xl"></i>
+                    Caída de Aplicativos Externos
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -8847,18 +9089,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Problema Página de Reclamos", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 8: Problema Página de Reclamos -->
+        <div id="tab-cont-8" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-browser text-pf-red mr-2.5 text-2xl"></i>
+                    Problema Página de Reclamos
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -8939,18 +9180,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Sin Cobertura", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 9: Sin Cobertura -->
+        <div id="tab-cont-9" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-signal-slash text-pf-red mr-2.5 text-2xl"></i>
+                    Sin Cobertura
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -9025,18 +9265,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Error de Facturación Masivo", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 10: Error de Facturación Masivo -->
+        <div id="tab-cont-10" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-file-text text-pf-red mr-2.5 text-2xl"></i>
+                    Error de Facturación Masivo
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -9107,18 +9346,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Cliente Revendedor", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 11: Cliente Revendedor -->
+        <div id="tab-cont-11" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-storefront text-pf-red mr-2.5 text-2xl"></i>
+                    Cliente Revendedor
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -9191,18 +9429,17 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
-`
-
-                    },
-
-                    { 
-
-                        title: "Call Out a Usuarios No Atendidos", 
-
-                        content: `
-
-<div class="space-y-6">
+        <!-- TAB 12: Call Out a Usuarios No Atendidos -->
+        <div id="tab-cont-12" class="tab-content hidden">
+            <div class="border-b border-gray-200 pb-3 mb-6">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <i class="ph-fill ph-phone-outgoing text-pf-red mr-2.5 text-2xl"></i>
+                    Call Out a Usuarios No Atendidos
+                </h3>
+            </div>
+            <div class="space-y-6">
 
     <!-- LO QUE DIGO -->
 
@@ -9277,16 +9514,13 @@ const protocolData = [
     </div>
 
 </div>
+        </div>
 
+    </div>
+</div>
 `
-
-                    }
-
-                ]
-
             },
-
-            {
+{
 
                 section: "7. PROTOCOLO DE GESTIONES",
 
@@ -14986,14 +15220,101 @@ const protocolData = [
 
             let count = 0;
 
+            // Home View: When currentCategory === 'all' and no active search query
+            if (currentCategory === 'all' && !searchQuery) {
+                sectionTitle.innerText = "Todos los Protocolos";
+                sectionDesc.innerText = "Seleccione un protocolo principal para iniciar la consulta:";
+                cardsGrid.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full";
+                
+                const homeProtocols = [
+                    {
+                        index: 3,
+                        num: "4",
+                        title: "Protocolo de Llamada",
+                        desc: "Pasos de llamada, speech, validaciones de seguridad, retenciones y gestión técnica.",
+                        icon: "ph-fill ph-phone-call",
+                        badge: "7 Pasos + 15 Procesos",
+                        colorText: "text-red-600",
+                        bgIcon: "bg-red-50 text-pf-red"
+                    },
+                    {
+                        index: 4,
+                        num: "5",
+                        title: "Protocolo de Cliente Difícil",
+                        desc: "Manejo de llamadas vicio, reiterativas, quejas, clientes incómodos y ofensivos.",
+                        icon: "ph-fill ph-user-warning",
+                        badge: "6 Procedimientos",
+                        colorText: "text-amber-600",
+                        bgIcon: "bg-amber-50 text-amber-600"
+                    },
+                    {
+                        index: 5,
+                        num: "6",
+                        title: "Protocolo de Contingencias",
+                        desc: "Gestión de incidencias masivas, caídas de aplicativos, averías y contingencias.",
+                        icon: "ph-fill ph-warning-octagon",
+                        badge: "12 Contingencias",
+                        colorText: "text-orange-600",
+                        bgIcon: "bg-orange-50 text-orange-600"
+                    },
+                    {
+                        index: 6,
+                        num: "7",
+                        title: "Protocolo de Gestiones",
+                        desc: "Suspensión temporal, reactivaciones, mudanzas, traslados, cambio ONT e IP.",
+                        icon: "ph-fill ph-wrench",
+                        badge: "10 Gestiones",
+                        colorText: "text-rose-600",
+                        bgIcon: "bg-rose-50 text-rose-600"
+                    },
+                    {
+                        index: 7,
+                        num: "8",
+                        title: "Protocolo de Facturación",
+                        desc: "Ciclos de facturación, débito automático, facilidades de pago y códigos de pago.",
+                        icon: "ph-fill ph-receipt",
+                        badge: "13 Procedimientos",
+                        colorText: "text-emerald-600",
+                        bgIcon: "bg-emerald-50 text-emerald-600"
+                    }
+                ];
 
+                homeProtocols.forEach(p => {
+                    const card = document.createElement('div');
+                    card.className = "bg-white rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-pf-red transition-all duration-300 overflow-hidden flex flex-col justify-between group cursor-pointer transform hover:-translate-y-1";
+                    card.onclick = () => filterByCategory(p.index);
+                    
+                    card.innerHTML = `
+                        <div class="p-6 md:p-7 flex flex-col flex-1">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-14 h-14 rounded-2xl ${p.bgIcon} flex items-center justify-center text-3xl group-hover:bg-pf-red group-hover:text-white transition-all duration-300 shadow-sm">
+                                    <i class="${p.icon}"></i>
+                                </div>
+                                <span class="px-3 py-1 bg-gray-100 text-gray-600 text-xs font-bold rounded-full uppercase tracking-wider">${p.badge}</span>
+                            </div>
+                            <div class="text-xs font-bold text-pf-red tracking-wider uppercase mb-1">Sección ${p.num}</div>
+                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-pf-red transition-colors mb-2">${p.title}</h3>
+                            <p class="text-gray-600 text-sm leading-relaxed mb-4 flex-1">${p.desc}</p>
+                        </div>
+                        <div class="px-6 py-4 bg-gray-50 border-t border-gray-100 flex items-center justify-between group-hover:bg-red-50 transition-colors">
+                            <span class="text-sm font-bold text-gray-700 group-hover:text-pf-red transition-colors">Abrir protocolo</span>
+                            <div class="w-8 h-8 rounded-full bg-white text-gray-400 flex items-center justify-center shadow-sm group-hover:bg-pf-red group-hover:text-white transition-all duration-300">
+                                <i class="ph-bold ph-arrow-right text-base"></i>
+                            </div>
+                        </div>
+                    `;
+                    cardsGrid.appendChild(card);
+                });
+                
+                emptyState.classList.add('hidden');
+                cardsGrid.classList.remove('hidden');
+                resultCount.classList.add('hidden');
+                return;
+            }
 
             let dataToRender = protocolData;
 
-            
-
             // Filter by Category
-
             if (currentCategory !== 'all') {
 
                 dataToRender = [protocolData[currentCategory]];
@@ -15002,21 +15323,13 @@ const protocolData = [
 
                 sectionDesc.innerText = "Información y protocolos correspondientes a esta sección.";
 
-                
-
-                // Set layout to vertical list globally now
-
                 cardsGrid.className = "flex flex-col gap-4 items-stretch"; 
-
-
 
             } else {
 
                 sectionTitle.innerText = searchQuery ? "Resultados de Búsqueda" : "Todos los Protocolos";
 
                 sectionDesc.innerText = searchQuery ? `Buscando: "${searchQuery}"` : "Explora la base de conocimiento o utiliza el buscador.";
-
-                // Set layout to vertical list globally now
 
                 cardsGrid.className = "flex flex-col gap-4 items-stretch";
 

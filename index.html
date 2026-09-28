@@ -1124,7 +1124,7 @@ const protocolData = [
             </button>
 
             <button class="internal-nav-btn w-full px-3.5 py-3 rounded-xl text-sm font-semibold border flex items-center text-left focus:outline-none cursor-pointer" onclick="switchLlamadaTab('tab-llamada-q15', this)">
-                <i class="ph-fill ph-wifi-high mr-3 text-lg shrink-0 text-gray-500"></i>
+                <i class="ph-fill ph-broadcast mr-3 text-lg shrink-0 text-gray-500"></i>
                 <span class="leading-tight">SOLICITUD DE MESH</span>
             </button>
 
@@ -5878,6 +5878,26 @@ const protocolData = [
                     <span>CLIENTE SOLICITA SOPORTE PARA APP DE TV</span>
                 </button>
 
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-9', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-gauge text-xl mr-2.5"></i>
+                    <span>SOPORTE ATC LENTITUD O INTERMITENCIA</span>
+                </button>
+
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-10', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-speedometer text-xl mr-2.5"></i>
+                    <span>ANCHO DE BANDA</span>
+                </button>
+
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-11', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-globe text-xl mr-2.5"></i>
+                    <span>INGRESO A UNA PÁGINA O APP EN ESPECÍFICO</span>
+                </button>
+
+                <button type="button" onclick="switchLlamadaSubTab('subcontainer-q12', 'subtab-q12-12', this)" class="sub-nav-btn flex items-center justify-center p-3.5 md:p-4 border-2 rounded-xl transition-all duration-200 font-bold text-sm md:text-base border-gray-200 bg-white text-gray-700 hover:border-pf-red hover:text-pf-red hover:bg-gray-50 cursor-pointer">
+                    <i class="ph-fill ph-key text-xl mr-2.5"></i>
+                    <span>CAMBIO DE CLAVE WIFI O NOMBRE DE RED</span>
+                </button>
+
                 </div>
                 
                 <div id="subtab-q12-1" class="sub-tab-content  animate-fade-in">
@@ -6675,16 +6695,6 @@ const protocolData = [
 
         </div>
 
-        <div class="bg-white rounded-2xl max-w-4xl mx-auto">
-
-    <div class="text-center mb-8">
-
-        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-50 mb-4">
-
-            <i class="ph-fill ph-device-mobile-camera text-4xl text-pf-red"></i>
-
-        </div>
-
         <h3 class="text-2xl font-bold text-gray-800">CLIENTE SOLICITA SOPORTE PARA APP DE TV</h3>
 
     </div>
@@ -6818,6 +6828,541 @@ const protocolData = [
     </div>
 
 </div>
+                </div>
+
+                <!-- SUBTAB 9: SOPORTE ATC LENTITUD O INTERMITENCIA -->
+                <div id="subtab-q12-9" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                        <div class="text-center mb-8">
+                            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-50 mb-4">
+                                <i class="ph-fill ph-gauge text-4xl text-pf-red"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-800">SOPORTE ATC LENTITUD O INTERMITENCIA</h3>
+                        </div>
+
+                        <!-- LO QUE DIGO -->
+                        <div class="bg-gray-50 border-l-4 border-red-500 p-6 rounded-r-2xl shadow-sm mb-8">
+                            <h5 class="text-red-500 font-bold mb-4 flex items-center uppercase tracking-wider text-sm">
+                                <i class="ph-fill ph-chat-teardrop-text mr-2 text-lg"></i> Lo que digo
+                            </h5>
+
+                            <!-- Indicación del cliente -->
+                            <div class="bg-white border-2 border-red-100 p-5 rounded-xl shadow-sm mb-6">
+                                <h6 class="font-bold text-gray-800 mb-2 flex items-center"><i class="ph-fill ph-user text-pf-red mr-2"></i> Indicación del cliente:</h6>
+                                <p class="text-gray-800 italic text-sm font-medium">Cliente se comunica porque presenta lentitud en la navegación.</p>
+                            </div>
+
+                            <!-- Speech Recomendado -->
+                            <div class="bg-gradient-to-br from-red-50 to-white border border-red-100 p-6 rounded-2xl shadow-sm mb-6 relative overflow-hidden">
+                                <div class="absolute top-0 left-0 w-2 h-full bg-red-500"></div>
+                                <div class="flex items-center justify-between mb-3">
+                                    <span class="text-xs font-bold text-red-600 uppercase tracking-wider flex items-center">
+                                        <i class="ph-fill ph-chat-teardrop-text mr-1.5 text-base"></i> Speech de Atención
+                                    </span>
+                                </div>
+                                <p class="text-gray-700 leading-relaxed mb-4 text-[15px]" id="sp_tec_lent_1">
+                                    "Con gusto le ayudo a revisar la lentitud que presenta en su conexión para identificar la causa y darle una solución.<br><br>Por favor, detállame, ¿cómo se presenta el problema?<br><br>(Nombre del cliente), verificó que su servicio se encuentra activo en nuestro sistema."
+                                </p>
+                                <button onclick="navigator.clipboard.writeText(document.getElementById('sp_tec_lent_1').innerText); const icon = this.querySelector('i'); const text = this.querySelector('span'); const origIcon = icon.className; const origText = text.innerText; icon.className = 'ph-bold ph-check'; text.innerText = 'Copiado'; setTimeout(() => { icon.className = origIcon; text.innerText = origText; }, 2000);" class="flex items-center px-4 py-2 bg-white text-red-600 border border-red-200 hover:bg-red-50 hover:border-red-300 rounded-xl text-sm font-bold transition-all shadow-sm cursor-pointer">
+                                    <i class="ph-bold ph-copy mr-2"></i> <span>Copiar Speech</span>
+                                </button>
+                            </div>
+
+                            <!-- Sondeo -->
+                            <div class="bg-white border-2 border-amber-100 p-5 rounded-xl shadow-sm mb-6">
+                                <h6 class="font-bold text-amber-800 mb-2 flex items-center"><i class="ph-fill ph-magnifying-glass mr-2 text-lg text-amber-600"></i> Sondeo:</h6>
+                                <p class="text-gray-800 text-sm font-medium mb-3">Entonces necesitamos realizar algunos procedimientos de descarte, indícame:</p>
+                                <ul class="space-y-2 text-sm font-bold text-gray-700">
+                                    <li class="flex items-start"><i class="ph-fill ph-question text-amber-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>¿El inconveniente que estás presentando es vía cable de red, wifi o ambos?</span></li>
+                                    <li class="flex items-start"><i class="ph-fill ph-question text-amber-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>¿En cuántos dispositivos está conectado(a)?</span></li>
+                                </ul>
+                            </div>
+
+                            <!-- Procedimiento / Qué Hacer Timeline -->
+                            <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm mb-6">
+                                <h6 class="font-bold text-gray-800 mb-4 flex items-center text-sm uppercase tracking-wider">
+                                    <i class="ph-fill ph-list-numbers mr-2 text-lg text-pf-red"></i> Qué hacer / Procedimiento de descarte
+                                </h6>
+                                <ol class="relative border-l-2 border-red-200 ml-4 space-y-4">
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">1</span>
+                                        <p class="text-sm font-semibold text-gray-800">Validar en CRM Experiencia que el cliente tenga servicio activo y no esté en Masivo.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">2</span>
+                                        <p class="text-sm font-semibold text-gray-800">Ingresar al Smart WiFi.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">3</span>
+                                        <p class="text-sm font-semibold text-gray-800">Ingresar la serie MAC. Si no figura matriculada reportar al supervisor.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">4</span>
+                                        <p class="text-sm font-semibold text-gray-800">Tiene que ser la MAC actual del cliente.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">5</span>
+                                        <p class="text-sm font-semibold text-gray-800">Dirigirse a KPI View.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">6</span>
+                                        <p class="text-sm font-semibold text-gray-800">Validar en STA Service Bearing Capability si los dispositivos conectados presentan color amarillo de lentitud.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">7</span>
+                                        <p class="text-sm font-semibold text-gray-800">Al validar que presenta lentitud, indicar desconectar el router de la corriente por 10 segundos.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">8</span>
+                                        <p class="text-sm font-semibold text-gray-800">Volver a conectar.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">9</span>
+                                        <p class="text-sm font-semibold text-gray-800">Probar navegación.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">10</span>
+                                        <p class="text-sm font-semibold text-gray-800">Validar saturación de red.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">11</span>
+                                        <p class="text-sm font-semibold text-gray-800">Refrescar en Smart WiFi.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">12</span>
+                                        <p class="text-sm font-semibold text-gray-800">Validar con el cliente si navega con normalidad.</p>
+                                    </li>
+                                </ol>
+                            </div>
+
+                            <!-- Alertas y Si continúa la lentitud -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="bg-red-50 border-2 border-red-200 p-5 rounded-xl shadow-sm flex flex-col justify-center">
+                                    <div class="flex items-center text-pf-red font-bold mb-2">
+                                        <i class="ph-fill ph-warning-octagon text-2xl mr-2"></i>
+                                        <span class="uppercase tracking-wider text-sm">⚠ NOTA IMPORTANTE</span>
+                                    </div>
+                                    <p class="text-red-800 font-extrabold text-sm leading-relaxed">
+                                        NO DERIVAR LENTITUD WIFI A AT<br><span class="font-medium text-xs text-red-600">(SALVO CASOS PUNTUALES)</span>
+                                    </p>
+                                </div>
+
+                                <div class="bg-amber-50 border-2 border-amber-200 p-5 rounded-xl shadow-sm">
+                                    <h6 class="font-bold text-amber-900 mb-2 flex items-center text-sm uppercase"><i class="ph-fill ph-arrow-bend-double-up-right mr-2 text-lg text-amber-600"></i> Si continúa la lentitud:</h6>
+                                    <ul class="space-y-2 text-xs md:text-sm font-bold text-gray-700">
+                                        <li class="flex items-start"><i class="ph-fill ph-check-circle text-amber-600 mt-0.5 mr-2 flex-shrink-0"></i> <span>Derivar el caso a AT.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-check-circle text-amber-600 mt-0.5 mr-2 flex-shrink-0"></i> <span>Transferir la llamada.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-info text-amber-600 mt-0.5 mr-2 flex-shrink-0"></i> <span>Si no se concreta la transferencia: Corroborar que el número de contacto del cliente esté activo para que Soporte pueda comunicarse.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LO QUE HAGO -->
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-2xl shadow-sm">
+                            <h5 class="text-blue-600 font-bold mb-4 flex items-center uppercase tracking-wider text-sm">
+                                <i class="ph-fill ph-check-circle mr-2 text-lg"></i> Lo que hago
+                            </h5>
+                            <div class="bg-white border-2 border-blue-100 p-5 rounded-xl shadow-sm">
+                                <ul class="space-y-3 text-sm font-bold text-gray-700">
+                                    <li class="flex items-start"><i class="ph-fill ph-check-square-offset text-blue-500 mt-0.5 mr-2 text-lg flex-shrink-0"></i> <span>Tipificar según casuística y subir a QUANTUM.</span></li>
+                                    <li class="flex items-start"><i class="ph-fill ph-check-square-offset text-blue-500 mt-0.5 mr-2 text-lg flex-shrink-0"></i> <span>Validar dirección del cliente.</span></li>
+                                    <li class="flex items-start"><i class="ph-fill ph-check-square-offset text-blue-500 mt-0.5 mr-2 text-lg flex-shrink-0"></i> <span>Debe coincidir en CRM y QUANTUM.</span></li>
+                                    <li class="flex items-start"><i class="ph-fill ph-check-square-offset text-blue-500 mt-0.5 mr-2 text-lg flex-shrink-0"></i> <span>Si no coincide, actualizar correctamente en QUANTUM.</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SUBTAB 10: ANCHO DE BANDA -->
+                <div id="subtab-q12-10" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                        <div class="text-center mb-8">
+                            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-50 mb-4">
+                                <i class="ph-fill ph-speedometer text-4xl text-blue-600"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-800">ANCHO DE BANDA</h3>
+                        </div>
+
+                        <!-- LO QUE DIGO -->
+                        <div class="bg-gray-50 border-l-4 border-red-500 p-6 rounded-r-2xl shadow-sm mb-8">
+                            <h5 class="text-red-500 font-bold mb-4 flex items-center uppercase tracking-wider text-sm">
+                                <i class="ph-fill ph-chat-teardrop-text mr-2 text-lg"></i> Lo que digo
+                            </h5>
+
+                            <!-- Validaciones iniciales CRM -->
+                            <div class="bg-white border-2 border-red-100 p-5 rounded-xl shadow-sm mb-6">
+                                <h6 class="font-bold text-gray-800 mb-2 flex items-center"><i class="ph-fill ph-shield-check text-pf-red mr-2"></i> Validaciones en CRM:</h6>
+                                <ul class="space-y-2 text-sm font-semibold text-gray-700">
+                                    <li class="flex items-start"><i class="ph-fill ph-check-circle text-green-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Validar en CRM que el servicio se encuentre activo y no esté en masivo.</span></li>
+                                    <li class="flex items-start"><i class="ph-fill ph-check-circle text-green-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Validar que el Plan Contratado y Plan Asignado coincidan en CRM Experiencia.</span></li>
+                                </ul>
+
+                                <div class="mt-4 bg-red-50 border border-red-200 p-4 rounded-xl">
+                                    <p class="text-xs font-bold text-red-600 uppercase mb-2 flex items-center"><i class="ph-fill ph-warning mr-1.5"></i> Si los planes son distintos:</p>
+                                    <ul class="space-y-1.5 text-xs md:text-sm font-bold text-red-800">
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-red-600 mt-0.5 mr-1.5 flex-shrink-0"></i> <span>Reportar internamente.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-x-circle text-red-600 mt-0.5 mr-1.5 flex-shrink-0"></i> <span>NO realizar descartes.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-x-circle text-red-600 mt-0.5 mr-1.5 flex-shrink-0"></i> <span>NO generar derivaciones.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-check text-red-600 mt-0.5 mr-1.5 flex-shrink-0"></i> <span>Informar al cliente que será contactado cuando el inconveniente haya sido solucionado.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Speech Recomendado -->
+                            <div class="bg-gradient-to-br from-red-50 to-white border border-red-100 p-6 rounded-2xl shadow-sm mb-6 relative overflow-hidden">
+                                <div class="absolute top-0 left-0 w-2 h-full bg-red-500"></div>
+                                <div class="flex items-center justify-between mb-3">
+                                    <span class="text-xs font-bold text-red-600 uppercase tracking-wider flex items-center">
+                                        <i class="ph-fill ph-chat-teardrop-text mr-1.5 text-base"></i> Speech de Atención
+                                    </span>
+                                </div>
+                                <p class="text-gray-700 leading-relaxed mb-4 text-[15px]" id="sp_tec_ancho_1">
+                                    "Entiendo que me comentas que no está llegando a la velocidad contratada. No te preocupes, te voy a ayudar revisando en el sistema lo ocurrido."
+                                </p>
+                                <button onclick="navigator.clipboard.writeText(document.getElementById('sp_tec_ancho_1').innerText); const icon = this.querySelector('i'); const text = this.querySelector('span'); const origIcon = icon.className; const origText = text.innerText; icon.className = 'ph-bold ph-check'; text.innerText = 'Copiado'; setTimeout(() => { icon.className = origIcon; text.innerText = origText; }, 2000);" class="flex items-center px-4 py-2 bg-white text-red-600 border border-red-200 hover:bg-red-50 hover:border-red-300 rounded-xl text-sm font-bold transition-all shadow-sm cursor-pointer">
+                                    <i class="ph-bold ph-copy mr-2"></i> <span>Copiar Speech</span>
+                                </button>
+                            </div>
+
+                            <!-- Sondeo -->
+                            <div class="bg-white border-2 border-amber-100 p-5 rounded-xl shadow-sm mb-6">
+                                <h6 class="font-bold text-amber-800 mb-2 flex items-center"><i class="ph-fill ph-magnifying-glass mr-2 text-lg text-amber-600"></i> Sondeo:</h6>
+                                <p class="text-gray-800 text-sm font-bold flex items-center">
+                                    <i class="ph-fill ph-question text-amber-500 mr-2 text-lg"></i> ¿El test de velocidad lo hizo conectado por cable o por WIFI?
+                                </p>
+                            </div>
+
+                            <!-- Dos Bloques: Ancho de Banda WIFI vs Cableado -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <!-- ANCHO DE BANDA WIFI -->
+                                <div class="bg-white border-2 border-indigo-100 p-5 rounded-xl shadow-sm flex flex-col">
+                                    <div class="flex items-center text-indigo-700 font-bold mb-3 pb-2 border-b border-indigo-100">
+                                        <i class="ph-fill ph-wifi-high text-2xl mr-2"></i>
+                                        <span class="text-base uppercase tracking-wider">Ancho de Banda WIFI</span>
+                                    </div>
+                                    <ul class="space-y-2 text-xs md:text-sm font-semibold text-gray-700 mb-4 flex-1">
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-indigo-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Validar si utiliza VPN (solicitar desconexión si aplica).</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-indigo-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Validar conexión a red Perú Fibra.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-indigo-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Confirmar banda conectada: <strong>2.4 GHz</strong> o <strong>5 GHz</strong>.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-indigo-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Verificar que no esté conectado a Mesh o dispositivos externos.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-indigo-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Validar desde Smart WiFi y realizar Speed Test.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-indigo-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Si la MAC no está matriculada reportar al supervisor (corroborar MAC de CRM).</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-indigo-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Ejecutar Start y validar saturación de canales.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-indigo-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Solicitar apagar ONT por 5 segundos y encender nuevamente.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-indigo-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Solicitar test desde Celular o Laptop (no otros dispositivos).</span></li>
+                                    </ul>
+                                    <div class="bg-indigo-50 border border-indigo-200 p-3 rounded-lg text-xs font-bold text-indigo-900 flex items-start">
+                                        <i class="ph-fill ph-info text-indigo-600 text-lg mr-2 shrink-0 mt-0.5"></i>
+                                        <span>IMPORTANTE: Por WIFI no se garantiza el 100% del plan contratado debido a que la señal es inalámbrica.</span>
+                                    </div>
+                                </div>
+
+                                <!-- ANCHO DE BANDA CABLEADO -->
+                                <div class="bg-white border-2 border-emerald-100 p-5 rounded-xl shadow-sm flex flex-col">
+                                    <div class="flex items-center text-emerald-700 font-bold mb-3 pb-2 border-b border-emerald-100">
+                                        <i class="ph-fill ph-plugs-connected text-2xl mr-2"></i>
+                                        <span class="text-base uppercase tracking-wider">Ancho de Banda Cableado</span>
+                                    </div>
+                                    <ul class="space-y-2 text-xs md:text-sm font-semibold text-gray-700 mb-4 flex-1">
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-emerald-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Validar si está conectado directamente al ONT (sin adaptadores intermedios).</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-emerald-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Validar categoría del cable de red.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-emerald-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Solicitar prueba desde <strong>www.speedtest.net</strong>.</span></li>
+                                        <li class="flex items-start"><i class="ph-fill ph-caret-right text-emerald-500 mt-0.5 mr-2 flex-shrink-0"></i> <span>Realizar pruebas desde PC o Laptop (<strong>NO desde TV</strong>).</span></li>
+                                    </ul>
+                                    <div class="bg-emerald-50 border border-emerald-200 p-3 rounded-lg text-xs font-bold text-emerald-900 flex items-start">
+                                        <i class="ph-fill ph-info text-emerald-600 text-lg mr-2 shrink-0 mt-0.5"></i>
+                                        <span>IMPORTANTE: Por red cableada se garantiza el 70% de la velocidad contratada.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Si continúa el inconveniente -->
+                            <div class="bg-amber-50 border-2 border-amber-200 p-4 rounded-xl flex items-center justify-between">
+                                <div class="flex items-center text-amber-900 font-bold text-sm">
+                                    <i class="ph-fill ph-warning-circle text-2xl text-amber-600 mr-2.5"></i>
+                                    <span>Si luego de todos los descartes continúa el inconveniente:</span>
+                                </div>
+                                <span class="bg-amber-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm">Derivar a AT</span>
+                            </div>
+                        </div>
+
+                        <!-- LO QUE HAGO -->
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-2xl shadow-sm">
+                            <h5 class="text-blue-600 font-bold mb-4 flex items-center uppercase tracking-wider text-sm">
+                                <i class="ph-fill ph-check-circle mr-2 text-lg"></i> Lo que hago
+                            </h5>
+                            <div class="bg-white border-2 border-blue-100 p-5 rounded-xl shadow-sm">
+                                <p class="text-sm font-bold text-gray-700 flex items-center">
+                                    <i class="ph-fill ph-hand-heart text-blue-500 mr-2 text-xl"></i> Saludar cordialmente y mostrar disposición de ayuda.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SUBTAB 11: INGRESO A UNA PÁGINA O APP EN ESPECÍFICO -->
+                <div id="subtab-q12-11" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                        <div class="text-center mb-8">
+                            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-50 mb-4">
+                                <i class="ph-fill ph-globe text-4xl text-green-600"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-800">INGRESO A UNA PÁGINA O APP EN ESPECÍFICO</h3>
+                        </div>
+
+                        <!-- LO QUE DIGO -->
+                        <div class="bg-gray-50 border-l-4 border-red-500 p-6 rounded-r-2xl shadow-sm mb-8">
+                            <h5 class="text-red-500 font-bold mb-4 flex items-center uppercase tracking-wider text-sm">
+                                <i class="ph-fill ph-chat-teardrop-text mr-2 text-lg"></i> Lo que digo
+                            </h5>
+
+                            <!-- Indicación del cliente -->
+                            <div class="bg-white border-2 border-red-100 p-5 rounded-xl shadow-sm mb-6">
+                                <h6 class="font-bold text-gray-800 mb-2 flex items-center"><i class="ph-fill ph-user text-pf-red mr-2"></i> Indicación del cliente:</h6>
+                                <p class="text-gray-800 italic text-sm font-medium">"No puedo ingresar a una página web o aplicación en específico."</p>
+                            </div>
+
+                            <!-- Speech Recomendado -->
+                            <div class="bg-gradient-to-br from-red-50 to-white border border-red-100 p-6 rounded-2xl shadow-sm mb-6 relative overflow-hidden">
+                                <div class="absolute top-0 left-0 w-2 h-full bg-red-500"></div>
+                                <div class="flex items-center justify-between mb-3">
+                                    <span class="text-xs font-bold text-red-600 uppercase tracking-wider flex items-center">
+                                        <i class="ph-fill ph-chat-teardrop-text mr-1.5 text-base"></i> Speech de Atención
+                                    </span>
+                                </div>
+                                <p class="text-gray-700 leading-relaxed mb-4 text-[15px]" id="sp_tec_app_1">
+                                    "Con gusto le ayudo a revisar el ingreso a la página o aplicación indicada para identificar el origen del inconveniente y brindarle una solución."
+                                </p>
+                                <button onclick="navigator.clipboard.writeText(document.getElementById('sp_tec_app_1').innerText); const icon = this.querySelector('i'); const text = this.querySelector('span'); const origIcon = icon.className; const origText = text.innerText; icon.className = 'ph-bold ph-check'; text.innerText = 'Copiado'; setTimeout(() => { icon.className = origIcon; text.innerText = origText; }, 2000);" class="flex items-center px-4 py-2 bg-white text-red-600 border border-red-200 hover:bg-red-50 hover:border-red-300 rounded-xl text-sm font-bold transition-all shadow-sm cursor-pointer">
+                                    <i class="ph-bold ph-copy mr-2"></i> <span>Copiar Speech</span>
+                                </button>
+                            </div>
+
+                            <!-- Sondeo y Descartes -->
+                            <div class="bg-white border-2 border-amber-100 p-6 rounded-xl shadow-sm mb-6">
+                                <h6 class="font-bold text-amber-800 mb-4 flex items-center text-sm uppercase tracking-wider">
+                                    <i class="ph-fill ph-magnifying-glass mr-2 text-lg text-amber-600"></i> Sondeo y Descartes
+                                </h6>
+                                <div class="space-y-3">
+                                    <div class="flex items-start bg-amber-50/60 p-3 rounded-lg border border-amber-100">
+                                        <i class="ph-fill ph-star text-amber-500 mt-0.5 mr-3 text-lg flex-shrink-0"></i>
+                                        <span class="text-sm font-semibold text-gray-800">Validar si puede ingresar desde otros dispositivos.</span>
+                                    </div>
+                                    <div class="flex items-start bg-amber-50/60 p-3 rounded-lg border border-amber-100">
+                                        <i class="ph-fill ph-star text-amber-500 mt-0.5 mr-3 text-lg flex-shrink-0"></i>
+                                        <span class="text-sm font-semibold text-gray-800">Validar si puede ingresar utilizando datos móviles.</span>
+                                    </div>
+                                    <div class="flex items-start bg-blue-50 p-3 rounded-lg border border-blue-100">
+                                        <i class="ph-fill ph-info text-blue-600 mt-0.5 mr-3 text-lg flex-shrink-0"></i>
+                                        <span class="text-sm font-bold text-blue-900">Esto permitirá identificar si el problema es del servicio o de la página/app.</span>
+                                    </div>
+                                </div>
+
+                                <!-- Procedimiento de Reinicio Eléctrico -->
+                                <div class="mt-6 pt-5 border-t border-gray-100">
+                                    <h6 class="font-bold text-gray-800 mb-3 text-xs uppercase tracking-wider flex items-center">
+                                        <i class="ph-fill ph-power mr-2 text-pf-red text-base"></i> Pasos de descarte en router:
+                                    </h6>
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+                                        <div class="bg-gray-50 border border-gray-200 p-3.5 rounded-xl text-center">
+                                            <span class="inline-block w-6 h-6 rounded-full bg-red-100 text-pf-red font-bold text-xs mb-1">1</span>
+                                            <p class="text-xs font-bold text-gray-700">Desenchufar el router.</p>
+                                        </div>
+                                        <div class="bg-gray-50 border border-gray-200 p-3.5 rounded-xl text-center">
+                                            <span class="inline-block w-6 h-6 rounded-full bg-red-100 text-pf-red font-bold text-xs mb-1">2</span>
+                                            <p class="text-xs font-bold text-gray-700">Esperar 10 segundos.</p>
+                                        </div>
+                                        <div class="bg-gray-50 border border-gray-200 p-3.5 rounded-xl text-center">
+                                            <span class="inline-block w-6 h-6 rounded-full bg-red-100 text-pf-red font-bold text-xs mb-1">3</span>
+                                            <p class="text-xs font-bold text-gray-700">Volver a conectar.</p>
+                                        </div>
+                                        <div class="bg-gray-50 border border-gray-200 p-3.5 rounded-xl text-center">
+                                            <span class="inline-block w-6 h-6 rounded-full bg-red-100 text-pf-red font-bold text-xs mb-1">4</span>
+                                            <p class="text-xs font-bold text-gray-700">Esperar 1 min y probar.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Si el problema continúa -->
+                            <div class="bg-amber-50 border-2 border-amber-200 p-5 rounded-xl shadow-sm">
+                                <h6 class="font-bold text-amber-900 mb-3 flex items-center text-sm uppercase">
+                                    <i class="ph-fill ph-arrow-bend-double-up-right mr-2 text-lg text-amber-600"></i> Si el problema continúa:
+                                </h6>
+                                <p class="text-sm font-semibold text-gray-700 mb-3">Derivar a AT mediante cualquiera de estas vías:</p>
+                                <div class="flex flex-wrap gap-3">
+                                    <span class="inline-flex items-center px-4 py-2 rounded-xl bg-white border border-amber-300 text-amber-900 font-bold text-sm shadow-sm">
+                                        <i class="ph-fill ph-check-circle text-green-600 mr-2 text-lg"></i> Transferencia
+                                    </span>
+                                    <span class="inline-flex items-center px-4 py-2 rounded-xl bg-white border border-amber-300 text-amber-900 font-bold text-sm shadow-sm">
+                                        <i class="ph-fill ph-check-circle text-green-600 mr-2 text-lg"></i> Agendamiento
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LO QUE HAGO -->
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-2xl shadow-sm">
+                            <h5 class="text-blue-600 font-bold mb-4 flex items-center uppercase tracking-wider text-sm">
+                                <i class="ph-fill ph-check-circle mr-2 text-lg"></i> Lo que hago
+                            </h5>
+                            <div class="bg-white border-2 border-blue-100 p-5 rounded-xl shadow-sm">
+                                <p class="text-sm font-bold text-gray-700 flex items-center">
+                                    <i class="ph-fill ph-hand-heart text-blue-500 mr-2 text-xl"></i> Saludar cordialmente y mostrar disposición.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SUBTAB 12: CAMBIO DE CLAVE WIFI O NOMBRE DE RED -->
+                <div id="subtab-q12-12" class="sub-tab-content hidden animate-fade-in">
+                    <div class="bg-white rounded-2xl max-w-4xl mx-auto">
+                        <div class="text-center mb-8">
+                            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-amber-50 mb-4">
+                                <i class="ph-fill ph-key text-4xl text-amber-600"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-800">CAMBIO DE CLAVE WIFI O NOMBRE DE RED</h3>
+                        </div>
+
+                        <!-- LO QUE DIGO -->
+                        <div class="bg-gray-50 border-l-4 border-red-500 p-6 rounded-r-2xl shadow-sm mb-8">
+                            <h5 class="text-red-500 font-bold mb-4 flex items-center uppercase tracking-wider text-sm">
+                                <i class="ph-fill ph-chat-teardrop-text mr-2 text-lg"></i> Lo que digo
+                            </h5>
+
+                            <!-- Indicación del cliente -->
+                            <div class="bg-white border-2 border-red-100 p-5 rounded-xl shadow-sm mb-4">
+                                <h6 class="font-bold text-gray-800 mb-2 flex items-center"><i class="ph-fill ph-user text-pf-red mr-2"></i> Indicación del cliente:</h6>
+                                <p class="text-gray-800 italic text-sm font-medium">Cliente solicita cambio de contraseña WIFI.</p>
+                            </div>
+
+                            <!-- Alerta de Titular -->
+                            <div class="bg-red-50 border-l-4 border-pf-red p-4 rounded-r-xl mb-6 shadow-sm">
+                                <div class="flex items-center text-pf-red font-bold">
+                                    <i class="ph-fill ph-warning-circle text-2xl mr-2.5"></i>
+                                    <span class="text-sm uppercase tracking-wider">IMPORTANTE: Recuerda que únicamente el titular puede solicitar el cambio.</span>
+                                </div>
+                            </div>
+
+                            <!-- Pasos Previos y Solicitud de Datos -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                                <div class="bg-white border-2 border-indigo-100 p-5 rounded-xl shadow-sm">
+                                    <h6 class="font-bold text-indigo-900 mb-2 flex items-center text-sm uppercase">
+                                        <i class="ph-fill ph-shield-check mr-2 text-lg text-indigo-600"></i> Pasos Previos
+                                    </h6>
+                                    <p class="text-sm font-semibold text-gray-700">
+                                        Validar datos de seguridad mediante:<br>
+                                        <span class="text-pf-red font-bold">PREGUNTAS DE VALIDACIÓN Y SEGURIDAD</span>.
+                                    </p>
+                                </div>
+
+                                <div class="bg-white border-2 border-emerald-100 p-5 rounded-xl shadow-sm">
+                                    <h6 class="font-bold text-emerald-900 mb-2 flex items-center text-sm uppercase">
+                                        <i class="ph-fill ph-identification-badge mr-2 text-lg text-emerald-600"></i> 1. Solicitud de Datos
+                                    </h6>
+                                    <ul class="text-sm font-semibold text-gray-700 space-y-1 mb-2">
+                                        <li>• Nombre de Red (SSID)</li>
+                                        <li>• Nueva Contraseña</li>
+                                    </ul>
+                                    <div class="bg-emerald-50 p-2.5 rounded-lg border border-emerald-200 text-xs font-bold text-emerald-900">
+                                        Requisitos de contraseña:<br>
+                                        ✅ Mínimo 8 caracteres<br>
+                                        ✅ Letras y números
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Smart WiFi Paso a Paso Timeline -->
+                            <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm mb-6">
+                                <h6 class="font-bold text-gray-800 mb-4 flex items-center text-sm uppercase tracking-wider">
+                                    <i class="ph-fill ph-gear mr-2 text-lg text-pf-red"></i> SMART WIFI - Procedimiento en Sistema
+                                </h6>
+                                <ol class="relative border-l-2 border-red-200 ml-4 space-y-3.5">
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">1</span>
+                                        <p class="text-sm font-semibold text-gray-800">Ingresar usuario y contraseña.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">2</span>
+                                        <p class="text-sm font-semibold text-gray-800">Seleccionar <strong>HOME</strong>.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">3</span>
+                                        <p class="text-sm font-semibold text-gray-800">Seleccionar nuevamente <strong>HOME</strong>.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">4</span>
+                                        <p class="text-sm font-semibold text-gray-800">Utilizar el buscador.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">5</span>
+                                        <p class="text-sm font-semibold text-gray-800">Ingresar la serie MAC registrada en CRM <span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded font-mono text-xs">(Ejemplo: MAC 485754433F3E7EAD)</span>.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">6</span>
+                                        <p class="text-sm font-semibold text-gray-800">Buscar.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">7</span>
+                                        <p class="text-sm font-semibold text-gray-800">Seleccionar: <strong>WI-FI SETTINGS</strong>.</p>
+                                    </li>
+                                    <li class="ml-6">
+                                        <span class="absolute flex items-center justify-center w-6 h-6 bg-red-100 rounded-full -left-3 ring-4 ring-white text-pf-red font-bold text-xs">8</span>
+                                        <p class="text-sm font-semibold text-gray-800">Editar: <strong>Nombre de red</strong> y <strong>Contraseña</strong>.</p>
+                                    </li>
+                                </ol>
+                            </div>
+
+                            <!-- Notas posteriores y Contingencia MAC -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="bg-green-50 border-2 border-green-200 p-4 rounded-xl shadow-sm">
+                                    <h6 class="font-bold text-green-900 mb-1 flex items-center text-xs uppercase tracking-wider">
+                                        <i class="ph-fill ph-check-circle mr-1.5 text-base text-green-600"></i> NOTA TRAS GUARDAR
+                                    </h6>
+                                    <p class="text-xs md:text-sm font-semibold text-gray-700">
+                                        Después de guardar: Solicitar al cliente conectarse utilizando la nueva contraseña.
+                                    </p>
+                                </div>
+
+                                <div class="bg-red-50 border-2 border-red-200 p-4 rounded-xl shadow-sm">
+                                    <h6 class="font-bold text-red-900 mb-1 flex items-center text-xs uppercase tracking-wider">
+                                        <i class="ph-fill ph-warning mr-1.5 text-base text-pf-red"></i> SI LA MAC NO ESTÁ MATRICULADA
+                                    </h6>
+                                    <ul class="text-xs md:text-sm font-semibold text-gray-700 space-y-1">
+                                        <li>• Reportar al supervisor.</li>
+                                        <li>• Corroborar que sea la misma MAC registrada en CRM.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LO QUE HAGO -->
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-2xl shadow-sm">
+                            <h5 class="text-blue-600 font-bold mb-4 flex items-center uppercase tracking-wider text-sm">
+                                <i class="ph-fill ph-check-circle mr-2 text-lg"></i> Lo que hago
+                            </h5>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="bg-white border-2 border-blue-100 p-4 rounded-xl shadow-sm">
+                                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider block mb-1">Cuando el cambio se realiza en línea:</span>
+                                    <p class="text-xs font-bold text-gray-500 uppercase mb-1">TIPIFICAR:</p>
+                                    <div class="bg-blue-50/70 p-3 rounded-lg border border-blue-100 font-bold text-xs md:text-sm text-blue-900">
+                                        Informativo <span class="text-blue-500">→</span> Atención Tecnológica <span class="text-blue-500">→</span> Cambio de contraseña WiFi
+                                    </div>
+                                </div>
+
+                                <div class="bg-white border-2 border-indigo-100 p-4 rounded-xl shadow-sm">
+                                    <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-1">Si se deriva a SOA:</span>
+                                    <p class="text-xs font-bold text-gray-500 uppercase mb-1">TIPIFICAR:</p>
+                                    <div class="bg-indigo-50/70 p-3 rounded-lg border border-indigo-100 font-bold text-xs md:text-sm text-indigo-900">
+                                        Problemas con servicio <span class="text-indigo-500">→</span> Actualización de datos <span class="text-indigo-500">→</span> Cambio de contraseña WiFi
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -7219,7 +7764,7 @@ const protocolData = [
         <div id="tab-llamada-q15" class="tab-content hidden">
             <div class="border-b border-gray-200 pb-3 mb-6">
                 <h3 class="text-xl font-bold text-gray-900 flex items-center">
-                    <i class="ph-fill ph-wifi-high text-pf-red mr-2.5 text-2xl"></i>
+                    <i class="ph-fill ph-broadcast text-pf-red mr-2.5 text-2xl"></i>
                     SOLICITUD DE MESH
                 </h3>
             </div>
@@ -7229,7 +7774,7 @@ const protocolData = [
 
         <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-indigo-50 mb-4">
 
-            <i class="ph-fill ph-wifi-high text-4xl text-indigo-500"></i>
+            <i class="ph-fill ph-broadcast text-4xl text-indigo-500"></i>
 
         </div>
 
